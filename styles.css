@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #0d47a1;
+}
+
+.panel-filtros {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contenedor-clubes {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li {
+  padding: 4px 0;
+}
+
+.contenedor-tabla {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.tabla-posiciones {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.tabla-posiciones th, 
+.tabla-posiciones td {
+  padding: 10px 12px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tabla-posiciones th {
+  background-color: #0d47a1;
+  color: white;
+  font-weight: bold;
+}
+
+.tabla-posiciones tr:hover {
+  background-color: #f1f5f9;
+}
+
+.tabla-posiciones .equipo-nombre {
+  text-align: left;
+  font-weight: 600;
+}

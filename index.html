@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baby Fútbol ONFI - Zona 8</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Zona 8 - Baby Fútbol</h1>
+
+  <!-- Filtros de Liga, Serie y Categoría -->
+  <div class="panel-filtros">
+    <div>
+      <label for="select-liga">Liga:</label>
+      <select id="select-liga" onchange="cambiarLiga()">
+        <!-- Se llena dinámicamente con JS -->
+      </select>
+    </div>
+
+    <div>
+      <label for="select-serie">Serie:</label>
+      <select id="select-serie" onchange="cambiarSerie()">
+        <!-- Se llena dinámicamente con JS -->
+      </select>
+    </div>
+
+    <div>
+      <label for="select-categoria">Categoría:</label>
+      <select id="select-categoria" onchange="actualizarVista()">
+        <!-- Se llena dinámicamente con JS -->
+      </select>
+    </div>
+  </div>
+
+  <!-- Vista de Equipos de la Liga/Serie/Categoría elegida -->
+  <div class="contenedor-clubes">
+    <h2 id="titulo-liga">Cargando...</h2>
+    <ul id="lista-clubes"></ul>
+  </div>
+
+
+  <!-- Tabla de Posiciones -->
+  <div class="contenedor-tabla">
+    <h3>Tabla de Posiciones</h3>
+    <table class="tabla-posiciones">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Equipo</th>
+          <th>Pts</th>
+          <th>PJ</th>
+          <th>PG</th>
+          <th>PE</th>
+          <th>PP</th>
+          <th>GF</th>
+          <th>GC</th>
+          <th>DIF</th>
+        </tr>
+      </thead>
+      <tbody id="body-tabla-posiciones">
+        <!-- Generado dinámicamente -->
+      </tbody>
+    </table>
+  </div>
+  <!-- Carga de scripts -->
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
