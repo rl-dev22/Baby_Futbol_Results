@@ -9,6 +9,2936 @@ const ZONA_8_DB = {
       nombre: "Liga Palermo",
       puntosPG: 2,
       series: [
+        
+        // ================= SERIE B =================
+        {
+          id: "palermo-b",
+          nombre: "Serie B",
+          clubes: [
+            "Intermezzo",
+            "Nvo. Amanecer",
+            "R. del Reducto",
+            "Sur2000",
+            "Dep. Oriental",
+            "Nuevo América",
+            "Nueva Palmira",
+            "Uruguay Buceo",
+            "Aebu",
+            "Stockolmo",
+            "Alas Rojas",
+            "Exploradores",
+            "Terremoto",
+            "Est. de la Unión",
+            "Dryco",
+          ],
+          categorias: [
+    {
+      id: "2020",
+      fechas: [
+        {
+          num: 1,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "Alas Rojas", visitante: "Exploradores", gl: 2, gv: 0 },
+            { local: "Terremoto", visitante: "Est. de la Unión", gl: 8, gv: 0 },
+          ],
+        },
+        {
+          num: 2,
+          partidos: [
+            { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 0, gv: 8 },
+            { local: "Exploradores", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Nuevo América", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dryco", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 3,
+          partidos: [
+            { local: "Dryco", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 8, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Stockolmo", gl: 3, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Exploradores", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "Alas Rojas", visitante: "Terremoto", gl: 3, gv: 0 },
+          ],
+        },
+        {
+          num: 4,
+          partidos: [
+            { local: "Terremoto", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Stockolmo", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Dryco", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 5,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nuevo America", gl: null, gv: null },
+            { local: "Dryco", visitante: "Uruguay Buceo", gl: 2, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Exploradores", gl: 0, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 7, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Terremoto", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 6,
+          partidos: [
+            { local: "Terremoto", visitante: "Dep. Oriental", gl: 5, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 2, gv: 0 },
+            { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 0, gv: 8 },
+            { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Sur2000", gl: 0, gv: 2 },
+            { local: "Stockolmo", visitante: "Dryco", gl: 0, gv: 7 },
+          ],
+        },
+        {
+          num: 7,
+          partidos: [
+            { local: "Sur2000", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "Dryco", visitante: "Exploradores", gl: 2, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Terremoto", gl: 0, gv: 8 },
+            { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 0, gv: 6 },
+            { local: "Nueva Palmira", visitante: "Aebu", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 8,
+          partidos: [
+            { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Alas Rojas", visitante: "R. del Reducto", gl: 7, gv: 1 },
+            { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Dryco", gl: 0, gv: 8 },
+            { local: "Exploradores", visitante: "Intermezzo", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 9,
+          partidos: [
+            { local: "Nuevo América", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Exploradores", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "Dryco", visitante: "Terremoto", gl: 0, gv: 6 },
+            { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 10,
+          partidos: [
+            { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dryco", gl: 5, gv: 1 },
+            { local: "Terremoto", visitante: "Intermezzo", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 1, gv: 1 },
+          ],
+        },
+        {
+          num: 11,
+          partidos: [
+            { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Exploradores", gl: 2, gv: 3 },
+            { local: "Intermezzo", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Dryco", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 4, gv: 1 },
+          ],
+        },
+        {
+          num: 12,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Stockolmo", gl: 4, gv: 0 },
+            { local: "Terremoto", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Dryco", gl: 0, gv: 2 },
+            { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 13,
+          partidos: [
+            { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Terremoto", gl: 0, gv: 7 },
+            { local: "Sur2000", visitante: "Aebu", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Est. de la Unión", gl: 6, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Dryco", visitante: "Dep. Oriental", gl: 1, gv: 4 },
+            { local: "Intermezzo", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 14,
+          partidos: [
+            { local: "Terremoto", visitante: "Stockolmo", gl: 2, gv: 0 },
+            { local: "R. del Reducto", visitante: "Dryco", gl: 1, gv: 2 },
+            { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 8, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 8 },
+            { local: "Aebu", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Intermezzo", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 15,
+          partidos: [
+            { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Sur2000", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Alas Rojas", gl: 0, gv: 6 },
+            { local: "Exploradores", visitante: "Terremoto", gl: 0, gv: 3 },
+            { local: "Nuevo América", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "R. del Reducto", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: 1, gv: 8 },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: 0, gv: 8 },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "AEBU", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "AEBU", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "AEBU", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "AEBU", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "AEBU", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "AEBU", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "AEBU", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "AEBU", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "AEBU", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "AEBU", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "AEBU", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "AEBU", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+      ],
+    },
+    {
+      id: "2019",
+      fechas: [
+        {
+          num: 1,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 3, gv: 3 },
+            { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "Alas Rojas", visitante: "Exploradores", gl: 8, gv: 0 },
+            { local: "Terremoto", visitante: "Est. de la Unión", gl: 6, gv: 1 },
+          ],
+        },
+        {
+          num: 2,
+          partidos: [
+            { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 1, gv: 8 },
+            { local: "Exploradores", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 0, gv: 6 },
+            { local: "Nuevo América", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            {local: "Sur2000", visitante: "Nvo. Amanecer", gl: null, gv: null},
+            { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 4 },
+          ],
+        },
+        {
+          num: 3,
+          partidos: [
+            { local: "Dryco", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 0, gv: 0 },
+            { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 0, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Stockolmo", gl: 3, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Exploradores", gl: 1, gv: 1 },
+            { local: "Aebu", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "Alas Rojas", visitante: "Terremoto", gl: 2, gv: 2 },
+          ],
+        },
+        {
+          num: 4,
+          partidos: [
+            { local: "Terremoto", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 1, gv: 5 },
+            { local: "Exploradores", visitante: "Dep. Oriental", gl: 0, gv: 4 },
+            { local: "Stockolmo", visitante: "R. del Reducto", gl: 4, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Dryco", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Intermezzo", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 5,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Dryco", visitante: "Uruguay Buceo", gl: 1, gv: 4 },
+            { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Exploradores", gl: 1, gv: 1 },
+            { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 8, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Terremoto", gl: 0, gv: 3 },
+            { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 6,
+          partidos: [
+            { local: "Terremoto", visitante: "Dep. Oriental", gl: 1, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 2, gv: 1 },
+            { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 7, gv: 0 },
+            { local: "Est. del Reducto", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+            { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Sur2000", gl: 0, gv: 2 },
+            { local: "Stockolmo", visitante: "Dryco", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 7,
+          partidos: [
+            { local: "Sur2000", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "Stockolmo", gl: 0, gv: 5 },
+            { local: "Dryco", visitante: "Exploradores", gl: 2, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Terremoto", gl: 1, gv: 7 },
+            { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 3, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Aebu", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 8,
+          partidos: [
+            { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Alas Rojas", visitante: "R. del Reducto", gl: 7, gv: 0 },
+            { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Dryco", gl: 1, gv: 1 },
+            { local: "Exploradores", visitante: "Intermezzo", gl: 1, gv: 0 },
+            { local: "Stockolmo", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 9,
+          partidos: [
+            { local: "Nuevo América", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Exploradores", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "Est. de la Unión", gl: 2, gv: 1 },
+            { local: "Dryco", visitante: "Terremoto", gl: 0, gv: 5 },
+            { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 4, gv: 0 },
+          ],
+        },
+        {
+          num: 10,
+          partidos: [
+            { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 7, gv: 0 },
+            { local: "Alas Rojas", visitante: "Dryco", gl: 2, gv: 0 },
+            { local: "Terremoto", visitante: "Intermezzo", gl: 4, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 0, gv: 1 },
+          ],
+        },
+        {
+          num: 11,
+          partidos: [
+            { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Exploradores", gl: 5, gv: 1 },
+            { local: "Intermezzo", visitante: "Alas Rojas", gl: 1, gv: 3 },
+            { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+            { local: "Dryco", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 8, gv: 0 },
+          ],
+        },
+        {
+          num: 12,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Stockolmo", gl: 0, gv: 3 },
+            { local: "Terremoto", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Dryco", gl: 4, gv: 1 },
+            { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 1, gv: 3 },
+            { local: "Aebu", visitante: "Intermezzo", gl: 0, gv: 1 },
+            { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 13,
+          partidos: [
+            { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Terremoto", gl: 1, gv: 4 },
+            { local: "Sur2000", visitante: "Aebu", gl: 0, gv: 2 },
+            { local: "Stockolmo", visitante: "Est. de la Unión", gl: 7, gv: 0 },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Dryco", visitante: "Dep. Oriental", gl: 0, gv: 7 },
+            { local: "Intermezzo", visitante: "Nueva Palmira", gl: 1, gv: 0 },
+          ],
+        },
+        {
+          num: 14,
+          partidos: [
+            { local: "Terremoto", visitante: "Stockolmo", gl: 4, gv: 2 },
+            { local: "R. del Reducto", visitante: "Dryco", gl: 0, gv: 5 },
+            { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 4, gv: 1 },
+            { local: "Nueva Palmira", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Exploradores", gl: 1, gv: 3 },
+            { local: "Aebu", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Intermezzo", gl: 4, gv: 0 },
+          ],
+        },
+        {
+          num: 15,
+          partidos: [
+            { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Sur2000", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Aebu", gl: 5, gv: 1 },
+            { local: "Stockolmo", visitante: "Alas Rojas", gl: 4, gv: 2 },
+            { local: "Exploradores", visitante: "Terremoto", gl: 1, gv: 6 },
+            { local: "Nuevo América", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "R. del Reducto", gl: 4, gv: 0 },
+
+          ],
+        },
+        {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: 1, gv: 8 },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: 0, gv: 8 },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "AEBU", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "AEBU", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "AEBU", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "AEBU", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "AEBU", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "AEBU", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "AEBU", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "AEBU", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "AEBU", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "AEBU", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "AEBU", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "AEBU", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+      ],
+    },
+    {
+      id: "2018",
+      fechas: [
+        {
+          num: 1,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "R. del Reducto", visitante: "Sur2000", gl: 1, gv: 4 },
+            { local: "Dep. Oriental", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 0, gv: 4 },
+            { local: "Aebu", visitante: "Stockolmo", gl: 2, gv: 2 },
+            { local: "Alas Rojas", visitante: "Exploradores", gl: 1, gv: 3 },
+            { local: "Terremoto", visitante: "Est. de la Unión", gl: 3, gv: 2 },
+          ],
+        },
+        {
+          num: 2,
+          partidos: [
+            { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 2, gv: 1 },
+            { local: "Exploradores", visitante: "Aebu", gl: 4, gv: 0 },
+            { local: "Stockolmo", visitante: "Nueva Palmira", gl: 8, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 0, gv: 4 },
+            { local: "Nuevo América", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Intermezzo", visitante: "Dryco", gl: 0, gv: 8 },
+          ],
+        },
+        {
+          num: 3,
+          partidos: [
+            { local: "Dryco", visitante: "Sur2000", gl: 4, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 0, gv: 0 },
+            { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 3, gv: 3 },
+            { local: "Dep. Oriental", visitante: "Stockolmo", gl: 1, gv: 5 },
+            { local: "Nueva Palmira", visitante: "Exploradores", gl: 1, gv: 7 },
+            { local: "Aebu", visitante: "Est. de la Unión", gl: 2, gv: 3 },
+            { local: "Alas Rojas", visitante: "Terremoto", gl: 1, gv: 3 },
+          ],
+        },
+        {
+          num: 4,
+          partidos: [
+            { local: "Terremoto", visitante: "Aebu", gl: 3, gv: 1 },
+            { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 3, gv: 0 },
+            { local: "Exploradores", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Stockolmo", visitante: "R. del Reducto", gl: 5, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Dryco", gl: 0, gv: 7 },
+            { local: "Sur2000", visitante: "Intermezzo", gl: 1, gv: 3 },
+          ],
+        },
+        {
+          num: 5,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nuevo América", gl: 4, gv: 0 },
+            { local: "Dryco", visitante: "Uruguay Buceo", gl: 2, gv: 1 },
+            { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Exploradores", gl: 0, gv: 4 },
+            { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 0, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Terremoto", gl: 0, gv: 6 },
+            { local: "Aebu", visitante: "Alas Rojas", gl: 3, gv: 0 },
+          ],
+        },
+        {
+          num: 6,
+          partidos: [
+            { local: "Terremoto", visitante: "Dep. Oriental", gl: 1, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 3, gv: 0 },
+            { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 3, gv: 1 },
+            { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 5, gv: 0 },
+            { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Sur2000", gl: 0, gv: 2 },
+            { local: "Stockolmo", visitante: "Dryco", gl: 2, gv: 4 },
+          ],
+        },
+        {
+          num: 7,
+          partidos: [
+            { local: "Sur2000", visitante: "Uruguay Buceo", gl: 2, gv: 3 },
+            { local: "Intermezzo", visitante: "Stockolmo", gl: 0, gv: 4 },
+            { local: "Dryco", visitante: "Exploradores", gl: 2, gv: 3 },
+            { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Terremoto", gl: 0, gv: 8 },
+            { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 1, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Aebu", gl: 0, gv: 1 },
+          ],
+        },
+        {
+          num: 8,
+          partidos: [
+            { local: "Aebu", visitante: "Dep. Oriental", gl: 1, gv: 2 },
+            { local: "Alas Rojas", visitante: "R. del Reducto", gl: 3, gv: 0 },
+            { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Dryco", gl: 3, gv: 2 },
+            { local: "Exploradores", visitante: "Intermezzo", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Sur2000", gl: 8, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 1, gv: 0 },
+          ],
+        },
+        {
+          num: 9,
+          partidos: [
+            { local: "Nuevo América", visitante: "Stockolmo", gl: 0, gv: 5 },
+            { local: "Sur2000", visitante: "Exploradores", gl: 1, gv: 3 },
+            { local: "Intermezzo", visitante: "Est. de la Unión", gl: 1, gv: 4 },
+            { local: "Dryco", visitante: "Terremoto", gl: 1, gv: 3 },
+            { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Aebu", gl: 0, gv: 3 },
+            { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 4, gv: 0 },
+          ],
+        },
+        {
+          num: 10,
+          partidos: [
+            { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 0, gv: 4 },
+            { local: "Aebu", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Alas Rojas", visitante: "Dryco", gl: 1, gv: 2 },
+            { local: "Terremoto", visitante: "Intermezzo", gl: 6, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Sur2000", gl: 3, gv: 2 },
+            { local: "Exploradores", visitante: "Nuevo América", gl: 8, gv: 0 },
+            { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 3, gv: 0 },
+          ],
+        },
+        {
+          num: 11,
+          partidos: [
+            { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 8 },
+            { local: "Uruguay Buceo", visitante: "Exploradores", gl: 0, gv: 5 },
+            { local: "Intermezzo", visitante: "Alas Rojas", gl: 0, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: 0, gv: 8 },
+            { local: "Dryco", visitante: "Aebu", gl: 5, gv: 1 },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 6, gv: 0 },
+          ],
+        },
+        {
+          num: 12,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Sur2000", gl: 1, gv: 2 },
+            { local: "Exploradores", visitante: "Stockolmo", gl: 1, gv: 0 },
+            { local: "Terremoto", visitante: "Nuevo América", gl: 8, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Dryco", gl: 0, gv: 8 },
+            { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 2, gv: 4 },
+            { local: "Aebu", visitante: "Intermezzo", gl: 3, gv: 1 },
+            { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 13,
+          partidos: [
+            { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Terremoto", gl: 0, gv: 5 },
+            { local: "Sur2000", visitante: "Aebu", gl: 0, gv: 1 },
+            { local: "Stockolmo", visitante: "Est. de la Unión", gl: 2, gv: 0 },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Dryco", visitante: "Dep. Oriental", gl: 1, gv: 3 },
+            { local: "Intermezzo", visitante: "Nueva Palmira", gl: 0, gv: 0 },
+          ],
+        },
+        {
+          num: 14,
+          partidos: [
+            { local: "Terremoto", visitante: "Stockolmo", gl: 0, gv: 1 },
+            { local: "R. del Reducto", visitante: "Dryco", gl: 0, gv: 7 },
+            { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 2, gv: 2 },
+            { local: "Nueva Palmira", visitante: "Sur2000", gl: 1, gv: 1 },
+            { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 3 },
+            { local: "Aebu", visitante: "Nuevo América", gl: 5, gv: 0 },
+            { local: "Dep. Oriental", visitante: "Intermezzo", gl: 1, gv: 1 },
+          ],
+        },
+        {
+          num: 15,
+          partidos: [
+            { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Sur2000", visitante: "Dep. Oriental", gl: 0, gv: 4 },
+            { local: "Uruguay Buceo", visitante: "Aebu", gl: 0, gv: 0 },
+            { local: "Stockolmo", visitante: "Alas Rojas", gl: 4, gv: 1 },
+            { local: "Exploradores", visitante: "Terremoto", gl: 2, gv: 2 },
+            { local: "Nuevo América", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: 1, gv: 8 },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: 0, gv: 8 },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "AEBU", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "AEBU", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "AEBU", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "AEBU", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "AEBU", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "AEBU", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "AEBU", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "AEBU", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "AEBU", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "AEBU", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "AEBU", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "AEBU", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+      ],
+    },
+    {
+      id: "2017",
+      fechas: [
+        {
+          num: 1,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "R. del Reducto", visitante: "Sur2000", gl: 1, gv: 2 },
+            { local: "Dep. Oriental", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 0 },
+            { local: "Alas Rojas", visitante: "Exploradores", gl: 1, gv: 1 },
+            { local: "Terremoto", visitante: "Est. de la Unión", gl: 5, gv: 0 },
+          ],
+        },
+        {
+          num: 2,
+          partidos: [
+            { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 2, gv: 3 },
+            { local: "Exploradores", visitante: "Aebu", gl: 3, gv: 1 },
+            { local: "Stockolmo", visitante: "Nueva Palmira", gl: 2, gv: 1 },
+            { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 2, gv: 1 },
+            { local: "Nuevo América", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Sur2000", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Intermezzo", visitante: "Dryco", gl: 3, gv: 4 },
+          ],
+        },
+        {
+          num: 3,
+          partidos: [
+            { local: "Dryco", visitante: "Sur2000", gl: 4, gv: 1 },
+            { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 0, gv: 0 },
+            { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 0, gv: 7 },
+            { local: "Dep. Oriental", visitante: "Stockolmo", gl: 5, gv: 1 },
+            { local: "Nueva Palmira", visitante: "Exploradores", gl: 1, gv: 3 },
+            { local: "Aebu", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+            { local: "Alas Rojas", visitante: "Terremoto", gl: 2, gv: 1 },
+          ],
+        },
+        {
+          num: 4,
+          partidos: [
+            { local: "Terremoto", visitante: "Aebu", gl: 4, gv: 1 },
+            { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 2, gv: 2 },
+            { local: "Exploradores", visitante: "Dep. Oriental", gl: 2, gv: 1 },
+            { local: "Stockolmo", visitante: "R. del Reducto", gl: 3, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+            { local: "Nuevo América", visitante: "Dryco", gl: 0, gv: 7 },
+            { local: "Sur2000", visitante: "Intermezzo", gl: 1, gv: 5 },
+          ],
+        },
+        {
+          num: 5,
+          partidos: [
+            { local: "Intermezzo", visitante: "Nuevo América", gl: 6, gv: 0 },
+            { local: "Dryco", visitante: "Uruguay Buceo", gl: 0, gv: 3 },
+            { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 7 },
+            { local: "R. del Reducto", visitante: "Exploradores", gl: 0, gv: 2 },
+            { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 3, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Terremoto", gl: 2, gv: 2 },
+            { local: "Aebu", visitante: "Alas Rojas", gl: 1, gv: 3 },
+          ],
+        },
+        {
+          num: 6,
+          partidos: [
+            { local: "Terremoto", visitante: "Dep. Oriental", gl: 0, gv: 1 },
+            { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 2, gv: 1 },
+            { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 2, gv: 1 },
+            { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 2, gv: 2 },
+            { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Sur2000", gl: 1, gv: 7 },
+            { local: "Stockolmo", visitante: "Dryco", gl: 0, gv: 3 },
+          ],
+        },
+        {
+          num: 7,
+          partidos: [
+            { local: "Sur2000", visitante: "Uruguay Buceo", gl: 1, gv: 3 },
+            { local: "Intermezzo", visitante: "Stockolmo", gl: 2, gv: 0 },
+            { local: "Dryco", visitante: "Exploradores", gl: 5, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Terremoto", gl: 2, gv: 2 },
+            { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 3, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Aebu", gl: 0, gv: 1 },
+          ],
+        },
+        {
+          num: 8,
+          partidos: [
+            { local: "Aebu", visitante: "Dep. Oriental", gl: 1, gv: 1 },
+            { local: "Alas Rojas", visitante: "R. del Reducto", gl: 6, gv: 1 },
+            { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Est. de la Unión", visitante: "Dryco", gl: 2, gv: 5 },
+            { local: "Exploradores", visitante: "Intermezzo", gl: 0, gv: 1 },
+            { local: "Stockolmo", visitante: "Sur2000", gl: 3, gv: 0 },
+            { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 7, gv: 0 },
+          ],
+        },
+        {
+          num: 9,
+          partidos: [
+            { local: "Nuevo América", visitante: "Stockolmo", gl: 1, gv: 5 },
+            { local: "Sur2000", visitante: "Exploradores", gl: 0, gv: 6 },
+            { local: "Intermezzo", visitante: "Est. de la Unión", gl: 1, gv: 2 },
+            { local: "Dryco", visitante: "Terremoto", gl: 1, gv: 1 },
+            { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "R. del Reducto", visitante: "Aebu", gl: 1, gv: 1 },
+            { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 10,
+          partidos: [
+            { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 3, gv: 1 },
+            { local: "Aebu", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Alas Rojas", visitante: "Dryco", gl: 1, gv: 2 },
+            { local: "Terremoto", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 11,
+          partidos: [
+            { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Exploradores", gl: 2, gv: 3 },
+            { local: "Intermezzo", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Dryco", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Nuevo América", visitante: "Est. de la Unión", gl: 0, gv: 2 },
+            { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 4, gv: 1 },
+          ],
+        },
+        {
+          num: 12,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Sur2000", gl: 2, gv: 0 },
+            { local: "Exploradores", visitante: "Stockolmo", gl: 4, gv: 0 },
+            { local: "Terremoto", visitante: "Nuevo América", gl: 2, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Dryco", gl: 0, gv: 2 },
+            { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+            { local: "Aebu", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 13,
+          partidos: [
+            { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Terremoto", gl: 0, gv: 7 },
+            { local: "Sur2000", visitante: "Aebu", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Est. de la Unión", gl: 6, gv: 0 },
+            { local: "Nvo. Amanecer", visitante: "R. del Reducto", gl: 0, gv: 2 },
+            { local: "Dryco", visitante: "Dep. Oriental", gl: 1, gv: 4 },
+            { local: "Intermezzo", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 14,
+          partidos: [
+            { local: "Terremoto", visitante: "Stockolmo", gl: 2, gv: 0 },
+            { local: "R. del Reducto", visitante: "Dryco", gl: 1, gv: 2 },
+            { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 8, gv: 0 },
+            { local: "Nueva Palmira", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 8 },
+            { local: "Aebu", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Intermezzo", gl: 2, gv: 0 },
+          ],
+        },
+        {
+          num: 15,
+          partidos: [
+            { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+            { local: "Sur2000", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+            { local: "Uruguay Buceo", visitante: "Aebu", gl: 2, gv: 0 },
+            { local: "Stockolmo", visitante: "Alas Rojas", gl: 0, gv: 6 },
+            { local: "Exploradores", visitante: "Terremoto", gl: 0, gv: 3 },
+            { local: "Nuevo América", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+            { local: "Intermezzo", visitante: "R. del Reducto", gl: 0, gv: 2 },
+          ],
+        },
+        {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Aebu", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null, esMiClub: true },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Aebu", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "Aebu", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Aebu", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null, esMiClub: true },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Aebu", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Aebu", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Aebu", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null, esMiClub: true },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Aebu", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null, esMiClub: true },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Aebu", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Aebu", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+      ],
+    },
+    {
+  id: "2016",
+  fechas: [
+  {
+  num: 1,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "R. del Reducto", visitante: "Sur2000", gl: 1, gv: 2 },
+  { local: "Dep. Oriental", visitante: "Nuevo América", gl: 2, gv: 2 },
+  { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+  { local: "Aebu", visitante: "Stockolmo", gl: 1, gv: 3 },
+  { local: "Alas Rojas", visitante: "Exploradores", gl: 1, gv: 3 },
+  { local: "Terremoto", visitante: "Est. de la Unión", gl: 2, gv: 1 },
+  ],
+  },
+  {
+  num: 2,
+  partidos: [
+  { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 2, gv: 2 },
+  { local: "Exploradores", visitante: "Aebu", gl: 4, gv: 0 },
+  { local: "Stockolmo", visitante: "Nueva Palmira", gl: 3, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+  { local: "Nuevo América", visitante: "R. del Reducto", gl: 2, gv: 0 },
+  { local: "Sur2000", visitante: "Nvo. Amanecer", gl: 6, gv: 0 },
+  { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 4 },
+  ],
+  },
+  {
+  num: 3,
+  partidos: [
+  { local: "Dryco", visitante: "Sur2000", gl: 4, gv: 1 },
+  { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 1, gv: 5 },
+  { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 1, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Stockolmo", gl: 1, gv: 7 },
+  { local: "Nueva Palmira", visitante: "Exploradores", gl: 0, gv: 2 },
+  { local: "Aebu", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+  { local: "Alas Rojas", visitante: "Terremoto", gl: 2, gv: 0 },
+  ],
+  },
+  {
+  num: 4,
+  partidos: [
+  { local: "Terremoto", visitante: "Aebu", gl: 2, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+  { local: "Exploradores", visitante: "Dep. Oriental", gl: 3, gv: 2 },
+  { local: "Stockolmo", visitante: "R. del Reducto", gl: 1, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 6, gv: 0 },
+  { local: "Nuevo América", visitante: "Dryco", gl: 3, gv: 3 },
+  { local: "Sur2000", visitante: "Intermezzo", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 5,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nuevo América", gl: 8, gv: 0 },
+  { local: "Dryco", visitante: "Uruguay Buceo", gl: 6, gv: 2 },
+  { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 6 },
+  { local: "R. del Reducto", visitante: "Exploradores", gl: 2, gv: 0 },
+  { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+  { local: "Nueva Palmira", visitante: "Terremoto", gl: 4, gv: 1 },
+  { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 2 },
+  ],
+  },
+  {
+  num: 6,
+  partidos: [
+  { local: "Terremoto", visitante: "Dep. Oriental", gl: 0, gv: 1 },
+  { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 2, gv: 1 },
+  { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 0, gv: 1 },
+  { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 1, gv: 1 },
+  { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Nuevo América", visitante: "Sur2000", gl: 1, gv: 4 },
+  { local: "Stockolmo", visitante: "Dryco", gl: 3, gv: 0 },
+  ],
+  },
+  {
+  num: 7,
+  partidos: [
+  { local: "Sur2000", visitante: "Uruguay Buceo", gl: 4, gv: 0 },
+  { local: "Intermezzo", visitante: "Stockolmo", gl: 0, gv: 8 },
+  { local: "Dryco", visitante: "Exploradores", gl: 3, gv: 2 },
+  { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 5 },
+  { local: "R. del Reducto", visitante: "Terremoto", gl: 0, gv: 0 },
+  { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 2, gv: 1 },
+  { local: "Nueva Palmira", visitante: "Aebu", gl: 2, gv: 1 },
+  ],
+  },
+  {
+  num: 8,
+  partidos: [
+  { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+  { local: "Alas Rojas", visitante: "R. del Reducto", gl: 1, gv: 0 },
+  { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Dryco", gl: 0, gv: 1 },
+  { local: "Exploradores", visitante: "Intermezzo", gl: 2, gv: 1 },
+  { local: "Stockolmo", visitante: "Sur2000", gl: 5, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 3, gv: 2 },
+  ],
+  },
+  {
+  num: 9,
+  partidos: [
+  { local: "Nuevo América", visitante: "Stockolmo", gl: 1, gv: 1 },
+  { local: "Sur2000", visitante: "Exploradores", gl: 2, gv: 2 },
+  { local: "Intermezzo", visitante: "Est. de la Unión", gl: 1, gv: 4 },
+  { local: "Dryco", visitante: "Terremoto", gl: 2, gv: 1 },
+  { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 0, gv: 6 },
+  { local: "R. del Reducto", visitante: "Aebu", gl: 3, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 3, gv: 1 },
+  ],
+  },
+  {
+  num: 10,
+  partidos: [
+  { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 1, gv: 1 },
+  { local: "Aebu", visitante: "Nvo. Amanecer", gl: 6, gv: 2 },
+  { local: "Alas Rojas", visitante: "Dryco", gl: 1, gv: 3 },
+  { local: "Terremoto", visitante: "Intermezzo", gl: 4, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Sur2000", gl: 0, gv: 2 },
+  { local: "Exploradores", visitante: "Nuevo América", gl: 3, gv: 0 },
+  { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 2, gv: 2 },
+  ],
+  },
+  {
+  num: 11,
+  partidos: [
+  { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Exploradores", gl: 3, gv: 3 },
+  { local: "Intermezzo", visitante: "Alas Rojas", gl: 2, gv: 4 },
+  { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: 1, gv: 1 },
+  { local: "Dryco", visitante: "Aebu", gl: 4, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Nuevo América", gl: 1, gv: 0 },
+  { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 3, gv: 0 },
+  ],
+  },
+  {
+  num: 12,
+  partidos: [
+  { local: "Alas Rojas", visitante: "Sur2000", gl: 2, gv: 0 },
+  { local: "Exploradores", visitante: "Stockolmo", gl: 1, gv: 1 },
+  { local: "Terremoto", visitante: "Nuevo América", gl: 2, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Dryco", gl: 0, gv: 2 },
+  { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 1, gv: 2 },
+  { local: "Aebu", visitante: "Intermezzo", gl: 2, gv: 2 },
+  { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  ],
+  },
+  {
+  num: 13,
+  partidos: [
+  { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Terremoto", gl: 1, gv: 5 },
+  { local: "Sur2000", visitante: "Aebu", gl: 2, gv: 1 },
+  { local: "Stockolmo", visitante: "Est. de la Unión", gl: 3, gv: 1 },
+  { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: 1, gv: 0 },
+  { local: "Dryco", visitante: "Dep. Oriental", gl: 1, gv: 2 },
+  { local: "Intermezzo", visitante: "Nueva Palmira", gl: 0, gv: 3 },
+  ],
+  },
+  {
+  num: 14,
+  partidos: [
+  { local: "Terremoto", visitante: "Stockolmo", gl: 2, gv: 1 },
+  { local: "R. del Reducto", visitante: "Dryco", gl: 0, gv: 6 },
+  { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 2, gv: 3 },
+  { local: "Nueva Palmira", visitante: "Sur2000", gl: 5, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 1 },
+  { local: "Aebu", visitante: "Nuevo América", gl: 0, gv: 3 },
+  { local: "Dep. Oriental", visitante: "Intermezzo", gl: 4, gv: 1 },
+  ],
+  },
+  {
+  num: 15,
+  partidos: [
+  { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "Sur2000", visitante: "Dep. Oriental", gl: 2, gv: 3 },
+  { local: "Uruguay Buceo", visitante: "Aebu", gl: 0, gv: 0 },
+  { local: "Stockolmo", visitante: "Alas Rojas", gl: 3, gv: 1 },
+  { local: "Exploradores", visitante: "Terremoto", gl: 2, gv: 0 },
+  { local: "Nuevo América", visitante: "Nueva Palmira", gl: 0, gv: 0 },
+  ],
+  },
+  {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Aebu", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null, esMiClub: true },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Aebu", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "Aebu", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Aebu", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null, esMiClub: true },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Aebu", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Aebu", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Aebu", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null, esMiClub: true },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Aebu", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null, esMiClub: true },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Aebu", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Aebu", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+  ],
+  },
+  {
+  id: "2015",
+  fechas: [
+  {
+  num: 1,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: 4, gv: 1 },
+  { local: "R. del Reducto", visitante: "Sur2000", gl: 3, gv: 3 },
+  { local: "Dep. Oriental", visitante: "Nuevo América", gl: 0, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 0, gv: 0 },
+  { local: "Aebu", visitante: "Stockolmo", gl: 3, gv: 3 },
+  { local: "Alas Rojas", visitante: "Exploradores", gl: 1, gv: 6 },
+  { local: "Terremoto", visitante: "Est. de la Unión", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 2,
+  partidos: [
+  { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 2, gv: 0 },
+  { local: "Exploradores", visitante: "Aebu", gl: 4, gv: 0 },
+  { local: "Stockolmo", visitante: "Nueva Palmira", gl: 7, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 0, gv: 1 },
+  { local: "Nuevo América", visitante: "R. del Reducto", gl: 0, gv: 2 },
+  { local: "Sur2000", visitante: "Nvo. Amanecer", gl: 3, gv: 1 },
+  { local: "Intermezzo", visitante: "Dryco", gl: 3, gv: 0 },
+  ],
+  },
+  {
+  num: 3,
+  partidos: [
+  { local: "Dryco", visitante: "Sur2000", gl: 0, gv: 3 },
+  { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 1, gv: 2 },
+  { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 1, gv: 3 },
+  { local: "Dep. Oriental", visitante: "Stockolmo", gl: 0, gv: 5 },
+  { local: "Nueva Palmira", visitante: "Exploradores", gl: 1, gv: 3 },
+  { local: "Aebu", visitante: "Est. de la Unión", gl: 4, gv: 0 },
+  { local: "Alas Rojas", visitante: "Terremoto", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 4,
+  partidos: [
+  { local: "Terremoto", visitante: "Aebu", gl: 0, gv: 3 },
+  { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+  { local: "Exploradores", visitante: "Dep. Oriental", gl: 5, gv: 4 },
+  { local: "Stockolmo", visitante: "R. del Reducto", gl: 3, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 0, gv: 0 },
+  { local: "Nuevo América", visitante: "Dryco", gl: 0, gv: 6 },
+  { local: "Sur2000", visitante: "Intermezzo", gl: 1, gv: 5 },
+  ],
+  },
+  {
+  num: 5,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nuevo América", gl: 8, gv: 0 },
+  { local: "Dryco", visitante: "Uruguay Buceo", gl: 2, gv: 0 },
+  { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 7 },
+  { local: "R. del Reducto", visitante: "Exploradores", gl: 1, gv: 5 },
+  { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 3, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Terremoto", gl: 2, gv: 0 },
+  { local: "Aebu", visitante: "Alas Rojas", gl: 1, gv: 1 },
+  ],
+  },
+  {
+  num: 6,
+  partidos: [
+  { local: "Terremoto", visitante: "Dep. Oriental", gl: 0, gv: 3 },
+  { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 2, gv: 0 },
+  { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 0, gv: 3 },
+  { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 5, gv: 2 },
+  { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 7, gv: 0 },
+  { local: "Nuevo América", visitante: "Sur2000", gl: 0, gv: 4 },
+  { local: "Stockolmo", visitante: "Dryco", gl: 5, gv: 0 },
+  ],
+  },
+  {
+  num: 7,
+  partidos: [
+  { local: "Sur2000", visitante: "Uruguay Buceo", gl: 1, gv: 4 },
+  { local: "Intermezzo", visitante: "Stockolmo", gl: 1, gv: 4 },
+  { local: "Dryco", visitante: "Exploradores", gl: 0, gv: 6 },
+  { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 1, gv: 2 },
+  { local: "R. del Reducto", visitante: "Terremoto", gl: 2, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 4, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Aebu", gl: 0, gv: 1 },
+  ],
+  },
+  {
+  num: 8,
+  partidos: [
+  { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 3 },
+  { local: "Alas Rojas", visitante: "R. del Reducto", gl: 2, gv: 4 },
+  { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 3, gv: 2 },
+  { local: "Est. de la Unión", visitante: "Dryco", gl: 0, gv: 1 },
+  { local: "Exploradores", visitante: "Intermezzo", gl: 1, gv: 0 },
+  { local: "Stockolmo", visitante: "Sur2000", gl: 4, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 8, gv: 0 },
+  ],
+  },
+  {
+  num: 9,
+  partidos: [
+  { local: "Nuevo América", visitante: "Stockolmo", gl: 8, gv: 0 },
+  { local: "Sur2000", visitante: "Exploradores", gl: 0, gv: 2 },
+  { local: "Intermezzo", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+  { local: "Dryco", visitante: "Terremoto", gl: 2, gv: 1 },
+  { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 2, gv: 3 },
+  { local: "R. del Reducto", visitante: "Aebu", gl: 0, gv: 6 },
+  { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 5, gv: 1 },
+  ],
+  },
+  {
+  num: 10,
+  partidos: [
+  { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 3, gv: 1 },
+  { local: "Aebu", visitante: "Nvo. Amanecer", gl: 9, gv: 2 },
+  { local: "Alas Rojas", visitante: "Dryco", gl: 2, gv: 1 },
+  { local: "Terremoto", visitante: "Intermezzo", gl: 0, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Sur2000", gl: 2, gv: 0 },
+  { local: "Exploradores", visitante: "Nuevo América", gl: 8, gv: 0 },
+  { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 5, gv: 0 },
+  ],
+  },
+  {
+  num: 11,
+  partidos: [
+  { local: "Sur2000", visitante: "Terremoto", gl: 1, gv: 1 },
+  { local: "Uruguay Buceo", visitante: "Exploradores", gl: 1, gv: 2 },
+  { local: "Intermezzo", visitante: "Alas Rojas", gl: 2, gv: 2 },
+  { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: 0, gv: 7 },
+  { local: "Dryco", visitante: "Aebu", gl: 1, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Nuevo América", gl: 2, gv: 1 },
+  { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 9, gv: 1 },
+  ],
+  },
+  {
+  num: 12,
+  partidos: [
+  { local: "Alas Rojas", visitante: "Sur2000", gl: 3, gv: 3 },
+  { local: "Exploradores", visitante: "Stockolmo", gl: 1, gv: 1 },
+  { local: "Terremoto", visitante: "Nuevo América", gl: 1, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Dryco", gl: 2, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 2, gv: 0 },
+  { local: "Aebu", visitante: "Intermezzo", gl: 1, gv: 2 },
+  { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  ],
+  },
+  {
+  num: 13,
+  partidos: [
+  { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Terremoto", gl: 1, gv: 1 },
+  { local: "Sur2000", visitante: "Aebu", gl: 3, gv: 4 },
+  { local: "Stockolmo", visitante: "Est. de la Unión", gl: 2, gv: 0 },
+  { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: 1, gv: 0 },
+  { local: "Dryco", visitante: "Dep. Oriental", gl: 0, gv: 1 },
+  { local: "Intermezzo", visitante: "Nueva Palmira", gl: 3, gv: 0 },
+  ],
+  },
+  {
+  num: 14,
+  partidos: [
+  { local: "Terremoto", visitante: "Stockolmo", gl: 0, gv: 3 },
+  { local: "R. del Reducto", visitante: "Dryco", gl: 2, gv: 1 },
+  { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 1, gv: 4 },
+  { local: "Nueva Palmira", visitante: "Sur2000", gl: 2, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 5 },
+  { local: "Aebu", visitante: "Nuevo América", gl: 3, gv: 0 },
+  { local: "Dep. Oriental", visitante: "Intermezzo", gl: 4, gv: 0 },
+  ],
+  },
+  {
+  num: 15,
+  partidos: [
+  { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "Sur2000", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Aebu", gl: 8, gv: 0 },
+  { local: "Stockolmo", visitante: "Alas Rojas", gl: 7, gv: 2 },
+  { local: "Exploradores", visitante: "Terremoto", gl: 1, gv: 3 },
+  { local: "Nuevo América", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+  ],
+  },
+  {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Aebu", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null, esMiClub: true },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Aebu", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "Aebu", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Aebu", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null, esMiClub: true },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Aebu", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Aebu", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Aebu", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null, esMiClub: true },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null, esMiClub: true },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Aebu", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null, esMiClub: true },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Aebu", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null, esMiClub: true },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Aebu", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+  ],
+  },
+  {
+  id: "2014",
+  fechas: [
+  {
+  num: 1,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: 7, gv: 0 },
+  { local: "R. del Reducto", visitante: "Sur2000", gl: 1, gv: 0 },
+  { local: "Dep. Oriental", visitante: "Nuevo América", gl: 1, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 7, gv: 1 },
+  { local: "Aebu", visitante: "Stockolmo", gl: 2, gv: 5 },
+  { local: "Alas Rojas", visitante: "Exploradores", gl: 2, gv: 2 },
+  { local: "Terremoto", visitante: "Est. de la Unión", gl: 2, gv: 1 },
+  ],
+  },
+  {
+  num: 2,
+  partidos: [
+  { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 1, gv: 2 },
+  { local: "Exploradores", visitante: "Aebu", gl: 7, gv: 1 },
+  { local: "Stockolmo", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 1, gv: 1 },
+  { local: "Nuevo América", visitante: "R. del Reducto", gl: 0, gv: 1 },
+  { local: "Sur2000", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 1 },
+  ],
+  },
+  {
+  num: 3,
+  partidos: [
+  { local: "Dryco", visitante: "Sur2000", gl: 1, gv: 6 },
+  { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 0, gv: 0 },
+  { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 1, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Stockolmo", gl: 1, gv: 3 },
+  { local: "Nueva Palmira", visitante: "Exploradores", gl: 0, gv: 8 },
+  { local: "Aebu", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+  { local: "Alas Rojas", visitante: "Terremoto", gl: 0, gv: 1 },
+  ],
+  },
+  {
+  num: 4,
+  partidos: [
+  { local: "Terremoto", visitante: "Aebu", gl: 8, gv: 3 },
+  { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 2, gv: 1 },
+  { local: "Exploradores", visitante: "Dep. Oriental", gl: 1, gv: 0 },
+  { local: "Stockolmo", visitante: "R. del Reducto", gl: 6, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 4, gv: 0 },
+  { local: "Nuevo América", visitante: "Dryco", gl: 3, gv: 1 },
+  { local: "Sur2000", visitante: "Intermezzo", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 5,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nuevo América", gl: 1, gv: 2 },
+  { local: "Dryco", visitante: "Uruguay Buceo", gl: 0, gv: 4 },
+  { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 8 },
+  { local: "R. del Reducto", visitante: "Exploradores", gl: 0, gv: 3 },
+  { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 1, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Terremoto", gl: 0, gv: 2 },
+  { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 4 },
+  ],
+  },
+  {
+  num: 6,
+  partidos: [
+  { local: "Terremoto", visitante: "Dep. Oriental", gl: 0, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 2, gv: 0 },
+  { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 2, gv: 0 },
+  { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 1, gv: 1 },
+  { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Nuevo América", visitante: "Sur2000", gl: 1, gv: 3 },
+  { local: "Stockolmo", visitante: "Dryco", gl: 3, gv: 1 },
+  ],
+  },
+  {
+  num: 7,
+  partidos: [
+  { local: "Sur2000", visitante: "Uruguay Buceo", gl: 1, gv: 3 },
+  { local: "Intermezzo", visitante: "Stockolmo", gl: 0, gv: 1 },
+  { local: "Dryco", visitante: "Exploradores", gl: 0, gv: 8 },
+  { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 8 },
+  { local: "R. del Reducto", visitante: "Terremoto", gl: 1, gv: 3 },
+  { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 1, gv: 1 },
+  { local: "Nueva Palmira", visitante: "Aebu", gl: 8, gv: 0 },
+  ],
+  },
+  {
+  num: 8,
+  partidos: [
+  { local: "Aebu", visitante: "Dep. Oriental", gl: 1, gv: 1 },
+  { local: "Alas Rojas", visitante: "R. del Reducto", gl: 1, gv: 0 },
+  { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Dryco", gl: 1, gv: 1 },
+  { local: "Exploradores", visitante: "Intermezzo", gl: 5, gv: 1 },
+  { local: "Stockolmo", visitante: "Sur2000", gl: 0, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 4, gv: 2 },
+  ],
+  },
+  {
+  num: 9,
+  partidos: [
+  { local: "Nuevo América", visitante: "Stockolmo", gl: 0, gv: 3 },
+  { local: "Sur2000", visitante: "Exploradores", gl: 1, gv: 0 },
+  { local: "Intermezzo", visitante: "Est. de la Unión", gl: 1, gv: 2 },
+  { local: "Dryco", visitante: "Terremoto", gl: 1, gv: 8 },
+  { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 1, gv: 7 },
+  { local: "R. del Reducto", visitante: "Aebu", gl: 1, gv: 0 },
+  { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 0, gv: 0 },
+  ],
+  },
+  {
+  num: 10,
+  partidos: [
+  { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 0, gv: 3 },
+  { local: "Aebu", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Alas Rojas", visitante: "Dryco", gl: 4, gv: 0 },
+  { local: "Terremoto", visitante: "Intermezzo", gl: 2, gv: 3 },
+  { local: "Est. de la Unión", visitante: "Sur2000", gl: 2, gv: 3 },
+  { local: "Exploradores", visitante: "Nuevo América", gl: 8, gv: 0 },
+  { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 11,
+  partidos: [
+  { local: "Sur2000", visitante: "Terremoto", gl: 1, gv: 5 },
+  { local: "Uruguay Buceo", visitante: "Exploradores", gl: 1, gv: 4 },
+  { local: "Intermezzo", visitante: "Alas Rojas", gl: 1, gv: 3 },
+  { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: 0, gv: 8 },
+  { local: "Dryco", visitante: "Aebu", gl: 2, gv: 2 },
+  { local: "Est. de la Unión", visitante: "Nuevo América", gl: 2, gv: 0 },
+  { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 2, gv: 1 },
+  ],
+  },
+  {
+  num: 12,
+  partidos: [
+  { local: "Alas Rojas", visitante: "Sur2000", gl: 2, gv: 1 },
+  { local: "Exploradores", visitante: "Stockolmo", gl: 2, gv: 2 },
+  { local: "Terremoto", visitante: "Nuevo América", gl: 4, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Dryco", gl: 0, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 2, gv: 4 },
+  { local: "Aebu", visitante: "Intermezzo", gl: 2, gv: 4 },
+  { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  ],
+  },
+  {
+  num: 13,
+  partidos: [
+  { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 3 },
+  { local: "Uruguay Buceo", visitante: "Terremoto", gl: 4, gv: 8 },
+  { local: "Sur2000", visitante: "Aebu", gl: 0, gv: 2 },
+  { local: "Stockolmo", visitante: "Est. de la Unión", gl: 2, gv: 1 },
+  { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: 1, gv: 0 },
+  { local: "Dryco", visitante: "Dep. Oriental", gl: 1, gv: 1 },
+  { local: "Intermezzo", visitante: "Nueva Palmira", gl: 0, gv: 5 },
+  ],
+  },
+  {
+  num: 14,
+  partidos: [
+  { local: "Terremoto", visitante: "Stockolmo", gl: 1, gv: 0 },
+  { local: "R. del Reducto", visitante: "Dryco", gl: 1, gv: 1 },
+  { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 1, gv: 1 },
+  { local: "Nueva Palmira", visitante: "Sur2000", gl: 1, gv: 1 },
+  { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 1 },
+  { local: "Aebu", visitante: "Nuevo América", gl: 3, gv: 2 },
+  { local: "Dep. Oriental", visitante: "Intermezzo", gl: 0, gv: 0 },
+  ],
+  },
+  {
+  num: 15,
+  partidos: [
+  { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "Sur2000", visitante: "Dep. Oriental", gl: 1, gv: 1 },
+  { local: "Uruguay Buceo", visitante: "Aebu", gl: 4, gv: 1 },
+  { local: "Stockolmo", visitante: "Alas Rojas", gl: 0, gv: 2 },
+  { local: "Exploradores", visitante: "Terremoto", gl: 5, gv: 2 },
+  { local: "Nuevo América", visitante: "Nueva Palmira", gl: 2, gv: 1 },
+  ],
+  },
+  {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Aebu", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Aebu", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "Aebu", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Aebu", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Aebu", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Aebu", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Aebu", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Aebu", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Aebu", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Aebu", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+  ],
+  },
+  {
+  id: "2013",
+  fechas: [
+  {
+  num: 1,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "R. del Reducto", visitante: "Sur2000", gl: 1, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Nuevo América", gl: 4, gv: 2 },
+  { local: "Nueva Palmira", visitante: "Uruguay Buceo", gl: 7, gv: 1 },
+  { local: "Aebu", visitante: "Stockolmo", gl: 1, gv: 0 },
+  { local: "Alas Rojas", visitante: "Exploradores", gl: 3, gv: 8 },
+  { local: "Terremoto", visitante: "Est. de la Unión", gl: 2, gv: 1 },
+  ],
+  },
+  {
+  num: 2,
+  partidos: [
+  { local: "Est. de la Unión", visitante: "Alas Rojas", gl: 1, gv: 0 },
+  { local: "Exploradores", visitante: "Aebu", gl: 5, gv: 2 },
+  { local: "Stockolmo", visitante: "Nueva Palmira", gl: 1, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Dep. Oriental", gl: 2, gv: 3 },
+  { local: "Nuevo América", visitante: "R. del Reducto", gl: 1, gv: 3 },
+  { local: "Sur2000", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "Intermezzo", visitante: "Dryco", gl: 0, gv: 0 },
+  ],
+  },
+  {
+  num: 3,
+  partidos: [
+  { local: "Dryco", visitante: "Sur2000", gl: 2, gv: 0 },
+  { local: "Nvo. Amanecer", visitante: "Nuevo América", gl: 0, gv: 1 },
+  { local: "R. del Reducto", visitante: "Uruguay Buceo", gl: 3, gv: 2 },
+  { local: "Dep. Oriental", visitante: "Stockolmo", gl: 0, gv: 5 },
+  { local: "Nueva Palmira", visitante: "Exploradores", gl: 3, gv: 4 },
+  { local: "Aebu", visitante: "Est. de la Unión", gl: 0, gv: 3 },
+  { local: "Alas Rojas", visitante: "Terremoto", gl: 1, gv: 1 },
+  ],
+  },
+  {
+  num: 4,
+  partidos: [
+  { local: "Terremoto", visitante: "Aebu", gl: 7, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Nueva Palmira", gl: 0, gv: 1 },
+  { local: "Exploradores", visitante: "Dep. Oriental", gl: 3, gv: 0 },
+  { local: "Stockolmo", visitante: "R. del Reducto", gl: 3, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Nuevo América", visitante: "Dryco", gl: 2, gv: 3 },
+  { local: "Sur2000", visitante: "Intermezzo", gl: 0, gv: 5 },
+  ],
+  },
+  {
+  num: 5,
+  partidos: [
+  { local: "Intermezzo", visitante: "Nuevo América", gl: 3, gv: 2 },
+  { local: "Dryco", visitante: "Uruguay Buceo", gl: 2, gv: 1 },
+  { local: "Nvo. Amanecer", visitante: "Stockolmo", gl: 0, gv: 8 },
+  { local: "R. del Reducto", visitante: "Exploradores", gl: 0, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Est. de la Unión", gl: 2, gv: 1 },
+  { local: "Nueva Palmira", visitante: "Terremoto", gl: 0, gv: 0 },
+  { local: "Aebu", visitante: "Alas Rojas", gl: 1, gv: 2 },
+  ],
+  },
+  {
+  num: 6,
+  partidos: [
+  { local: "Terremoto", visitante: "Dep. Oriental", gl: 1, gv: 1 },
+  { local: "Uruguay Buceo", visitante: "Intermezzo", gl: 1, gv: 2 },
+  { local: "Alas Rojas", visitante: "Nueva Palmira", gl: 3, gv: 0 },
+  { local: "Est. de la Unión", visitante: "R. del Reducto", gl: 1, gv: 2 },
+  { local: "Exploradores", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Nuevo América", visitante: "Sur2000", gl: 1, gv: 1 },
+  { local: "Stockolmo", visitante: "Dryco", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 7,
+  partidos: [
+  { local: "Sur2000", visitante: "Uruguay Buceo", gl: 0, gv: 4 },
+  { local: "Intermezzo", visitante: "Stockolmo", gl: 0, gv: 2 },
+  { local: "Dryco", visitante: "Exploradores", gl: 0, gv: 3 },
+  { local: "Nvo. Amanecer", visitante: "Est. de la Unión", gl: 0, gv: 8 },
+  { local: "R. del Reducto", visitante: "Terremoto", gl: 1, gv: 1 },
+  { local: "Dep. Oriental", visitante: "Alas Rojas", gl: 0, gv: 2 },
+  { local: "Nueva Palmira", visitante: "Aebu", gl: 8, gv: 0 },
+  ],
+  },
+  {
+  num: 8,
+  partidos: [
+  { local: "Aebu", visitante: "Dep. Oriental", gl: 3, gv: 4 },
+  { local: "Alas Rojas", visitante: "R. del Reducto", gl: 1, gv: 0 },
+  { local: "Terremoto", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Dryco", gl: 0, gv: 1 },
+  { local: "Exploradores", visitante: "Intermezzo", gl: 2, gv: 3 },
+  { local: "Stockolmo", visitante: "Sur2000", gl: 3, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Nuevo América", gl: 7, gv: 1 },
+  ],
+  },
+  {
+  num: 9,
+  partidos: [
+  { local: "Nuevo América", visitante: "Stockolmo", gl: 0, gv: 0 },
+  { local: "Sur2000", visitante: "Exploradores", gl: 0, gv: 4 },
+  { local: "Intermezzo", visitante: "Est. de la Unión", gl: 1, gv: 0 },
+  { local: "Dryco", visitante: "Terremoto", gl: 2, gv: 2 },
+  { local: "Nvo. Amanecer", visitante: "Alas Rojas", gl: 0, gv: 8 },
+  { local: "R. del Reducto", visitante: "Aebu", gl: 2, gv: 0 },
+  { local: "Dep. Oriental", visitante: "Nueva Palmira", gl: 1, gv: 2 },
+  ],
+  },
+  {
+  num: 10,
+  partidos: [
+  { local: "Nueva Palmira", visitante: "R. del Reducto", gl: 7, gv: 1 },
+  { local: "Aebu", visitante: "Nvo. Amanecer", gl: 12, gv: 0 },
+  { local: "Alas Rojas", visitante: "Dryco", gl: 0, gv: 1 },
+  { local: "Terremoto", visitante: "Intermezzo", gl: 3, gv: 3 },
+  { local: "Est. de la Unión", visitante: "Sur2000", gl: 3, gv: 0 },
+  { local: "Exploradores", visitante: "Nuevo América", gl: 2, gv: 0 },
+  { local: "Stockolmo", visitante: "Uruguay Buceo", gl: 4, gv: 0 },
+  ],
+  },
+  {
+  num: 11,
+  partidos: [
+  { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 0 },
+  { local: "Uruguay Buceo", visitante: "Exploradores", gl: 1, gv: 4 },
+  { local: "Intermezzo", visitante: "Alas Rojas", gl: 4, gv: 1 },
+  { local: "Nvo. Amanecer", visitante: "Nueva Palmira", gl: 2, gv: 12 },
+  { local: "Dryco", visitante: "Aebu", gl: 3, gv: 2 },
+  { local: "Est. de la Unión", visitante: "Nuevo América", gl: 2, gv: 0 },
+  { local: "Dep. Oriental", visitante: "R. del Reducto", gl: 1, gv: 0 },
+  ],
+  },
+  {
+  num: 12,
+  partidos: [
+  { local: "Alas Rojas", visitante: "Sur2000", gl: 4, gv: 0 },
+  { local: "Exploradores", visitante: "Stockolmo", gl: 0, gv: 0 },
+  { local: "Terremoto", visitante: "Nuevo América", gl: 7, gv: 0 },
+  { local: "Nueva Palmira", visitante: "Dryco", gl: 2, gv: 0 },
+  { local: "Est. de la Unión", visitante: "Uruguay Buceo", gl: 1, gv: 2 },
+  { local: "Aebu", visitante: "Intermezzo", gl: 1, gv: 3 },
+  { local: "Dep. Oriental", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  ],
+  },
+  {
+  num: 13,
+  partidos: [
+  { local: "Nuevo América", visitante: "Alas Rojas", gl: 0, gv: 1 },
+  { local: "Uruguay Buceo", visitante: "Terremoto", gl: 7, gv: 2 },
+  { local: "Sur2000", visitante: "Aebu", gl: 1, gv: 1 },
+  { local: "Stockolmo", visitante: "Est. de la Unión", gl: 1, gv: 1 },
+  { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: 3, gv: 0 },
+  { local: "Dryco", visitante: "Dep. Oriental", gl: 2, gv: 3 },
+  { local: "Intermezzo", visitante: "Nueva Palmira", gl: 0, gv: 2 },
+  ],
+  },
+  {
+  num: 14,
+  partidos: [
+  { local: "Terremoto", visitante: "Stockolmo", gl: 7, gv: 2 },
+  { local: "R. del Reducto", visitante: "Dryco", gl: 3, gv: 0 },
+  { local: "Alas Rojas", visitante: "Uruguay Buceo", gl: 0, gv: 2 },
+  { local: "Nueva Palmira", visitante: "Sur2000", gl: 2, gv: 2 },
+  { local: "Est. de la Unión", visitante: "Exploradores", gl: 0, gv: 3 },
+  { local: "Aebu", visitante: "Nuevo América", gl: 0, gv: 2 },
+  { local: "Dep. Oriental", visitante: "Intermezzo", gl: 1, gv: 1 },
+  ],
+  },
+  {
+  num: 15,
+  partidos: [
+  { local: "Dryco", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
+  { local: "Sur2000", visitante: "Dep. Oriental", gl: 0, gv: 2 },
+  { local: "Uruguay Buceo", visitante: "Aebu", gl: 7, gv: 1 },
+  { local: "Stockolmo", visitante: "Alas Rojas", gl: 1, gv: 3 },
+  { local: "Exploradores", visitante: "Terremoto", gl: 3, gv: 1 },
+  { local: "Nuevo América", visitante: "Nueva Palmira", gl: 1, gv: 1 },
+  ],
+  },
+  {
+          num: 16,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Sur2000", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Terremoto", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 17,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Aebu", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Dryco", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 18,
+          partidos: [
+            { local: "Sur2000", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Aebu", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Alas Rojas", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 19,
+          partidos: [
+            { local: "Aebu", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Exploradores", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Sur2000", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 20,
+          partidos: [
+            { local: "Nuevo América", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Dryco", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Exploradores", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Aebu", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 21,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Dryco", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 22,
+          partidos: [
+            { local: "Uruguay Buceo", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Terremoto", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Dep. Oriental", gl: null, gv: null },
+            { local: "Aebu", visitante: "Nueva Palmira", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 23,
+          partidos: [
+            { local: "Dep. Oriental", visitante: "Aebu", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Uruguay Buceo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 24,
+          partidos: [
+            { local: "Stockolmo", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Dryco", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 25,
+          partidos: [
+            { local: "R. del Reducto", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Aebu", gl: null, gv: null },
+            { local: "Dryco", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Stockolmo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 26,
+          partidos: [
+            { local: "Terremoto", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Intermezzo", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Aebu", visitante: "Dryco", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 27,
+          partidos: [
+            { local: "Sur2000", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Stockolmo", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Aebu", gl: null, gv: null },
+            { local: "Nvo. Amanecer", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 28,
+          partidos: [
+            { local: "Alas Rojas", visitante: "Nuevo América", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Aebu", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Est. de la Unión", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "R. del Reducto", visitante: "Nvo. Amanecer", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Dryco", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Intermezzo", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 29,
+          partidos: [
+            { local: "Stockolmo", visitante: "Terremoto", gl: null, gv: null },
+            { local: "Dryco", visitante: "R. del Reducto", gl: null, gv: null },
+            { local: "Uruguay Buceo", visitante: "Alas Rojas", gl: null, gv: null },
+            { local: "Sur2000", visitante: "Nueva Palmira", gl: null, gv: null },
+            { local: "Exploradores", visitante: "Est. de la Unión", gl: null, gv: null },
+            { local: "Nuevo América", visitante: "Aebu", gl: null, gv: null },
+            { local: "Intermezzo", visitante: "Dep. Oriental", gl: null, gv: null },
+          ],
+        },
+        {
+          num: 30,
+          partidos: [
+            { local: "Nvo. Amanecer", visitante: "Dryco", gl: null, gv: null },
+            { local: "Dep. Oriental", visitante: "Sur2000", gl: null, gv: null },
+            { local: "Aebu", visitante: "Uruguay Buceo", gl: null, gv: null },
+            { local: "Alas Rojas", visitante: "Stockolmo", gl: null, gv: null },
+            { local: "Terremoto", visitante: "Exploradores", gl: null, gv: null },
+            { local: "Nueva Palmira", visitante: "Nuevo América", gl: null, gv: null },
+          ],
+        },
+
+  ],
+
+  },
+          ]
+        },
         // ================= SERIE A =================
         {
           id: "palermo-a",
@@ -29,9 +2959,11 @@ const ZONA_8_DB = {
             "Est. del Sur",
             "Unión Vecinal",
           ],
-          categorias: [
+          categorias: [                                                               
             {
               id: "2020",
+              sancionesApertura: {},
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -1139,6 +4071,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2019",
+              sancionesApertura: { "Don Bosco": 1, "Mirador": 1 },
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -2246,6 +5180,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2018",
+              sancionesApertura: { "Enrique López": 1 },
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -3353,6 +6289,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2017",
+              sancionesApertura: { "La Rinconada": 1,"Rayo Rojo": 1 },
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -4460,6 +7398,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2016",
+              sancionesApertura: { "La Escalinata": 1},
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -5027,8 +7967,8 @@ const ZONA_8_DB = {
                     {
                       local: "Carabelas",
                       visitante: "Euskal Erria",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 1,
                     },
                     { local: "Maeso", visitante: "La Rinconada", gl: 0, gv: 8 },
                     { local: "Rayo Rojo", visitante: "Mirador", gl: 1, gv: 2 },
@@ -5064,8 +8004,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Urunday",
-                      gl: null,
-                      gv: null,
+                      gl: 9,
+                      gv: 2,
                     },
                     {
                       local: "Rayo Rojo",
@@ -5567,6 +8507,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2015",
+              sancionesApertura: {"Mirador": 1 },
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -6674,6 +9616,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2014",
+              sancionesApertura: { "Carabelas": 1},
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -7278,8 +10222,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Urunday",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 2,
                     },
                     {
                       local: "Rayo Rojo",
@@ -7781,6 +10725,8 @@ const ZONA_8_DB = {
             },
             {
               id: "2013",
+              sancionesApertura: { "Enrique López": 1, "Unión Vecinal": 1 },
+              sancionesClausura: {},
               fechas: [
                 {
                   num: 1,
@@ -8894,10505 +11840,12 @@ const ZONA_8_DB = {
           ],
         },
 
-        // ================= SERIE B =================
-        {
-          id: "palermo-b",
-          nombre: "Serie B",
-          clubes: [
-            "Intermezzo",
-            "Nvo. Amanecer",
-            "R. del Reducto",
-            "Sur2000",
-            "Dep. Oriental",
-            "Nuevo América",
-            "Nueva Palmira",
-            "Uruguay Buceo",
-            "Aebu",
-            "Stockolmo",
-            "Alas Rojas",
-            "Exploradores",
-            "Terremoto",
-            "Est. de la Unión",
-            "Dryco",
-          ],
-          categorias: [
-            {
-              id: "2020",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 0, gv: 2 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 2, gv: 0 },
-
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo America",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 2 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 0, gv: 7 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 2, gv: 0 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Aebu",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 7,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 2, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 0, gv: 6 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 5, gv: 1 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 4,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Aebu",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "R. del reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2019",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 6,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 4 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 2, gv: 0 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 2 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 2, gv: 0 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 2, gv: 0 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 2, gv: 0 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 2, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 0, gv: 5 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 2, gv: 0 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 2, gv: 0 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 0, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 0, gv: 2 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 2, gv: 0 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 5, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2018",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 2, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 3,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 4, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 0, gv: 8 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 4, gv: 0 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 3, gv: 1 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 3, gv: 0 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 2, gv: 4 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 2, gv: 3 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 0, gv: 1 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 1, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 8, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 1, gv: 3 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Aebu", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 1, gv: 2 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 8 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 5, gv: 1 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 6,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 3, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 0, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 5, gv: 0 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 0, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2017",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 0 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 5,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 3, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 3, gv: 4 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 4, gv: 1 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 4, gv: 1 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 1, gv: 3 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 0, gv: 3 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 5, gv: 0 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 0, gv: 1 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 1, gv: 1 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 6,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 2,
-                      gv: 5,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 3, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 7,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 1, gv: 1 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nvo. Amanecer", gl: 2, gv: 0 },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 1, gv: 2 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 4 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 1, gv: 2 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 3,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 0, gv: 0 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 1, gv: 4 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 9,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 5, gv: 0 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 5,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 4, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2016",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 5,
-                      gv: 2,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 1, gv: 3 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 4, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 4 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 4, gv: 1 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 2, gv: 1 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 6,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 2 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 3, gv: 0 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 3, gv: 2 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 2, gv: 0 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 2 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 5, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 2, gv: 1 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nvo. Amanecer", gl: 6, gv: 2 },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 1, gv: 3 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 2 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 4, gv: 0 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 3,
-                      gv: 4,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 5, gv: 0 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 4, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 5, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 5, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2015",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 0, gv: 3 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 4, gv: 0 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 3, gv: 0 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 0, gv: 3 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 0, gv: 3 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 5,
-                      gv: 4,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 6,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 5,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 1, gv: 1 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 5,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 5, gv: 0 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 0, gv: 6 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 2, gv: 1 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 0, gv: 3 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 4, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 2, gv: 1 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 5,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nvo. Amanecer", gl: 1, gv: 0 },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 2, gv: 1 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 5,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 1, gv: 1 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 1, gv: 1 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 9,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 4, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 2, gv: 4 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 3, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 4,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 1, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 8,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2014",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 7,
-                      gv: 1,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 2, gv: 5 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 7, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 1 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 1, gv: 6 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 3,
-                      gv: 5,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 8, gv: 3 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 0, gv: 4 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 3, gv: 1 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 0, gv: 8 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 0, gv: 8 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 1, gv: 1 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 0, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 1, gv: 8 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Nvo. Amanecer", gl: 9, gv: 0 },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 4, gv: 0 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 8,
-                      gv: 3,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 1, gv: 5 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 2, gv: 2 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 2, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 1, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 3, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 6, gv: 1 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 7,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2013",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nuevo América",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Stockolmo", gl: 2, gv: 0 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Exploradores",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Exploradores", visitante: "Aebu", gl: 7, gv: 2 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nvo. Amanecer",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Intermezzo", visitante: "Dryco", gl: 1, gv: 0 },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Dryco", visitante: "Sur2000", gl: 2, gv: 0 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nuevo América",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Aebu",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    { local: "Terremoto", visitante: "Aebu", gl: 7, gv: 0 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "R. del Reducto",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dryco",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Intermezzo",
-                      gl: 0,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nuevo América",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Uruguay Buceo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Est. de la Unión",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    { local: "Aebu", visitante: "Alas Rojas", gl: 1, gv: 2 },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Dep. Oriental",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nueva Palmira",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Sur2000",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Stockolmo", visitante: "Dryco", gl: 1, gv: 0 },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Dryco", visitante: "Exploradores", gl: 0, gv: 3 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Nueva Palmira", visitante: "Aebu", gl: 8, gv: 0 },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    { local: "Aebu", visitante: "Dep. Oriental", gl: 3, gv: 4 },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    { local: "Stockolmo", visitante: "Sur2000", gl: 3, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nuevo América",
-                      gl: 7,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Est. de la Unión",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Dryco", visitante: "Terremoto", gl: 2, gv: 2 },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Alas Rojas",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Aebu",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Aebu", visitante: "Nvo. Amanecer", gl: 8, gv: 0 },
-                    { local: "Alas Rojas", visitante: "Dryco", gl: 0, gv: 1 },
-                    {
-                      local: "Terremoto",
-                      visitante: "Intermezzo",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Sur2000",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    { local: "Sur2000", visitante: "Terremoto", gl: 0, gv: 0 },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Exploradores",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Alas Rojas",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Nueva Palmira",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Dryco", visitante: "Aebu", gl: 3, gv: 2 },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "R. del Reducto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Sur2000",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Stockolmo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nuevo América",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dryco",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Uruguay Buceo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    { local: "Aebu", visitante: "Intermezzo", gl: 3, gv: 1 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Terremoto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Sur2000", visitante: "Aebu", gl: 0, gv: 2 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Est. de la Unión",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Dep. Oriental",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Nueva Palmira",
-                      gl: 1,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Stockolmo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dryco",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Uruguay Buceo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Sur2000",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Exploradores",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Aebu", visitante: "Nuevo América", gl: 6, gv: 2 },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Intermezzo",
-                      gl: 1,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Dryco",
-                      visitante: "Nvo. Amanecer",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Dep. Oriental",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Uruguay Buceo", visitante: "Aebu", gl: 7, gv: 2 },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Terremoto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "R. del Reducto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Nueva Palmira",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Stockolmo", visitante: "AEBU", gl: 2, gv: 0 },
-                    {
-                      local: "Exploradores",
-                      visitante: "Alas Rojas",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Terremoto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "AEBU",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Nuevo América",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                  ],
-                },
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 23,
-                  partidos: [
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 24,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 25,
-                  partidos: [
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 26,
-                  partidos: [
-                    {
-                      local: "Terremoto",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 27,
-                  partidos: [
-                    {
-                      local: "Sur2000",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Stockolmo",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 28,
-                  partidos: [
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "AEBU", visitante: "Sur2000", gl: null, gv: null },
-                    {
-                      local: "Est. de la Unión",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "R. del Reducto",
-                      visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 29,
-                  partidos: [
-                    {
-                      local: "Stockolmo",
-                      visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Dryco",
-                      visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Uruguay Buceo",
-                      visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Sur2000",
-                      visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Exploradores",
-                      visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nuevo América",
-                      visitante: "AEBU",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Intermezzo",
-                      visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 30,
-                  partidos: [
-                    {
-                      local: "Nvo. Amanecer",
-                      visitante: "Dryco",
-                      gl: null,
-                      gv: null,
-                      esMiClub: true,
-                    },
-                    {
-                      local: "Dep. Oriental",
-                      visitante: "Sur2000",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "AEBU",
-                      visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alas Rojas",
-                      visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Terremoto",
-                      visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Nueva Palmira",
-                      visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
       ],
     },
     // Paso Molino
     {
-      id: "paso-molino",
-      nombre: "Liga Paso Molino",
+      id: "paso-molino-torneo clasificatorio",
+      nombre: "Liga Paso Molino - Clasificatorio",
       puntosPG: 2,
       series: [
         {
@@ -26908,6 +19361,3241 @@ const ZONA_8_DB = {
         },
       ],
     },
+        // Paso Molino
+  {id: "paso-molino",
+  nombre: "Liga Paso Molino - Fase Final",
+  puntosPG: 2,
+  series: [
+    {
+      id: "paso-molino-serie-1",
+      nombre: "Serie 1",
+      clubes: [
+        "Zorzal",
+        "Nuevo Juventud",
+        "Independiente Lezica",
+        "Santa Catalina",
+        "Holanda",
+        "Cerro Jrs",
+        "Universal",
+        "Olimpo Jrs",
+        "Estrella Federal"
+      ],
+      categorias: [
+        {
+          id: "2021",
+          fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2020",
+           fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2019",
+           fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2018",
+          fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2017",
+           fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2016",
+           fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2015",
+          fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2014",
+          fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+         {
+          id: "2013",
+          fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Universal", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Cerromar", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Universal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Sauce", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Holanda", visitante: "Nuevo Juventud", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Sauce", visitante: "Universal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Cerromar", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Sauce", gl: null, gv: null },
+                { local: "Universal", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Holanda", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Universal", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Sauce", visitante: "Santa Catalina", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+                { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                { local: "Cerromar", visitante: "Universal", gl: null, gv: null }
+              ]
+            },
+          ]
+        },
+
+      ]
+    },
+    {
+      id: "paso-molino-serie-2",
+      nombre: "Serie 2",
+      clubes: [
+        "Los Magos",//ok
+        "Brandi",//ok
+        "Los Bulevares",//ok
+        "Naranja Mecánica",//ok
+        "Beco",//ok
+        "Cerro Jr",
+        "Tigre",
+        "Pesca",
+        "Papotes",
+        "Iriarte"
+      ],
+      categorias: [
+        {
+          id: "2021",
+          fechas: [
+            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+
+          ],
+          id: "2020",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+          id: "2019",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+          id: "2018",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+          id: "2017",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+          id: "2016",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+          id: "2015",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+          id: "2014",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },],
+            id: "2013",
+          fechas: [            {
+              num: 1,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Brandi", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Naranja Mecanica", gl:null,gv:null },
+                { local: "Papotes", visitante: "Papotes", gl:null,gv:null },
+                { local: "Tigre", visitante: "Cerro Jr", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 2,
+              partidos: [
+                { local: "Tigre", visitante: "Papotes", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Bulevares", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 3,
+              partidos: [
+
+                { local: "Los Bulevares", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Tigre", gl:null,gv:null },
+                { local: "Papotes", visitante: "Pesca", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 4,
+              partidos: [
+                { local: "Pesca", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Tigre", gl:null,gv:null },
+                { local: "Beco", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Brandi", gl:null,gv:null }, //
+              ]
+            },
+            {
+              num: 5,
+              partidos: [
+                { local: "Brandi", visitante: "Beco", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Tigre", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Magos", visitante: "Papotes", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 6,
+              partidos: [
+                { local: "Cerro Jrs", visitante: "Papotes", gl:null,gv:null },
+                { local: "Pesca", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Tigre", visitante: "Brandi", gl:null,gv:null },
+                { local: "Beco", visitante: "Naranja Mecánica", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 7,
+              partidos: [
+                      { local: "Naranja Mecánica", visitante: "Tigre", gl:null,gv:null },
+                { local: "Brandi", visitante: "Pesca", gl:null,gv:null },
+                { local: "Los Bulevares", visitante: "Papotes", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Magos", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 8,
+              partidos: [
+                { local: "Los Magos", visitante: "Los Bulevares", gl:null,gv:null },
+                { local: "Papotes", visitante: "Brandi", gl:null,gv:null },
+                { local: "Pesca", visitante: "Naranja Mecánica", gl:null,gv:null },
+                { local: "Tigre", visitante: "Beco", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 9,
+              partidos: [
+                { local: "Beco", visitante: "Pesca", gl:null,gv:null },
+                { local: "Naranja Mecánica", visitante: "Papotes", gl:null,gv:null },
+                { local: "Brandi", visitante: "Los Magos", gl:null,gv:null },
+                { local: "Cerro Jrs", visitante: "Los Bulevares", gl:null,gv:null }, //
+
+              ]
+            },
+            {
+              num: 10,
+              partidos: [
+                { local: "Brandi", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Naranja Mecanica", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Papotes", visitante: "Papotes", gl: null, gv: null },
+                { local: "Cerro Jr", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 11,
+              partidos: [
+                { local: "Papotes", visitante: "Tigre", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Beco", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Brandi", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 12,
+              partidos: [
+                { local: "Naranja Mecánica", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Beco", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Pesca", visitante: "Papotes", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 13,
+              partidos: [
+                { local: "Los Magos", visitante: "Pesca", gl: null, gv: null },
+                { local: "Tigre", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Beco", gl: null, gv: null },
+                { local: "Brandi", visitante: "Naranja Mecánica", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 14,
+              partidos: [
+                { local: "Beco", visitante: "Brandi", gl: null, gv: null },
+                { local: "Tigre", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Pesca", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Magos", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 15,
+              partidos: [
+                { local: "Papotes", visitante: "Cerro Jrs", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Pesca", gl: null, gv: null },
+                { local: "Brandi", visitante: "Tigre", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Beco", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 16,
+              partidos: [
+                { local: "Tigre", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Pesca", visitante: "Brandi", gl: null, gv: null },
+                { local: "Papotes", visitante: "Los Bulevares", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 17,
+              partidos: [
+                { local: "Los Bulevares", visitante: "Los Magos", gl: null, gv: null },
+                { local: "Brandi", visitante: "Papotes", gl: null, gv: null },
+                { local: "Naranja Mecánica", visitante: "Pesca", gl: null, gv: null },
+                { local: "Beco", visitante: "Tigre", gl: null, gv: null }
+              ]
+            },
+            {
+              num: 18,
+              partidos: [
+                { local: "Pesca", visitante: "Beco", gl: null, gv: null },
+                { local: "Papotes", visitante: "Naranja Mecánica", gl: null, gv: null },
+                { local: "Los Magos", visitante: "Brandi", gl: null, gv: null },
+                { local: "Los Bulevares", visitante: "Cerro Jrs", gl: null, gv: null }
+              ]
+            },
+          ],
+        }
+      ]
+    }
+  ]
+  },
     // Prado
     {
       id: "prado",
@@ -32107,8 +27795,5 @@ const ZONA_8_DB = {
         },
       ],
     },
-  ],
-  sanciones: [
-    //    {club:"Enrique López", puntos:-2},
   ],
 };

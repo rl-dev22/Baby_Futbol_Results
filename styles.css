@@ -28,7 +28,7 @@ select {
 
 .contenedor-clubes {
   background: #fff;
-  padding: cent;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -95,6 +95,7 @@ li {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 1rem;
+  align-items: start; /* <- Esto evita que las tarjetas vecinas se estiren en altura */
 }
 
 /* Estilo de la tarjeta individual de cada fecha */
@@ -112,13 +113,29 @@ li {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
 
-.card-fecha h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
+/* Estilos para la vista comprimida (details / summary) */
+.card-fecha details {
+  width: 100%;
+}
+
+.card-fecha summary {
   font-size: 1.1rem;
   color: #1e3a8a;
+  font-weight: bold;
+  cursor: pointer;
   text-align: center;
+  padding: 0.2rem;
+  outline: none;
+  list-style: none;
+}
+
+.card-fecha summary::-webkit-details-marker {
+  display: none;
+}
+
+.card-fecha details[open] summary {
   border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
 }
 
