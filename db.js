@@ -3,6 +3,10639 @@
 const ZONA_8_DB = {
   zona: "Zona 8",
   ligas: [
+        // Prado
+    {
+      id: "prado",
+      nombre: "Liga Prado",
+      puntosPG: 3,
+      series: [
+        {
+          id: "prado-unica",
+          nombre: "Serie Única",
+          clubes: [
+            "San Francisco",
+            "Las Flores",
+            "Yegros",
+            "Isidro Fynn",
+            "Bochas",
+            "Urreta",
+            "Malvín Alto",
+            "Deportivo Uruguayo",
+            "Estrella del Norte",
+            "3 de Abril",
+            "Ombú Jrs.",
+            "Cosmos Corinto",
+            "Pablan",
+            "Libertad Washington",
+            "Covicenova",
+            "Aviación Lezica",
+          ],
+          categorias: [
+            {
+              id: "2021",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 2, gv: 2 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 3 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 3,
+                      gv: 3,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 4,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 3, gv: 0 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 3, gv: 0 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 7 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 2, gv: 3 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 6,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 5,
+                      gv: 3,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 3, gv: 0 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 3, gv: 0 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 3,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 6 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 8 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 0, gv: 8 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 1, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 7,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 5,
+                      gv: 2,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 1,
+                      gv: 9,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 2, gv: 4 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 9,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 2 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 2, gv: 2 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 2, gv: 1 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 3, gv: 0 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 4,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 2, gv: 3 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 2, gv: 5 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 1,
+                      gv: 5,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 2,
+                      gv: 6,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 4 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 2 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 8,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 8, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 9,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 2, gv: 1 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 3 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 0,
+                      gv: 4,
+                    },
+                      {
+                      local: "Urreta",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                                        {
+                      local: "Isidro Fynn",
+                      visitante: "San Francisco",
+                      gl: null,
+                      gv: null,
+                    },
+                                        {
+                      local: "3 de abril",
+                      visitante: "Malvin Alto",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "3 de abril",
+                      visitante: "Malvin Alto",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Estrella del Norte",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "3 de abril",
+                      visitante: "Malvin Alto",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 0,
+        gv: 4
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 3,
+        gv: 0
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 3,
+        gv: 0
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 3,
+        gv: 0
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 7,
+        gv: 0
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  }
+              ],
+            },
+            {
+              id: "2020",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 3, gv: 0 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 8 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 5,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 5, gv: 0 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 3, gv: 0 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 5, gv: 0 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 0, gv: 1 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 6, gv: 1 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 3, gv: 2 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 4,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 1, gv: 3 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 0, gv: 3 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 8, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 0, gv: 3 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 8 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 1, gv: 2 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 6, gv: 0 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 0, gv: 3 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 0, gv: 3 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 6, gv: 0 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 5,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Urreta",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 1, gv: 1 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 3, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 4, gv: 2 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 6 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 0,
+                      gv: 8,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 2,
+        gv: 2
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 0,
+        gv: 3
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 0,
+        gv: 1
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 2,
+        gv: 1
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 3,
+        gv: 0
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  }
+              ],
+            },
+            {
+              id: "2019",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 6 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 3 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 6, gv: 0 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 3, gv: 0 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 0, gv: 8 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 6, gv: 0 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 5,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 6,
+                      gv: 1,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 8, gv: 0 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 3, gv: 0 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 6,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 0, gv: 3 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 7,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 2 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 0, gv: 3 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 1, gv: 5 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 6, gv: 1 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 3 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 0, gv: 5 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 3, gv: 0 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 0, gv: 3 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 0, gv: 3 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 2, gv: 0 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 5,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 1, gv: 4 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 3, gv: 2 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 3, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 5,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 2, gv: 0 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 3 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 4,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 1,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 2,
+        gv: 2
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 1,
+        gv: 1
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 0,
+        gv: 5
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 5,
+        gv: 1
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 8,
+        gv: 1
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  },
+              ],
+            },
+            {
+              id: "2018",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 8 },
+                    { local: "Bochas", visitante: "Urreta", gl: 1, gv: 3 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 4, gv: 1 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 0, gv: 1 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 2 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 3, gv: 0 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 3,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 1, gv: 2 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 4, gv: 2 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 6,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 3, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 6,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 2,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 1 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 5, gv: 0 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 4,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 5, gv: 2 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 5,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 8,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 2,
+                      gv: 4,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 3, gv: 2 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 2, gv: 6 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 3,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 1, gv: 3 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 4, gv: 1 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 8, gv: 0 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 3,
+                      gv: 6,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 4 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 2, gv: 2 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 6,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 9,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 5,
+                      gv: 1,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 8 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 0 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 6,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 6,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 7, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 0, gv: 3 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 8 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 4,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 1,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 8,
+        gv: 0
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 0,
+        gv: 2
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 2,
+        gv: 2
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 4,
+        gv: 2
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  },
+              ],
+            },
+            {
+              id: "2017",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 4 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 8 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 5,
+                      gv: 2,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 7, gv: 0 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 1, gv: 2 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 1 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 3, gv: 0 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 5,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 0, gv: 2 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 4,
+                      gv: 2,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 5, gv: 1 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 9,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 4 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 2, gv: 5 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 8,
+                      gv: 1,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 6, gv: 3 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 6,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 1, gv: 1 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 2 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 4,
+                      gv: 1,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 2, gv: 3 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 1, gv: 2 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 4 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 1, gv: 0 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Isidro Fynn",
+                      gl: 5,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 4 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 1 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 7, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 1, gv: 3 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 5, gv: 2 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 8,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 2,
+        gv: 1
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 1,
+        gv: 0
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 2,
+        gv: 2
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 4,
+        gv: 0
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 2,
+        gv: 2
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  },
+              ],
+            },
+            {
+              id: "2016",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 1, gv: 1 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 6 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 5, gv: 0 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 2, gv: 2 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 0, gv: 1 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 0, gv: 2 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 0, gv: 0 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 5, gv: 0 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 2,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 3 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 6,
+                      gv: 1,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 3, gv: 4 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 5, gv: 2 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 5, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 3,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 1, gv: 1 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 7,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 8 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 4,
+                      gv: 1,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 2, gv: 2 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 1, gv: 1 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 1, gv: 1 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 2 },
+                    {
+                      local: "Urreta",
+                      visitante: "3 de Abril",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 4 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 7,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 1 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 4,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 5,
+                      gv: 2,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 2, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 4, gv: 1 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 4 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 4,
+                      gv: 2,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 2,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 4,
+        gv: 1
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  },
+              ],
+            },
+            {
+              id: "2015",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 3, gv: 2 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 7 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 8,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 6,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 4, gv: 1 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 1, gv: 0 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 0, gv: 8 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 2, gv: 0 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 4,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 5,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 7,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 2, gv: 1 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 7,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 4, gv: 2 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 4,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 4, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 4,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 8,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 1,
+                      gv: 5,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 8 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 2, gv: 3 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 4,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 4, gv: 3 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 8,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 3,
+                      gv: 2,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 4,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 5,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 1, gv: 6 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 6,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 4,
+                      gv: 2,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 6,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 4, gv: 0 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 3, gv: 2 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 9, gv: 2 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 4,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 8,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 5,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 4,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 0, gv: 3 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 3, gv: 1 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 4,
+                      gv: 0,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 5,
+                      gv: 2,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 9,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 4,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 7,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 2 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 8, gv: 0 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 5,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 2, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 6,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 0, gv: 8 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 7 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 0,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 2,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 0,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 1,
+        gv: 0
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 6,
+        gv: 1
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 0,
+        gv: 2
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  },
+              ],
+            },
+            {
+              id: "2014",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 2 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 5 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 7,
+                      gv: 0,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 6,
+                      gv: 2,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 4,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 6, gv: 0 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 1, gv: 1 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 4 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 1, gv: 7 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 3,
+                      gv: 4,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 4,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 5, gv: 3 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 0, gv: 1 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 5,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 5, gv: 4 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 7,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 6 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 8, gv: 0 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 8, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 4,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 5,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 2, gv: 7 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 8,
+                      gv: 1,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 1, gv: 1 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 4,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 4,
+                      gv: 3,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 3,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 8, gv: 0 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 9,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 0, gv: 1 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 6,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 4,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 2 },
+                    {
+                      local: "Urreta",
+                      visitante: "3 de Abril",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 6,
+                      gv: 3,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 4,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 1, gv: 5 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 6,
+                      gv: 0,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 6, gv: 0 },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 3,
+                      gv: 2,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 5, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 1, gv: 0 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 3 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: 4,
+                      gv: 3,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: 1,
+                      gv: 4,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 5,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 3,
+        gv: 4
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 3,
+        gv: 0
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 0,
+        gv: 0
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 1,
+        gv: 1
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 0,
+        gv: 5
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  }
+              ],
+            },
+            {
+              id: "2013",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "San Francisco",
+                      visitante: "Las Flores",
+                      gl: null,
+                      gv: null,
+                    },
+                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 2 },
+                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 2 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "Libertad Washington",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Aviación Lezica",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Las Flores",
+                      visitante: "Aviación Lezica",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Covicenova",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Pablan",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Ombú Jrs.",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Malvín Alto", gl: 5, gv: 1 },
+                    { local: "Isidro Fynn", visitante: "Bochas", gl: 0, gv: 1 },
+                    {
+                      local: "San Francisco",
+                      visitante: "Yegros",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    { local: "Pablan", visitante: "3 de Abril", gl: 4, gv: 1 },
+                    { local: "Yegros", visitante: "Las Flores", gl: 5, gv: 1 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Estrella del Norte",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Aviación Lezica",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 8, gv: 0 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Pablan",
+                      gl: 0,
+                      gv: 7,
+                    },
+                    { local: "Yegros", visitante: "Bochas", gl: 2, gv: 2 },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Isidro Fynn",
+                      gl: 3,
+                      gv: 1,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 5,
+                    },
+                    { local: "Pablan", visitante: "Urreta", gl: 1, gv: 5 },
+                    { local: "Malvín Alto", visitante: "Yegros", gl: 1, gv: 1 },
+                    {
+                      local: "Covicenova",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 3,
+                      gv: 1,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Bochas",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 2, gv: 1 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "3 de Abril",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Isidro Fynn",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Pablan",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Las Flores",
+                      gl: 7,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Aviación Lezica",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "3 de Abril",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Urreta",
+                      gl: 2,
+                      gv: 7,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 6,
+                    },
+                    { local: "Yegros", visitante: "Pablan", gl: 1, gv: 3 },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Estrella del Norte",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Covicenova",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 4, gv: 1 },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "San Francisco",
+                      gl: 1,
+                      gv: 2,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Las Flores",
+                      gl: 2,
+                      gv: 1,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Malvín Alto",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "3 de Abril",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 7,
+                      gv: 1,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Isidro Fynn",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    { local: "Covicenova", visitante: "Yegros", gl: 3, gv: 1 },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    { local: "Pablan", visitante: "Bochas", gl: 2, gv: 1 },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    { local: "Malvín Alto", visitante: "Pablan", gl: 3, gv: 1 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Cosmos Corinto",
+                      gl: 1,
+                      gv: 0,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 3,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Ombú Jrs.",
+                      gl: 2,
+                      gv: 3,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Aviación Lezica",
+                      gl: 3,
+                      gv: 2,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 0 },
+                    { local: "Urreta", visitante: "3 de Abril", gl: 4, gv: 1 },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Bochas",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "San Francisco",
+                      gl: 2,
+                      gv: 2,
+                    },
+                    {
+                      local: "Libertad Washington",
+                      visitante: "Yegros",
+                      gl: 5,
+                      gv: 0,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Malvín Alto",
+                      gl: 1,
+                      gv: 6,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Urreta",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Las Flores",
+                      gl: 3,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Pablan",
+                      gl: 3,
+                      gv: 3,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "Bochas",
+                      visitante: "Libertad Washington",
+                      gl: 1,
+                      gv: 1,
+                    },
+                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 6 },
+                    {
+                      local: "Isidro Fynn",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 2,
+                      gv: 0,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "3 de Abril",
+                      gl: 5,
+                      gv: 5,
+                    },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Pablan",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Covicenova",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Aviación Lezica",
+                      gl: 4,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Cosmos Corinto",
+                      visitante: "Bochas",
+                      gl: 0,
+                      gv: 1,
+                    },
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "San Francisco",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    { local: "Urreta", visitante: "Isidro Fynn", gl: 1, gv: 0 },
+                    {
+                      local: "Aviación Lezica",
+                      visitante: "Estrella del Norte",
+                      gl: 3,
+                      gv: 4,
+                    },
+                  ],
+                },
+                {
+                  num: 14,
+                  partidos: [
+                    { local: "Pablan", visitante: "Covicenova", gl: 8, gv: 0 },
+                    { local: "Bochas", visitante: "3 de Abril", gl: 4, gv: 2 },
+                    {
+                      local: "Ombú Jrs.",
+                      visitante: "Aviación Lezica",
+                      gl: 6,
+                      gv: 2,
+                    },
+                    {
+                      local: "Yegros",
+                      visitante: "Deportivo Uruguayo",
+                      gl: 8,
+                      gv: 0,
+                    },
+                    {
+                      local: "Estrella del Norte",
+                      visitante: "Libertad Washington",
+                      gl: 0,
+                      gv: 3,
+                    },
+                    {
+                      local: "San Francisco",
+                      visitante: "Urreta",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Malvín Alto",
+                      visitante: "Cosmos Corinto",
+                      gl: 0,
+                      gv: 0,
+                    },
+                    {
+                      local: "Las Flores",
+                      visitante: "Isidro Fynn",
+                      gl: 2,
+                      gv: 0,
+                    },
+                  ],
+                },
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Deportivo Uruguayo",
+                      visitante: "Bochas",
+                      gl: 0,
+                      gv: 8,
+                    },
+                    {
+                      local: "Covicenova",
+                      visitante: "Las Flores",
+                      gl: 3,
+                      gv: 2,
+                    },
+                  ],
+                },
+                {
+    num: 16,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 17,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Las Flores",
+        gl: 4,
+        gv: 1
+      },
+      {
+        local: "Covicenova",
+        visitante: "Libertad Washington",
+        gl: 1,
+        gv: 4
+      },
+      {
+        local: "Pablan",
+        visitante: "Cosmos Corinto",
+        gl: 4,
+        gv: 0
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Deportivo Uruguayo",
+        gl: 6,
+        gv: 0
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "San Francisco",
+        gl: 0,
+        gv: 3
+      }
+    ]
+  },
+  {
+    num: 18,
+    partidos: [
+      {
+        local: "3 de Abril",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 19,
+    partidos: [
+      {
+        local: "Estrella del Norte",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 20,
+    partidos: [
+      {
+        local: "Las Flores",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 21,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 22,
+    partidos: [
+      {
+        local: "Aviación Lezica",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 23,
+    partidos: [
+      {
+        local: "San Francisco",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "3 de Abril",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Bochas",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 24,
+    partidos: [
+      {
+        local: "Pablan",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Ombú Jrs.",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 25,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Yegros",
+        visitante: "Libertad Washington",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Malvín Alto",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 26,
+    partidos: [
+      {
+        local: "Libertad Washington",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Isidro Fynn",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Pablan",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Covicenova",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 27,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Cosmos Corinto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "San Francisco",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Urreta",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Estrella del Norte",
+        visitante: "Aviación Lezica",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 28,
+    partidos: [
+      {
+        local: "Covicenova",
+        visitante: "Pablan",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "3 de Abril",
+        visitante: "Bochas",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Aviación Lezica",
+        visitante: "Ombú Jrs.",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Deportivo Uruguayo",
+        visitante: "Yegros",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Libertad Washington",
+        visitante: "Estrella del Norte",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Urreta",
+        visitante: "San Francisco",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Cosmos Corinto",
+        visitante: "Malvín Alto",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Isidro Fynn",
+        visitante: "Las Flores",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 29,
+    partidos: [
+      {
+        local: "Bochas",
+        visitante: "Deportivo Uruguayo",
+        gl: null,
+        gv: null
+      },
+      {
+        local: "Las Flores",
+        visitante: "Covicenova",
+        gl: null,
+        gv: null
+      }
+    ]
+  },
+  {
+    num: 30,
+    partidos: []
+  },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+
+
     // Palermo
     {
       id: "palermo",
@@ -22613,4804 +33246,7 @@ const ZONA_8_DB = {
     }
   ]
   },
-    // Prado
-    {
-      id: "prado",
-      nombre: "Liga Prado",
-      puntosPG: 3,
-      series: [
-        {
-          id: "prado-unica",
-          nombre: "Serie Única",
-          clubes: [
-            "San Francisco",
-            "Las Flores",
-            "Yegros",
-            "Isidro Fynn",
-            "Bochas",
-            "Urreta",
-            "Malvín Alto",
-            "Deportivo Uruguayo",
-            "Estrella del Norte",
-            "3 de Abril",
-            "Ombú Jrs.",
-            "Cosmos Corinto",
-            "Pablan",
-            "Libertad Washington",
-            "Covicenova",
-            "Aviación Lezica",
-          ],
-          categorias: [
-            {
-              id: "2021",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 2, gv: 2 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 3 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 3, gv: 0 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 3, gv: 0 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 7 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 2, gv: 3 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 6,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 5,
-                      gv: 3,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 3, gv: 0 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 3, gv: 0 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 3,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 6 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 8 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 0, gv: 8 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 1, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 5,
-                      gv: 2,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 1,
-                      gv: 9,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 2, gv: 4 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 9,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 2 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 2, gv: 2 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 2, gv: 1 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 3, gv: 0 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 2, gv: 3 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 2, gv: 5 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 2,
-                      gv: 6,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 4 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 2 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 8, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 9,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 2, gv: 1 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 3 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 0,
-                      gv: 4,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2020",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 3, gv: 0 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 8 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 5, gv: 0 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 3, gv: 0 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 5, gv: 0 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 0, gv: 1 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 6, gv: 1 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 3, gv: 2 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 1, gv: 3 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 0, gv: 3 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 8, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 0, gv: 3 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 8 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 1, gv: 2 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 6, gv: 0 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 0, gv: 3 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 0, gv: 3 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 6, gv: 0 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Urreta",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 1, gv: 1 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 3, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 4, gv: 2 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 6 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 0,
-                      gv: 8,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2019",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 6 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 3 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 6, gv: 0 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 3, gv: 0 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 0, gv: 8 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 6, gv: 0 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 6,
-                      gv: 1,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 8, gv: 0 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 3, gv: 0 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 6,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 0, gv: 3 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 2 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 0, gv: 3 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 1, gv: 5 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 6, gv: 1 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 3 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 0, gv: 5 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 3, gv: 0 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 0, gv: 3 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 0, gv: 3 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 2, gv: 0 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 5,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 1, gv: 4 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 3, gv: 2 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 3, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 2, gv: 0 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 3 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2018",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 8 },
-                    { local: "Bochas", visitante: "Urreta", gl: 1, gv: 3 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 4, gv: 1 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 0, gv: 1 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 2 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 3, gv: 0 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 1, gv: 2 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 4, gv: 2 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 6,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 3, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 6,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 1 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 5, gv: 0 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 5, gv: 2 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 5,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 8,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 3, gv: 2 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 2, gv: 6 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 1, gv: 3 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 4, gv: 1 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 8, gv: 0 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 3,
-                      gv: 6,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 4 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 2, gv: 2 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 6,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 9,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 8 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 0 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 7, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 0, gv: 3 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 8 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2017",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 4 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 8 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 5,
-                      gv: 2,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 7, gv: 0 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 1, gv: 2 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 1 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 3, gv: 0 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 0, gv: 2 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 5, gv: 1 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 9,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 4 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 2, gv: 5 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 8,
-                      gv: 1,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 6, gv: 3 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 1, gv: 1 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 2 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 2, gv: 3 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 1, gv: 2 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 4 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 1, gv: 0 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Isidro Fynn",
-                      gl: 5,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 4 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 1 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 7, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 1, gv: 3 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 5, gv: 2 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 8,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2016",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 1, gv: 1 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 6 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 5, gv: 0 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 2, gv: 2 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 0, gv: 1 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 0, gv: 2 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 0, gv: 0 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 5, gv: 0 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 3 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 6,
-                      gv: 1,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 3, gv: 4 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 5, gv: 2 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 5, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 3,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 1, gv: 1 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 0, gv: 8 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 2, gv: 2 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 1, gv: 1 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 1, gv: 1 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 2 },
-                    {
-                      local: "Urreta",
-                      visitante: "3 de Abril",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 4 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 7,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 2, gv: 1 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 4,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 5,
-                      gv: 2,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 2, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 4, gv: 1 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 4 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2015",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 3, gv: 2 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 7 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 8,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 4, gv: 1 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 1, gv: 0 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 0, gv: 8 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 2, gv: 0 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 2, gv: 1 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 4, gv: 2 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 4,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 4, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 8,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 8 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 2, gv: 3 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 4, gv: 3 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 8,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 4,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 5,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 1, gv: 6 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 6,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 4, gv: 0 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 3, gv: 2 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 9, gv: 2 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 4,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 8,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 5,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 4,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 0, gv: 3 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 3, gv: 1 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 4,
-                      gv: 0,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 5,
-                      gv: 2,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 9,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 4,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 2 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 8, gv: 0 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 5,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 2, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 6,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 0, gv: 8 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 7 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2014",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 2 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 5 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 7,
-                      gv: 0,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 6,
-                      gv: 2,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 6, gv: 0 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 1, gv: 1 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 1, gv: 4 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 1, gv: 7 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 3,
-                      gv: 4,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 5, gv: 3 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 0, gv: 1 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 5,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 5, gv: 4 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 7,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 0, gv: 6 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 8, gv: 0 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 8, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 4,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 5,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 2, gv: 7 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 8,
-                      gv: 1,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 1, gv: 1 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 4,
-                      gv: 3,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 3,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 8, gv: 0 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 9,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 0, gv: 1 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 6,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 4,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 2 },
-                    {
-                      local: "Urreta",
-                      visitante: "3 de Abril",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 6,
-                      gv: 3,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 4,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 1, gv: 5 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 6,
-                      gv: 0,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Pablan", gl: 6, gv: 0 },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 5, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 1, gv: 0 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 0, gv: 3 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: 4,
-                      gv: 3,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: 1,
-                      gv: 4,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 5,
-                      gv: 0,
-                    },
-                  ],
-                },
-              ],
-            },
-            {
-              id: "2013",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "San Francisco",
-                      visitante: "Las Flores",
-                      gl: null,
-                      gv: null,
-                    },
-                    { local: "Yegros", visitante: "Isidro Fynn", gl: 0, gv: 2 },
-                    { local: "Bochas", visitante: "Urreta", gl: 0, gv: 2 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "Libertad Washington",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Aviación Lezica",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Las Flores",
-                      visitante: "Aviación Lezica",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Covicenova",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Pablan",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Ombú Jrs.",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Malvín Alto", gl: 5, gv: 1 },
-                    { local: "Isidro Fynn", visitante: "Bochas", gl: 0, gv: 1 },
-                    {
-                      local: "San Francisco",
-                      visitante: "Yegros",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    { local: "Pablan", visitante: "3 de Abril", gl: 4, gv: 1 },
-                    { local: "Yegros", visitante: "Las Flores", gl: 5, gv: 1 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Estrella del Norte",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Aviación Lezica",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    { local: "Urreta", visitante: "Ombú Jrs.", gl: 8, gv: 0 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Pablan",
-                      gl: 0,
-                      gv: 7,
-                    },
-                    { local: "Yegros", visitante: "Bochas", gl: 2, gv: 2 },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    { local: "Bochas", visitante: "Las Flores", gl: 1, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Isidro Fynn",
-                      gl: 3,
-                      gv: 1,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 5,
-                    },
-                    { local: "Pablan", visitante: "Urreta", gl: 1, gv: 5 },
-                    { local: "Malvín Alto", visitante: "Yegros", gl: 1, gv: 1 },
-                    {
-                      local: "Covicenova",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 3,
-                      gv: 1,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Bochas",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Ombú Jrs.", visitante: "Yegros", gl: 2, gv: 1 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "3 de Abril",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Isidro Fynn",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Pablan",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Las Flores",
-                      gl: 7,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Aviación Lezica",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "3 de Abril",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Urreta",
-                      gl: 2,
-                      gv: 7,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 6,
-                    },
-                    { local: "Yegros", visitante: "Pablan", gl: 1, gv: 3 },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Estrella del Norte",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Covicenova",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    { local: "Bochas", visitante: "Ombú Jrs.", gl: 4, gv: 1 },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "San Francisco",
-                      gl: 1,
-                      gv: 2,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Las Flores",
-                      gl: 2,
-                      gv: 1,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Malvín Alto",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "3 de Abril",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 7,
-                      gv: 1,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Isidro Fynn",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    { local: "Covicenova", visitante: "Yegros", gl: 3, gv: 1 },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    { local: "Pablan", visitante: "Bochas", gl: 2, gv: 1 },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    { local: "Malvín Alto", visitante: "Pablan", gl: 3, gv: 1 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Cosmos Corinto",
-                      gl: 1,
-                      gv: 0,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 3,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Ombú Jrs.",
-                      gl: 2,
-                      gv: 3,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Aviación Lezica",
-                      gl: 3,
-                      gv: 2,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Bochas", visitante: "Covicenova", gl: 1, gv: 0 },
-                    { local: "Urreta", visitante: "3 de Abril", gl: 4, gv: 1 },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Bochas",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "San Francisco",
-                      gl: 2,
-                      gv: 2,
-                    },
-                    {
-                      local: "Libertad Washington",
-                      visitante: "Yegros",
-                      gl: 5,
-                      gv: 0,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Malvín Alto",
-                      gl: 1,
-                      gv: 6,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Urreta",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Las Flores",
-                      gl: 3,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Pablan",
-                      gl: 3,
-                      gv: 3,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "Bochas",
-                      visitante: "Libertad Washington",
-                      gl: 1,
-                      gv: 1,
-                    },
-                    { local: "Las Flores", visitante: "Urreta", gl: 0, gv: 6 },
-                    {
-                      local: "Isidro Fynn",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 2,
-                      gv: 0,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "3 de Abril",
-                      gl: 5,
-                      gv: 5,
-                    },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Pablan",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Covicenova",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Aviación Lezica",
-                      gl: 4,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Cosmos Corinto",
-                      visitante: "Bochas",
-                      gl: 0,
-                      gv: 1,
-                    },
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "San Francisco",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    { local: "Urreta", visitante: "Isidro Fynn", gl: 1, gv: 0 },
-                    {
-                      local: "Aviación Lezica",
-                      visitante: "Estrella del Norte",
-                      gl: 3,
-                      gv: 4,
-                    },
-                  ],
-                },
-                {
-                  num: 14,
-                  partidos: [
-                    { local: "Pablan", visitante: "Covicenova", gl: 8, gv: 0 },
-                    { local: "Bochas", visitante: "3 de Abril", gl: 4, gv: 2 },
-                    {
-                      local: "Ombú Jrs.",
-                      visitante: "Aviación Lezica",
-                      gl: 6,
-                      gv: 2,
-                    },
-                    {
-                      local: "Yegros",
-                      visitante: "Deportivo Uruguayo",
-                      gl: 8,
-                      gv: 0,
-                    },
-                    {
-                      local: "Estrella del Norte",
-                      visitante: "Libertad Washington",
-                      gl: 0,
-                      gv: 3,
-                    },
-                    {
-                      local: "San Francisco",
-                      visitante: "Urreta",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Malvín Alto",
-                      visitante: "Cosmos Corinto",
-                      gl: 0,
-                      gv: 0,
-                    },
-                    {
-                      local: "Las Flores",
-                      visitante: "Isidro Fynn",
-                      gl: 2,
-                      gv: 0,
-                    },
-                  ],
-                },
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Deportivo Uruguayo",
-                      visitante: "Bochas",
-                      gl: 0,
-                      gv: 8,
-                    },
-                    {
-                      local: "Covicenova",
-                      visitante: "Las Flores",
-                      gl: 3,
-                      gv: 2,
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
+
 
     //Piedras Blancas
     {
