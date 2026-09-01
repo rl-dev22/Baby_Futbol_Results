@@ -269,6 +269,11 @@ function obtenerFechasDisputadas(serie, idCat, torneo = "anual") {
 /**
  * Renderiza el fixture de partidos
  */
+
+/**
+ * Renderiza el fixture de partidos y muestra el total de goles de la fecha
+ */
+/*
 function renderizarFechas(
   serie,
   idCat,
@@ -293,7 +298,7 @@ function renderizarFechas(
 
   const limiteApertura = obtenerLimiteApertura(serie);
 
-fechasDisputadas.forEach((fecha) => {
+  fechasDisputadas.forEach((fecha) => {
     const cardFecha = document.createElement("div");
     cardFecha.className = "card-fecha";
 
@@ -304,10 +309,19 @@ fechasDisputadas.forEach((fecha) => {
       }
     }
 
+    // NUEVO: Calcular la suma de goles de todos los partidos de esta fecha
+    let totalGolesFecha = 0;
     let partidosHTML = "";
+    
     fecha.partidos.forEach((p) => {
       const gl = p.gl !== null ? p.gl : "-";
       const gv = p.gv !== null ? p.gv : "-";
+      
+      // Sumamos si los goles son números válidos
+      if (p.gl !== null && p.gv !== null) {
+        totalGolesFecha += p.gl + p.gv;
+      }
+
       partidosHTML += `
         <tr>
           <td class="equipo-local">${p.local}</td>
@@ -317,10 +331,10 @@ fechasDisputadas.forEach((fecha) => {
       `;
     });
 
-    const labelFecha =
-      torneo === "clausura"
-        ? `Fecha ${numMostrar} (Clausura) ▾`
-        : `Fecha ${fecha.num} ▾`;
+    const labelTorneoFijo = torneo === "clausura" ? " (Clausura)" : "";
+    
+    // NUEVO: Texto integrado en el summary con el total de goles de la fecha
+    const labelFecha = `Fecha ${numMostrar}${labelTorneoFijo} — ⚽ Goles de la fecha: ${totalGolesFecha} ▾`;
 
     cardFecha.innerHTML = `
       <details>
@@ -336,6 +350,171 @@ fechasDisputadas.forEach((fecha) => {
     contenedorFechas.appendChild(cardFecha);
   });
 }
+*/
+
+
+/**
+ * Suma los goles de todos los partidos de una fecha específica en todas las categorías
+ */
+function calcularGolesTotalesPorFecha(serie, numeroFecha, torneo = "anual") {
+  let golesTotalesFecha = 0;
+  
+  if (!serie || !serie.categorias) return 0;
+
+  // Recorremos todas las categorías de la serie (ej: Sub-8, Sub-9, etc.)
+  Object.values(serie.categorias).forEach(catData => {
+    if (!catData.fechas) return;
+
+    // Buscamos la fecha correspondiente en esta categoría
+    const fechaObj = catData.fechas.find(f => f.num === numeroFecha);
+    if (!fechaObj || !fechaObj.partidos) return;
+
+    // Sumamos los goles de cada partido de la categoría en esta fecha
+    fechaObj.partidos.forEach(p => {
+      if (p.gl !== null && p.gv !== null) {
+        golesTotalesFecha += Number(p.gl) + Number(p.gv);
+      }
+    });
+  });
+
+  return golesTotalesFecha;
+}
+
+/**
+ * Renderiza las fechas mostrando el total global de goles de esa fecha (todas las categorías)
+ */
+/*
+function renderizarFechasGeneral(serie, contenedorId = "contenedor-fechas", torneo = "anual") {
+  const contenedorFechas = document.getElementById(contenedorId);
+  if (!contenedorFechas || !serie || !serie.categorias) return;
+
+  contenedorFechas.innerHTML = "";
+
+  // Tomamos las fechas de la primera categoría disponible como referencia de números de fecha
+  const primeraCat = Object.values(serie.categorias)[0];
+  if (!primeraCat || !primeraCat.fechas) return;
+
+  primeraCat.fechas.forEach(fRef => {
+    const numFecha = fRef.num;
+    
+    // Obtenemos el total global de goles para esta fecha sumando todas las categorías
+    const totalGolesGlobal = calcularGolesTotalesPorFecha(serie, numFecha, torneo);
+
+    const cardFecha = document.createElement("div");
+    cardFecha.className = "card-fecha-global";
+
+    const labelFecha = `Fecha ${numFecha} — ⚽ Goles Totales (Todas las categorías): ${totalGolesGlobal} ▾`;
+
+    cardFecha.innerHTML = `
+      <details>
+        <summary><strong>${labelFecha}</strong></summary>
+        <div class="detalle-fecha-info">
+          <p>Esta fecha acumuló <strong>${totalGolesGlobal} goles</strong> sumando las diferentes categorías de la serie.</p>
+        </div>
+      </details>
+    `;
+
+    contenedorFechas.appendChild(cardFecha);
+  });
+}
+*/
+/**
+ * Renderiza el fixture de partidos y calcula los goles según la categoría seleccionada (individual o general)
+ */
+function renderizarFechas(serie, idCat, contenedorId = "contenedor-fechas", torneo = "anual") {
+  const contenedorFechas = document.getElementById(contenedorId);
+  if (!contenedorFechas || !serie || !serie.categorias) return;
+
+  contenedorFechas.innerHTML = "";
+
+  // 1. Tomamos las fechas de referencia utilizando la primera categoría disponible en la serie
+  const primeraCat = Object.values(serie.categorias)[0];
+  if (!primeraCat || !primeraCat.fechas) return;
+
+  const limiteApertura = obtenerLimiteApertura(serie);
+
+  primeraCat.fechas.forEach((fRef) => {
+    const numFecha = fRef.num;
+
+    // Filtros de fase (Apertura / Clausura)
+    if (torneo === "apertura" && numFecha > limiteApertura) return;
+    if (torneo === "clausura" && numFecha <= limiteApertura) return;
+
+    const cardFecha = document.createElement("div");
+    cardFecha.className = "card-fecha";
+
+    let numMostrar = numFecha;
+    if (torneo === "clausura") {
+      numMostrar = numFecha - limiteApertura;
+    }
+    const labelTorneoFijo = torneo === "clausura" ? " (Clausura)" : "";
+
+    // 2. Si el usuario seleccionó "Tabla General (Acumulado)"
+    if (idCat === "general") {
+      let golesTotalesGlobal = 0;
+
+      Object.values(serie.categorias).forEach((catData) => {
+        if (!catData.fechas) return;
+        const fechaCat = catData.fechas.find((f) => f.num === numFecha);
+        if (fechaCat && fechaCat.partidos) {
+          fechaCat.partidos.forEach((p) => {
+            if (p.gl !== null && p.gv !== null) {
+              golesTotalesGlobal += Number(p.gl) + Number(p.gv);
+            }
+          });
+        }
+      });
+
+      cardFecha.innerHTML = `
+        <details>
+          <summary>Fecha ${numMostrar}${labelTorneoFijo} — ⚽ Goles Totales (Todas las categorías): ${golesTotalesGlobal} ▾</summary>
+          <div class="detalle-general-info" style="padding: 10px; font-size: 0.9rem; color: #334155;">
+            <p>Total de goles convertidos en la fecha ${numMostrar} sumando todas las categorías: <strong>${golesTotalesGlobal}</strong></p>
+          </div>
+        </details>
+      `;
+    } else {
+      // 3. Si se seleccionó una Categoría Específica (desglose de partidos y goles de esa categoría)
+      const catData = serie.categorias.find((c) => c.id === idCat);
+      const fechaObj = catData?.fechas.find((f) => f.num === numFecha);
+
+      if (!fechaObj || !fechaObj.partidos) return;
+
+      let golesFechaCat = 0;
+      let partidosHTML = "";
+
+      fechaObj.partidos.forEach((p) => {
+        const gl = p.gl !== null ? p.gl : "-";
+        const gv = p.gv !== null ? p.gv : "-";
+        if (p.gl !== null && p.gv !== null) {
+          golesFechaCat += Number(p.gl) + Number(p.gv);
+        }
+
+        partidosHTML += `
+          <tr>
+            <td class="equipo-local">${p.local}</td>
+            <td class="resultado"><strong>${gl} - ${gv}</strong></td>
+            <td class="equipo-visitante">${p.visitante}</td>
+          </tr>
+        `;
+      });
+
+      const labelFecha = `Fecha ${numMostrar}${labelTorneoFijo} — ⚽ Goles: ${golesFechaCat} ▾`;
+
+      cardFecha.innerHTML = `
+        <details>
+          <summary>${labelFecha}</summary>
+          <table class="tabla-partidos">
+            <tbody>${partidosHTML}</tbody>
+          </table>
+        </details>
+      `;
+    }
+
+    contenedorFechas.appendChild(cardFecha);
+  });
+}
+
 
 /**
  * Renderiza los datos calculados dentro del <tbody>
