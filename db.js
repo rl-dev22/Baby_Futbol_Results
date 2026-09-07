@@ -42386,8 +42386,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 6,
+                      gv: 1,
                     },
                     {
                       local: "Rayo Rojo",
@@ -43495,8 +43495,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Rayo Rojo",
@@ -44604,8 +44604,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Rayo Rojo",
@@ -45713,8 +45713,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Rayo Rojo",
@@ -49040,8 +49040,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Rinconada",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Rayo Rojo",
@@ -61216,7 +61216,7 @@ const ZONA_8_DB = {
     //Liga arm, asociación Regional de Mvdeo.
     {
       id: "arm",
-      nombre: "Asociación Regional de Montevideo (ARM)",
+      nombre: "Liga ARM (Asociación Regional de Montevideo)",
       puntosPG: 2,
       series: [
         {
@@ -61239,6 +61239,197 @@ const ZONA_8_DB = {
             "Arapey Mendoza",
             "La Lata",
           ],
+        categorias: [
+          {
+            id: "2020",
+            fechas: [
+      
+              {
+              num: 1,
+              partidos: [
+                {
+                    local: "Toledo Chico",
+                    visitante: "La lata",
+                    gl: null,
+                    gv: null,
+                },
+             
+              
+              ]
+            },  
+              {
+              num: 2,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Primavera",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },  
+              {
+              num: 3,
+              partidos: [
+                {
+                    local: "Galácticos",
+                    visitante: "La lata",
+                    gl: null,
+                    gv: null,
+                },
+                
+              
+              ]
+            },  
+              {
+              num: 4,
+              partidos: [
+                {
+                    local: "Málaga",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+              
+              
+              ]
+            },  
+              {
+              num: 5,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "San Martín Bonomi",
+                    gl: null,
+                    gv: null,
+                },
+               
+              ]
+            },  
+              {
+              num: 6,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Flores Palmas",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },    
+              {
+              num: 7,
+              partidos: [
+                {
+                    local: "Fenix",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+               
+              ]
+            },  
+              {
+              num: 8,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Montevideo Belgrano",
+                    gl: null,
+                    gv: null,
+                },
+               
+              ]
+            },  
+               {
+              num: 9,
+              partidos: [
+                {
+                    local: "Potencia",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+               
+              
+              ]
+            },   {
+              num: 10,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Celtic Jrs",
+                    gl: null,
+                    gv: null,
+                },
+            
+              
+              ]
+            },   {
+              num: 11,
+              partidos: [
+                {
+                    local: "Celtic Jrs.",
+                    visitante: "",
+                    gl: null,
+                    gv: null,
+                },
+                
+              
+              ]
+            },   {
+              num: 12,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Rocha",
+                    gl: null,
+                    gv: null,
+                },
+               
+              
+              ]
+            },   {
+              num: 13,
+              partidos: [
+                {
+                    local: "Tacuarembó",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+             
+              
+              ]
+            },   {
+              num: 14,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Flor de Maroñas",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },   {
+              num: 15,
+              partidos: [
+                {
+                    local: "Arapey Mendoza",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },   
+          ]}
+          
+        ],
+
         },
       ],
     },
