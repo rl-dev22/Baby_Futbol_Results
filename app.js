@@ -1,5 +1,132 @@
 // app.js - Lógica para conectar la interfaz y calcular tablas dinámicas
 
+const ESCUDOS_CLUBES = {
+  // --- YA DEFINIDOS ---
+  "San Francisco": "escudos/san-francisco.png",
+  "Las Flores": "escudos/las-flores.png",
+  "Yegros": "escudos/yegros.png",
+  "Isidro Fynn": "escudos/isidro-fynn.png",
+  "Bochas": "escudos/bochas.png",
+  "Urreta": "escudos/urreta.png",
+  "Malvín Alto": "escudos/malvin-alto.png",
+  "Deportivo Uruguayo": "escudos/deportivo-uruguayo.png",
+  "Estrella del Norte": "escudos/estrella-del-norte.png",
+  "3 de Abril": "escudos/3-de-abril.png",
+  "Ombú Jrs.": "escudos/ombu-jrs.png",
+  "Cosmos Corinto": "escudos/cosmos-corinto.png",
+  "Pablan": "escudos/pablan.png",
+  "Libertad Washington": "escudos/libertad-washington.png",
+  "Covicenova": "escudos/covicenova.png",
+  "Aviación Lezica": "escudos/aviacion-lezica.png",
+  "Santa Catalina": "escudos/santa-catalina.webp",
+  "Urunday": "escudos/urunday.png",
+  "La Rinconada": "escudos/rinconada.png",
+  "Stockolmo": "escudos/stockolmo.png",
+  "Carabelas": "escudos/C-carabelas_4.webp",
+  "Alas Rojas": "escudos/alas_4-1.webp",
+
+  // --- LIGA PALERMO (SERIE A) ---
+  "Poco Sitio": "escudos/nada",
+  "Enrique López": "escudos/nada",
+  "Maeso": "escudos/nada",
+  "La Escalinata": "escudos/nada",
+  "Mirador": "escudos/nada",
+  "Euskal Erria": "escudos/nada",
+  "La Picada": "escudos/nada",
+  "Rayo Rojo": "escudos/nada",
+  "Don Bosco": "escudos/nada",
+  "Est. del Sur": "escudos/nada",
+  "Unión Vecinal": "escudos/nada",
+
+  // --- LIGA PALERMO (SERIE B) ---
+  "Intermezzo": "escudos/intermeso_4.webp",
+  "Nvo. Amanecer": "escudos/nuevoama_4.webp",
+  "R. del Reducto": "escudos/reincon_4.webp",
+  "Sur2000": "escudos/sur_4.webp",
+  "Dep. Oriental": "escudos/cdo_4.webp",
+  "Nuevo América": "escudos/AMERICA_4.webp",
+  "Nueva Palmira": "escudos/nuevapal_4.webp",
+  "Uruguay Buceo": "escudos/uruguay_4-1.webp",
+  "Aebu": "escudos/AEBU_4.WEBP",
+  "Exploradores": "escudos/exploradores_4.webp",
+  "Terremoto": "escudos/terremo_4.webp",
+  "Est. de la Unión": "escudos/estudiantes_4.webp",
+  "Dryco": "escudos/deyco_4.webp",
+
+  // --- LIGA PASO MOLINO ---
+  "Naranja Mecánica": "escudos/naranjamecanica.webp",
+  "Holanda": "escudos/holanda.webp",
+  "Nuevo Juventud": "escudos/nj.webp",
+  "Brandi": "escudos/brandi.webp",
+  "Independiente Lezica": "escudos/indlezica.webp",
+  "Papotes": "escudos/papotes.webp",
+  "Beco": "escudos/beco.webp",
+  "Cerromar": "escudos/cerromar.webp",
+  "Tigre": "escudos/tigre.webp",
+  "Zorzal": "escudos/zorzal.webp",
+  "Sauce": "escudos/sauce.webp",
+  "Estrella Federal": "escudos/estrellafederal.webp",
+  "Iriarte": "escudos/iriarte.webp",
+  "Los Magos": "escudos/losmagos.webp",
+  "Los Bulevares": "escudos/losbulevares.webp",
+  "Pesca": "escudos/pesca.webp",
+  "Olimpo Jrs": "escudos/olimpojrs.webp",
+  "Universal": "escudos/universal.webp",
+  "Cerro Jrs": "escudos/cerrojrs.webp",
+
+
+  // --- LIGA ARM (ASOCIACIÓN REGIONAL DE MONTEVIDEO) ---
+  "Toledo Chico": "escudos/nada",
+  "Primavera": "escudos/nada",
+  "Galácticos": "escudos/nada",
+  "Málaga": "escudos/nada",
+  "San Martín Bonomi": "escudos/nada",
+  "Flores Palmas": "escudos/nada",
+  "Fénix": "escudos/nada",
+  "Montevideo Belgrano": "escudos/nada",
+  "Potencia": "escudos/nada",
+  "Celtic Jrs": "escudos/nada",
+  "Rocha": "escudos/nada",
+  "Tacuarembó": "escudos/nada",
+  "Flor de Maroñas": "escudos/nada",
+  "Arapey Mendoza": "escudos/nada",
+  "La Lata": "escudos/lalata.jpg",
+
+  // --- LIGA URUGUAYA ---
+  "Cohami": "escudos/nada",
+  "Marconi": "escudos/nada",
+  "Ciclón del Cerrito": "escudos/nada",
+  "La Tentación": "escudos/nada",
+  "Santa Ana": "escudos/nada",
+  "Juventud Unida": "escudos/nada",
+  "Niágara": "escudos/nada",
+  "Fabián Perea": "escudos/nada",
+  "Royal": "escudos/nada",
+  "Siete Estrellas": "escudos/7e.jpg",
+  "Carlitos Prado": "escudos/nada",
+
+  // --- LIGA PIEDRAS BLANCAS ---
+  "Celiar": "escudos/nada",
+  "Once Rojo": "escudos/nada",
+  "Integración": "escudos/nada",
+  "Alumni": "escudos/nada",
+  "Punta de Rieles": "escudos/nada",
+  "Juana de América": "escudos/nada",
+  "Ituzaingó": "escudos/nada",
+  "Libertad": "escudos/nada",
+  "Parque Guaraní": "escudos/nada",
+  "Estrella de Oro": "escudos/nada",
+  "J de Manga": "escudos/nada",
+  "Fray Bentos": "escudos/nada"
+
+};
+
+// Función auxiliar para obtener el logo o una imagen por defecto
+function obtenerEscudo(nombreClub) {
+  return ESCUDOS_CLUBES[nombreClub] || "escudos/default.png";
+}
+
+
 const CATEGORIAS_STANDARD = [
   { id: "2020", nombre: "2020" },
   { id: "2019", nombre: "2019" },
@@ -490,11 +617,20 @@ function renderizarFechas(serie, idCat, contenedorId = "contenedor-fechas", torn
           golesFechaCat += Number(p.gl) + Number(p.gv);
         }
 
+        // Obtener rutas de los escudos
+      const imgLocal = obtenerEscudo(p.local);
+      const imgVisitante = obtenerEscudo(p.visitante);
         partidosHTML += `
           <tr>
-            <td class="equipo-local">${p.local}</td>
+            <td class="equipo-local">
+              <span>${p.local}</span>
+              <img src="${imgLocal}" alt="${p.local}" class="escudo-equipo" />
+            </td>
             <td class="resultado"><strong>${gl} - ${gv}</strong></td>
-            <td class="equipo-visitante">${p.visitante}</td>
+            <td class="equipo-visitante">
+              <img src="${imgVisitante}" alt="${p.visitante}" class="escudo-equipo" />
+              <span>${p.visitante}</span>
+            </td>
           </tr>
         `;
       });
@@ -525,9 +661,14 @@ function renderizarTablaEnHTML(tbodyElement, datosTabla) {
 
   datosTabla.forEach((equipo, index) => {
     const tr = document.createElement("tr");
+    const imgEscudo = obtenerEscudo(equipo.nombre);
+    
     tr.innerHTML = `
       <td><strong>${index + 1}</strong></td>
-      <td class="equipo-nombre">${equipo.nombre}</td>
+      <td class="equipo-nombre" style="display: flex; align-items: center; gap: 8px;">
+        <img src="${imgEscudo}" alt="${equipo.nombre}" class="escudo-equipo" />
+        <span>${equipo.nombre}</span>
+      </td>
       <td><strong>${equipo.pts}</strong></td>
       <td>${equipo.pj}</td>
       <td>${equipo.pg}</td>
@@ -536,12 +677,11 @@ function renderizarTablaEnHTML(tbodyElement, datosTabla) {
       <td>${equipo.gf}</td>
       <td>${equipo.gc}</td>
       <td>${equipo.dg > 0 ? "+" + equipo.dg : equipo.dg}</td>
-      <td>${equipo.ptsInf}</td> <!-- NUEVA CELDA -->
+      <td>${equipo.ptsInf}</td>
     `;
     tbodyElement.appendChild(tr);
   });
 }
-
 function actualizarVista() {
   const idLiga = document.getElementById("select-liga").value;
   const idSerie = document.getElementById("select-serie").value;
@@ -567,14 +707,25 @@ function actualizarVista() {
 
     tituloH2.textContent = `${liga.nombre} - ${serie ? serie.nombre : ""} (${etiquetaCategoria})`;
   }
-
-  // Lista de clubes
+// Lista de clubes
   if (listaUl) {
     listaUl.innerHTML = "";
     if (serie && serie.clubes) {
       serie.clubes.forEach((club) => {
         const li = document.createElement("li");
-        li.textContent = `⚽ ${club}`;
+        const imgEscudo = obtenerEscudo(club);
+
+        // Agregamos el escudo y el nombre dentro del <li>
+        li.innerHTML = `
+          <img src="${imgEscudo}" alt="${club}" class="escudo-lista" onerror="this.src='escudos/default.png';" />
+          <span>${club}</span>
+        `;
+        
+        // Estilo flexible para alinearlo bonito
+        li.style.display = "flex";
+        li.style.alignItems = "center";
+        li.style.gap = "8px";
+
         listaUl.appendChild(li);
       });
     }

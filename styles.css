@@ -1,7 +1,16 @@
+/* ==========================================
+   ESTILOS GENERALES Y LAYOUT CENTRADO
+   ========================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f6f8;
-  margin: 20px;
+  margin: 20px auto;
+  max-width: 1100px;
+  padding: 0 15px;
   color: #333;
 }
 
@@ -16,6 +25,7 @@ h1 {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin-bottom: 20px;
   display: flex;
+  flex-wrap: wrap; 
   gap: 15px;
 }
 
@@ -45,23 +55,27 @@ li {
 
 .contenedor-tabla {
   background: #fff;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 0px 5px rgba(0,0,0,0.1);
   margin-top: 20px;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
+/* ==========================================
+   TABLA DE POSICIONES
+   ========================================== */
 .tabla-posiciones {
-  width: 50%;
+  width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .tabla-posiciones th, 
 .tabla-posiciones td {
-  padding: 10px 12px;
+  padding: 8px 10px;
   text-align: center;
   border-bottom: 1px solid #e0e0e0;
 }
@@ -79,33 +93,32 @@ li {
 .tabla-posiciones .equipo-nombre {
   text-align: left;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 /* ==========================================
    SECCIÓN FECHAS DISPUTADAS / FIXTURE
    ========================================== */
-
 #seccion-fechas {
   margin-top: 2rem;
 }
 
-/* Grilla para distribuir las tarjetas de las fechas */
 #contenedor-fechas {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+  gap: 1.25rem;
   margin-top: 1rem;
-  align-items: start; /* <- Esto evita que las tarjetas vecinas se estiren en altura */
+  align-items: start;
 }
 
-/* Estilo de la tarjeta individual de cada fecha */
 .card-fecha {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
-  padding: 1rem 1.25rem;
-  border-top: 4px solid #1e3a8a; /* Azul institucional/deportivo */
+  padding: 1rem 0.8rem;
+  border-top: 4px solid #1e3a8a;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
 }
 
 .card-fecha:hover {
@@ -113,7 +126,6 @@ li {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
 
-/* Estilos para la vista comprimida (details / summary) */
 .card-fecha details {
   width: 100%;
 }
@@ -143,49 +155,64 @@ li {
 .tabla-partidos {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
+  table-layout: fixed;
 }
 
 .tabla-partidos td {
-  padding: 0.4rem 0.2rem;
+  padding: 0.35rem 0.2rem;
   vertical-align: middle;
 }
 
-/* Alineaciones para local, resultado y visitante */
-.tabla-partidos .equipo-local {
+/* Asignación de anchos para evitar desbordes */
+.tabla-partidos td.equipo-local {
+  width: 42%;
   text-align: right;
-  width: 40%;
   font-weight: 500;
   color: #334155;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
-.tabla-partidos .resultado {
+.tabla-partidos td.resultado {
+  width: 16%;
   text-align: center;
-  width: 20%;
   background-color: #f8fafc;
   border-radius: 4px;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  font-weight: bold;
   color: #0f172a;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0;
 }
 
-.tabla-partidos .equipo-visitante {
+.tabla-partidos td.equipo-visitante {
+  width: 42%;
   text-align: left;
-  width: 40%;
   font-weight: 500;
   color: #334155;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
-/* Filas alternadas suaves para mejor lectura */
 .tabla-partidos tbody tr:nth-child(even) {
   background-color: #f8fafc;
 }
 
+/* Escudos de equipos */
+.escudo-equipo {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin: 0 4px;
+  flex-shrink: 0;
+}
 
 /* ==========================================
-   ESTILOS PARA SELECTORES DUPLICADOS Y EN PARALELO
+   SELECTORES Y CONTROLES
    ========================================== */
-
 .grupo-selectores {
   display: flex;
   gap: 20px;
@@ -219,4 +246,64 @@ li {
 .cabecera-tabla-controles h3 {
   margin: 0;
   color: #0d47a1;
+}
+
+#lista-clubes, .lista-clubes-grid {
+  list-style: none;
+  padding-left: 0;
+}
+
+.escudo-lista {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* ==========================================
+   RESPONSIVO PARA MÓVILES (< 600px)
+   ========================================== */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 8px;
+  }
+
+  .contenedor-tabla, .contenedor-clubes {
+    padding: 10px 5px;
+  }
+
+  .tabla-posiciones {
+    font-size: 0.78rem;
+  }
+
+  .tabla-posiciones th, 
+  .tabla-posiciones td {
+    padding: 6px 3px;
+  }
+
+  .tabla-posiciones .equipo-nombre {
+    max-width: 110px;
+    overflow: hidden;
+  }
+
+  .tabla-posiciones th:nth-child(6), .tabla-posiciones td:nth-child(6),
+  .tabla-posiciones th:nth-child(7), .tabla-posiciones td:nth-child(7),
+  .tabla-posiciones th:nth-child(8), .tabla-posiciones td:nth-child(8),
+  .tabla-posiciones th:nth-child(9), .tabla-posiciones td:nth-child(9) {
+    display: none;
+  }
+
+  #contenedor-fechas {
+    grid-template-columns: 1fr;
+  }
+
+  .tabla-partidos {
+    font-size: 0.78rem;
+  }
+
+  .escudo-equipo {
+    width: 16px;
+    height: 16px;
+    margin: 0 2px;
+  }
 }
