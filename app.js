@@ -1,42 +1,68 @@
 // app.js - Lógica para conectar la interfaz y calcular tablas dinámicas
 
 const ESCUDOS_CLUBES = {
+
+    // --- LIGA PIEDRAS BLANCAS ---
+  "Celiar": "escudos/celiar.jpg",
+  "Once Rojo": "escudos/oncerojo.jpg",
+  "Integración": "escudos/nada",
+  "Alumni": "escudos/nada",
+  "Punta de Rieles": "escudos/nada",
+  "Juana de América": "escudos/nada",
+  "Ituzaingó": "escudos/nada",
+  "Libertad": "escudos/nada",
+  "Parque Guaraní": "escudos/nada",
+  "Estrella de Oro": "escudos/nada",
+  "J de Manga": "escudos/nada",
+  "Fray Bentos": "escudos/nada",
+
+
   // --- YA DEFINIDOS ---
-  "San Francisco": "escudos/san-francisco.png",
-  "Las Flores": "escudos/las-flores.png",
-  "Yegros": "escudos/yegros.png",
-  "Isidro Fynn": "escudos/isidro-fynn.png",
-  "Bochas": "escudos/bochas.png",
-  "Urreta": "escudos/urreta.png",
-  "Malvín Alto": "escudos/malvin-alto.png",
-  "Deportivo Uruguayo": "escudos/deportivo-uruguayo.png",
-  "Estrella del Norte": "escudos/estrella-del-norte.png",
-  "3 de Abril": "escudos/3-de-abril.png",
-  "Ombú Jrs.": "escudos/ombu-jrs.png",
-  "Cosmos Corinto": "escudos/cosmos-corinto.png",
-  "Pablan": "escudos/pablan.png",
-  "Libertad Washington": "escudos/libertad-washington.png",
-  "Covicenova": "escudos/covicenova.png",
-  "Aviación Lezica": "escudos/aviacion-lezica.png",
-  "Santa Catalina": "escudos/santa-catalina.webp",
-  "Urunday": "escudos/urunday.png",
+  "Urunday": "escudos/urunday_4.webp",
   "La Rinconada": "escudos/rinconada.png",
   "Stockolmo": "escudos/stockolmo.png",
   "Carabelas": "escudos/C-carabelas_4.webp",
   "Alas Rojas": "escudos/alas_4-1.webp",
 
+
+
+  // --- LIGA PRADO ---
+  "San Francisco": "escudos/sanfran.jpg",
+  "Las Flores": "escudos/las flores.jpg",
+  "Yegros": "escudos/yegros.jpg",
+  "Isidro Fynn": "escudos/isidrofynn.jpg",
+  "Bochas": "escudos/bochas.jpg",
+  "Urreta": "escudos/urreta.jpg",
+  "Malvín Alto": "escudos/malvinalto.jpg",
+  "Deportivo Uruguayo": "escudos/deporuy.jpg",
+  "Estrella del Norte": "escudos/estrella del norte.jpg",
+  "3 de Abril": "escudos/3deabril.jpg",
+  "Ombú Jrs.": "escudos/ombujrs.jpg",
+  "Cosmos Corinto": "escudos/cosmos.jpg",
+  "Pablan": "escudos/pablan.jpg",
+  "Libertad Washington": "escudos/lw.jpg",
+  "Covicenova": "escudos/covicenova.jpg",
+  "Aviación Lezica": "escudos/aviacionlezica.jpg",
+  "Santa Catalina": "escudos/santa-catalina.webp",
+
+
+
+
+
+
+
   // --- LIGA PALERMO (SERIE A) ---
-  "Poco Sitio": "escudos/nada",
-  "Enrique López": "escudos/nada",
-  "Maeso": "escudos/nada",
-  "La Escalinata": "escudos/nada",
-  "Mirador": "escudos/nada",
-  "Euskal Erria": "escudos/nada",
-  "La Picada": "escudos/nada",
-  "Rayo Rojo": "escudos/nada",
-  "Don Bosco": "escudos/nada",
-  "Est. del Sur": "escudos/nada",
-  "Unión Vecinal": "escudos/nada",
+  "Poco Sitio": "escudos/pocositio_4.webp",
+  "Enrique López": "escudos/enrrique_4.webp",
+  "Maeso": "escudos/maeso_4.webp",
+  "La Escalinata": "escudos/escalinata_4.webp",
+  "Mirador": "escudos/mirador_4.webp",
+  "Euskal Erria": "escudos/euskalerria_4.webp",
+  "La Picada": "escudos/lapicada_4.webp",
+  "Rayo Rojo": "escudos/rayorojo_4.webp",
+  "Don Bosco": "escudos/donbosco_4.webp",
+  "Est. del Sur": "escudos/estrella_4.webp",
+  "Unión Vecinal": "escudos/union_4.webp",
 
   // --- LIGA PALERMO (SERIE B) ---
   "Intermezzo": "escudos/intermeso_4.webp",
@@ -47,7 +73,7 @@ const ESCUDOS_CLUBES = {
   "Nuevo América": "escudos/AMERICA_4.webp",
   "Nueva Palmira": "escudos/nuevapal_4.webp",
   "Uruguay Buceo": "escudos/uruguay_4-1.webp",
-  "Aebu": "escudos/AEBU_4.WEBP",
+  "Aebu": "escudos/AEBU_4.webp",
   "Exploradores": "escudos/exploradores_4.webp",
   "Terremoto": "escudos/terremo_4.webp",
   "Est. de la Unión": "escudos/estudiantes_4.webp",
@@ -105,19 +131,7 @@ const ESCUDOS_CLUBES = {
   "Siete Estrellas": "escudos/7e.jpg",
   "Carlitos Prado": "escudos/nada",
 
-  // --- LIGA PIEDRAS BLANCAS ---
-  "Celiar": "escudos/nada",
-  "Once Rojo": "escudos/nada",
-  "Integración": "escudos/nada",
-  "Alumni": "escudos/nada",
-  "Punta de Rieles": "escudos/nada",
-  "Juana de América": "escudos/nada",
-  "Ituzaingó": "escudos/nada",
-  "Libertad": "escudos/nada",
-  "Parque Guaraní": "escudos/nada",
-  "Estrella de Oro": "escudos/nada",
-  "J de Manga": "escudos/nada",
-  "Fray Bentos": "escudos/nada"
+
 
 };
 
