@@ -272,6 +272,33 @@ li {
     padding: 10px 5px;
   }
 
+  /* Alineación completa para selectores de Liga, Serie y Categoría */
+  .panel-filtros,
+  .grupo-selectores {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .panel-filtros .selector-item,
+  .selector-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 4px;
+  }
+
+  .panel-filtros select,
+  .selector-item select,
+  select {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  /* Tabla de posiciones */
   .tabla-posiciones {
     font-size: 0.78rem;
   }
@@ -293,6 +320,7 @@ li {
     display: none;
   }
 
+  /* Fixture / Tarjetas */
   #contenedor-fechas {
     grid-template-columns: 1fr;
   }

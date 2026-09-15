@@ -4,6 +4,5511 @@ const ZONA_8_DB = {
   zona: "Zona 8",
   ligas: [
 
+    
+    //Piedras Blancas
+    {
+      id: "piedras-blancas",
+      nombre: "Liga Piedras Blancas",
+      puntosPG: 2,
+
+      series: [
+        {
+          id: "pb-unica",
+          nombre: "Serie Única",
+          clubes: [
+            "Celiar",
+            "Once Rojo",
+            "Integración",
+            "Alumni",
+            "Punta de Rieles",
+            "Juana de América",
+            "Ituzaingó",
+            "Libertad",
+            "Parque Guaraní",
+            "Estrella de Oro",
+            "J de Manga",
+            "Fray Bentos"
+          ],
+        categorias:[
+         {
+              id: "2020",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 2,
+                      gv: 2,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2019",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 1,
+                      gv: 1,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2018",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: 0,
+                      gv: 1,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 0,
+                      gv: 4,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2017",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: 1,
+                      gv: 2,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 1,
+                      gv: 1,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2016",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: 0,
+                      gv: 6,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 1,
+                      gv: 0,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2015",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: 2,
+                      gv: 2,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 2,
+                      gv: 1,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2014",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: 0,
+                      gv: 6,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 0,
+                      gv: 5,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+          {
+              id: "2013",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: 0,
+                      gv: 1,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 1,
+                      gv: 2,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+            {
+              id: "sub-13 fem",
+              fechas: [
+                //Fecha 1
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "Fray Bentos",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                //Fecha 2
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    }, 
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 3
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Punta de Rieles",
+                      gl: 1,
+                      gv: 1,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 4
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 5
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 6
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Juana de América",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Libertad",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 7
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "J de Manga",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                 
+                  
+                  ],
+                },
+                 //Fecha 8
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                      {
+                      local: "Juana de América",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 9
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Alumni",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 10
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Libertad",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                 //Fecha 11
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                       {
+                      local: "Integración",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  
+                  ],
+                },
+                                // Fecha 12
+                {
+                  num: 12,
+                  partidos: [
+                    {
+                      local: "J de Manga",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juana de América",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 13
+                {
+                  num: 13,
+                  partidos: [
+                    {
+                      local: "Once Rojo",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 14
+                {
+                  num: 14,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 15
+                {
+                  num: 15,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Once Rojo",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Alumni",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 16
+                {
+                  num: 16,
+                  partidos: [
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 17
+                {
+                  num: 17,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 18
+                {
+                  num: 18,
+                  partidos: [
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "J de Manga",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Parque Guaraní",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 19
+                {
+                  num: 19,
+                  partidos: [
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Ituzaingó",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Celiar",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Integración",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Juana de América",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 20
+                {
+                  num: 20,
+                  partidos: [
+                    {
+                      local: "Alumni",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Estrella de Oro",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 21
+                {
+                  num: 21,
+                  partidos: [
+                    {
+                      local: "Celiar",
+                      visitante: "Fray Bentos",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Estrella de Oro",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Once Rojo",
+                      visitante: "Punta de Rieles",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                // Fecha 22
+                {
+                  num: 22,
+                  partidos: [
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Celiar",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Punta de Rieles",
+                      visitante: "Parque Guaraní",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fray Bentos",
+                      visitante: "Integración",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+
+              ]
+          },
+      ]
+    }]
+    },
+ 
+    //Liga arm, asociación Regional de Mvdeo.
+    {
+      id: "arm",
+      nombre: "Liga ARM (Asociación Regional de Montevideo)",
+      puntosPG: 2,
+      series: [
+        {
+          id: "arm-unica",
+          nombre: "Serie Única",
+          clubes: [
+            "Toledo Chico",
+            "Primavera",
+            "Galácticos",
+            "Málaga",
+            "San Martín Bonomi",
+            "Flores Palmas",
+            "Fénix",
+            "Montevideo Belgrano",
+            "Potencia",
+            "Celtic Jrs",
+            "Rocha",
+            "Tacuarembó",
+            "Flor de Maroñas",
+            "Arapey Mendoza",
+            "La Lata",
+          ],
+        categorias: [
+          {
+            id: "2020",
+            fechas: [
+      
+              {
+              num: 1,
+              partidos: [
+                {
+                    local: "Toledo Chico",
+                    visitante: "La lata",
+                    gl: null,
+                    gv: null,
+                },
+             
+              
+              ]
+            },  
+              {
+              num: 2,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Primavera",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },  
+              {
+              num: 3,
+              partidos: [
+                {
+                    local: "Galácticos",
+                    visitante: "La lata",
+                    gl: null,
+                    gv: null,
+                },
+                
+              
+              ]
+            },  
+              {
+              num: 4,
+              partidos: [
+                {
+                    local: "Málaga",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+              
+              
+              ]
+            },  
+              {
+              num: 5,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "San Martín Bonomi",
+                    gl: null,
+                    gv: null,
+                },
+               
+              ]
+            },  
+              {
+              num: 6,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Flores Palmas",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },    
+              {
+              num: 7,
+              partidos: [
+                {
+                    local: "Fenix",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+               
+              ]
+            },  
+              {
+              num: 8,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Montevideo Belgrano",
+                    gl: null,
+                    gv: null,
+                },
+               
+              ]
+            },  
+               {
+              num: 9,
+              partidos: [
+                {
+                    local: "Potencia",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+               
+              
+              ]
+            },   {
+              num: 10,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Celtic Jrs",
+                    gl: null,
+                    gv: null,
+                },
+            
+              
+              ]
+            },   {
+              num: 11,
+              partidos: [
+                {
+                    local: "Celtic Jrs.",
+                    visitante: "",
+                    gl: null,
+                    gv: null,
+                },
+                
+              
+              ]
+            },   {
+              num: 12,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Rocha",
+                    gl: null,
+                    gv: null,
+                },
+               
+              
+              ]
+            },   {
+              num: 13,
+              partidos: [
+                {
+                    local: "Tacuarembó",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+             
+              
+              ]
+            },   {
+              num: 14,
+              partidos: [
+                {
+                    local: "La Lata",
+                    visitante: "Flor de Maroñas",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },   {
+              num: 15,
+              partidos: [
+                {
+                    local: "Arapey Mendoza",
+                    visitante: "La Lata",
+                    gl: null,
+                    gv: null,
+                },
+              
+              ]
+            },   
+          ]}
+          
+        ],
+
+        },
+      ],
+    },
+    //Uruguaya
+    {
+      id: "uruguaya",
+      nombre: "Liga Uruguaya",
+      puntosPG: 2,
+
+      series: [
+        {
+          id: "uruguaya-unica",
+          nombre: "Serie Única",
+          clubes: [
+            "Cohami",
+            "Marconi",
+            "Ciclón del Cerrito",
+            "La Tentación",
+            "Santa Ana",
+            "Juventud Unida",
+            "Niágara",
+            "Fabián Perea",
+            "Royal",
+            "Siete Estrellas",
+            "Carlitos Prado",
+          ],
+          categorias: [
+            {
+              id: "2020",
+              fechas: [
+                {
+                  num: 1,
+                  partidos: [
+                    {
+                      local: "Marconi",
+                      visitante: "Juventud Unida",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ciclón del Cerrito",
+                      visitante: "Santa Ana",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Cohami",
+                      visitante: "La Tentación",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fabian Perea",
+                      visitante: "Siete Estrellas",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 2,
+                  partidos: [
+                    {
+                      local: "Carlitos Prado",
+                      visitante: "Ciclón del Cerrito",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juventud Unida",
+                      visitante: "La Tentación",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Santa Ana",
+                      visitante: "Royal",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 3,
+                  partidos: [
+                    {
+                      local: "Carlitos Prado",
+                      visitante: "Royal",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fabián Perea",
+                      visitante: "Juventud Unida",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Niágara",
+                      visitante: "La Tentación",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Siete Estrellas",
+                      visitante: "Cohami",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Marconi",
+                      visitante: "Santa Ana",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 4,
+                  partidos: [
+                    {
+                      local: "Carlitos Prado",
+                      visitante: "Marconi",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juventud Unida",
+                      visitante: "Siete Estrellas",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Santa Ana",
+                      visitante: "La Tentación",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 5,
+                  partidos: [
+                    {
+                      local: "Cohami",
+                      visitante: "Juventud Unida",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "La Tentación",
+                      visitante: "Carlitos Prado",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Niágara",
+                      visitante: "Siete Estrellas",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Fabian Perea",
+                      visitante: "Santa Ana",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 6,
+                  partidos: [
+                    {
+                      local: "Carlitos Prado",
+                      visitante: "Fabian Perea",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juventud Unida",
+                      visitante: "Fecha Libre",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Ciclón del Cerrito",
+                      visitante: "La Tentación",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Santa Ana",
+                      visitante: "Siete Estrellas",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 7,
+                  partidos: [
+                    {
+                      local: "Juventud Unida",
+                      visitante: "Niágara",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Siete Estrellas",
+                      visitante: "Carlitos Prado",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "La Tentación",
+                      visitante: "Royal",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Cohami",
+                      visitante: "Santa Ana",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 8,
+                  partidos: [
+                    {
+                      local: "Carlitos Prado",
+                      visitante: "Cohami",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Santa Ana",
+                      visitante: "Juventud Unida",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Marconi",
+                      visitante: "La Tentación",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 9,
+                  partidos: [
+                    {
+                      local: "Juventud Unida",
+                      visitante: "Carlitos Prado",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Niágara",
+                      visitante: "Santa Ana",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 10,
+                  partidos: [
+                    {
+                      local: "Carlitos Prado",
+                      visitante: "Niagara",
+                      gl: null,
+                      gv: null,
+                    },
+                     {
+                      local: "La Tentación",
+                      visitante: "Siete estrellas",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 11,
+                  partidos: [
+                    {
+                      local: "Santa Ana",
+                      visitante: "Carlitos Prado",
+                      gl: null,
+                      gv: null,
+                    },
+                    {
+                      local: "Juventud Unida",
+                      visitante: "Royal",
+                      gl: null,
+                      gv: null,
+                    },
+                  ],
+                },
+                {
+                  num: 12,
+                  partidos: [],
+                },
+                {
+                  num: 13,
+                  partidos: [],
+                },
+                {
+                  num: 14,
+                  partidos: [],
+                },
+                {
+                  num: 15,
+                  partidos: [],
+                },
+                {
+                  num: 16,
+                  partidos: [],
+                },
+                {
+                  num: 17,
+                  partidos: [],
+                },
+                {
+                  num: 18,
+                  partidos: [],
+                },
+                {
+                  num: 19,
+                  partidos: [],
+                },
+                {
+                  num: 20,
+                  partidos: [],
+                },
+                {
+                  num: 21,
+                  partidos: [],
+                },
+
+                {
+                  num: 22,
+                  partidos: [],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
     // Prado
     {
       id: "prado",
@@ -57660,5544 +63165,7 @@ const ZONA_8_DB = {
       ],
     },
    
-    //Piedras Blancas
-    {
-      id: "piedras-blancas",
-      nombre: "Liga Piedras Blancas",
-      puntosPG: 2,
-
-      series: [
-        {
-          id: "pb-unica",
-          nombre: "Serie Única",
-          clubes: [
-            "Celiar",
-            "Once Rojo",
-            "Integración",
-            "Alumni",
-            "Punta de Rieles",
-            "Juana de América",
-            "Ituzaingó",
-            "Libertad",
-            "Parque Guaraní",
-            "Estrella de Oro",
-            "J de Manga",
-            "Fray Bentos",
-          ],
-        categorias:[
-         {
-              id: "2020",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2019",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2018",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 0,
-                      gv: 4,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2017",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2016",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: 0,
-                      gv: 6,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 1,
-                      gv: 0,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2015",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: 2,
-                      gv: 2,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 2,
-                      gv: 1,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2014",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: 0,
-                      gv: 6,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 0,
-                      gv: 5,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-          {
-              id: "2013",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: 0,
-                      gv: 1,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 1,
-                      gv: 2,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-            {
-              id: "sub-13 fem",
-              fechas: [
-                //Fecha 1
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "Fray Bentos",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                //Fecha 2
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    }, 
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 3
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Punta de Rieles",
-                      gl: 1,
-                      gv: 1,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 4
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 5
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 6
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Juana de América",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Libertad",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 7
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "J de Manga",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                 
-                  
-                  ],
-                },
-                 //Fecha 8
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                      {
-                      local: "Juana de América",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 9
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Alumni",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 10
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Libertad",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                 //Fecha 11
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                       {
-                      local: "Integración",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  
-                  ],
-                },
-                                // Fecha 12
-                {
-                  num: 12,
-                  partidos: [
-                    {
-                      local: "J de Manga",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juana de América",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 13
-                {
-                  num: 13,
-                  partidos: [
-                    {
-                      local: "Once Rojo",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 14
-                {
-                  num: 14,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 15
-                {
-                  num: 15,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Once Rojo",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Alumni",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 16
-                {
-                  num: 16,
-                  partidos: [
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 17
-                {
-                  num: 17,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 18
-                {
-                  num: 18,
-                  partidos: [
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "J de Manga",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Parque Guaraní",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 19
-                {
-                  num: 19,
-                  partidos: [
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Ituzaingó",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Celiar",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Integración",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Juana de América",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 20
-                {
-                  num: 20,
-                  partidos: [
-                    {
-                      local: "Alumni",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Estrella de Oro",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 21
-                {
-                  num: 21,
-                  partidos: [
-                    {
-                      local: "Celiar",
-                      visitante: "Fray Bentos",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Estrella de Oro",
-                      visitante: "Libertad",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Once Rojo",
-                      visitante: "Punta de Rieles",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                // Fecha 22
-                {
-                  num: 22,
-                  partidos: [
-                    {
-                      local: "Ituzaingó",
-                      visitante: "Celiar",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Punta de Rieles",
-                      visitante: "Parque Guaraní",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fray Bentos",
-                      visitante: "Integración",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-
-              ]
-          },
-      ]
-    }]
-    },
    
-    //Piedras Blancas
-    {
-      id: "piedras-blancas",
-      nombre: "Liga Piedras Blancas",
-      puntosPG: 2,
-
-      series: [
-        {
-          id: "pb-unica",
-          nombre: "Serie Única",
-          clubes: [
-            "Celiar",
-            "Once Rojo",
-            "Integración",
-            "Alumni",
-            "Punta de Rieles",
-            "Juana de América",
-            "Ituzaingó",
-            "Libertad",
-            "Parque Guaraní",
-            "Estrella de Oro",
-            "J de Manga",
-            "Fray Bentos",
-          ],
-        },
-      ],
-      categorias:[
-        {
-          id: "2021",
-          fechas:[
-            {
-            num : 1,
-            partidos: [
-
-
-            ]
-          }
-          ]
-        }
-      ]
-    },
-    //Uruguaya
-    {
-      id: "uruguaya",
-      nombre: "Liga Uruguaya",
-      puntosPG: 2,
-
-      series: [
-        {
-          id: "uruguaya-unica",
-          nombre: "Serie Única",
-          clubes: [
-            "Cohami",
-            "Marconi",
-            "Ciclón del Cerrito",
-            "La Tentación",
-            "Santa Ana",
-            "Juventud Unida",
-            "Niágara",
-            "Fabián Perea",
-            "Royal",
-            "Siete Estrellas",
-            "Carlitos Prado",
-          ],
-          categorias: [
-            {
-              id: "2020",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Marconi",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ciclón del Cerrito",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Cohami",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fabian Perea",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Ciclón del Cerrito",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fabián Perea",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Niágara",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Siete Estrellas",
-                      visitante: "Cohami",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Marconi",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Marconi",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Cohami",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "La Tentación",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Niágara",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fabian Perea",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Fabian Perea",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Fecha Libre",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ciclón del Cerrito",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Niágara",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Siete Estrellas",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "La Tentación",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Cohami",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Cohami",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Marconi",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Niágara",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Niagara",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Santa Ana",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [],
-                },
-                {
-                  num: 13,
-                  partidos: [],
-                },
-                {
-                  num: 14,
-                  partidos: [],
-                },
-                {
-                  num: 15,
-                  partidos: [],
-                },
-                {
-                  num: 16,
-                  partidos: [],
-                },
-                {
-                  num: 17,
-                  partidos: [],
-                },
-                {
-                  num: 18,
-                  partidos: [],
-                },
-                {
-                  num: 19,
-                  partidos: [],
-                },
-                {
-                  num: 20,
-                  partidos: [],
-                },
-                {
-                  num: 21,
-                  partidos: [],
-                },
-
-                {
-                  num: 22,
-                  partidos: [],
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
-
-    //Liga arm, asociación Regional de Mvdeo.
-    {
-      id: "arm",
-      nombre: "Liga ARM (Asociación Regional de Montevideo)",
-      puntosPG: 2,
-      series: [
-        {
-          id: "arm-unica",
-          nombre: "Serie Única",
-          clubes: [
-            "Toledo Chico",
-            "Primavera",
-            "Galácticos",
-            "Málaga",
-            "San Martín Bonomi",
-            "Flores Palmas",
-            "Fénix",
-            "Montevideo Belgrano",
-            "Potencia",
-            "Celtic Jrs",
-            "Rocha",
-            "Tacuarembó",
-            "Flor de Maroñas",
-            "Arapey Mendoza",
-            "La Lata",
-          ],
-        categorias: [
-          {
-            id: "2020",
-            fechas: [
-      
-              {
-              num: 1,
-              partidos: [
-                {
-                    local: "Toledo Chico",
-                    visitante: "La lata",
-                    gl: null,
-                    gv: null,
-                },
-             
-              
-              ]
-            },  
-              {
-              num: 2,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "Primavera",
-                    gl: null,
-                    gv: null,
-                },
-              
-              ]
-            },  
-              {
-              num: 3,
-              partidos: [
-                {
-                    local: "Galácticos",
-                    visitante: "La lata",
-                    gl: null,
-                    gv: null,
-                },
-                
-              
-              ]
-            },  
-              {
-              num: 4,
-              partidos: [
-                {
-                    local: "Málaga",
-                    visitante: "La Lata",
-                    gl: null,
-                    gv: null,
-                },
-              
-              
-              ]
-            },  
-              {
-              num: 5,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "San Martín Bonomi",
-                    gl: null,
-                    gv: null,
-                },
-               
-              ]
-            },  
-              {
-              num: 6,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "Flores Palmas",
-                    gl: null,
-                    gv: null,
-                },
-              
-              ]
-            },    
-              {
-              num: 7,
-              partidos: [
-                {
-                    local: "Fenix",
-                    visitante: "La Lata",
-                    gl: null,
-                    gv: null,
-                },
-               
-              ]
-            },  
-              {
-              num: 8,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "Montevideo Belgrano",
-                    gl: null,
-                    gv: null,
-                },
-               
-              ]
-            },  
-               {
-              num: 9,
-              partidos: [
-                {
-                    local: "Potencia",
-                    visitante: "La Lata",
-                    gl: null,
-                    gv: null,
-                },
-               
-              
-              ]
-            },   {
-              num: 10,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "Celtic Jrs",
-                    gl: null,
-                    gv: null,
-                },
-            
-              
-              ]
-            },   {
-              num: 11,
-              partidos: [
-                {
-                    local: "Celtic Jrs.",
-                    visitante: "",
-                    gl: null,
-                    gv: null,
-                },
-                
-              
-              ]
-            },   {
-              num: 12,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "Rocha",
-                    gl: null,
-                    gv: null,
-                },
-               
-              
-              ]
-            },   {
-              num: 13,
-              partidos: [
-                {
-                    local: "Tacuarembó",
-                    visitante: "La Lata",
-                    gl: null,
-                    gv: null,
-                },
-             
-              
-              ]
-            },   {
-              num: 14,
-              partidos: [
-                {
-                    local: "La Lata",
-                    visitante: "Flor de Maroñas",
-                    gl: null,
-                    gv: null,
-                },
-              
-              ]
-            },   {
-              num: 15,
-              partidos: [
-                {
-                    local: "Arapey Mendoza",
-                    visitante: "La Lata",
-                    gl: null,
-                    gv: null,
-                },
-              
-              ]
-            },   
-          ]}
-          
-        ],
-
-        },
-      ],
-    },
+  
   ],
 };
