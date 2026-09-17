@@ -113,7 +113,7 @@ const ESCUDOS_CLUBES = {
   "Potencia": "escudos/potencia.jpg",
   "Celtic Jrs": "escudos/celticjrs.jpg",
   "Rocha": "escudos/csdrocha.jpg",
-  "Tacuarembó": "escudos/tacuarembojrs.jpg",
+  "Tacuarembó Jrs.": "escudos/tacuarembojrs.jpg",
   "Flor de Maroñas": "escudos/flordemaroñas.jpg",
   "Arapey Mendoza": "escudos/arapeymendoza.jpg",
   "La Lata": "escudos/lalata.jpg",
