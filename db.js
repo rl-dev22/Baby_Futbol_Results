@@ -3,6 +3,245 @@
 const ZONA_8_DB = {
   zona: "Zona 8",
   ligas: [
+
+
+
+
+        //Uruguaya
+    {
+      id: "uruguaya",
+      nombre: "Liga Uruguaya",
+      puntosPG: 2,
+
+      series: [
+        {
+          id: "uruguaya-unica",
+          nombre: "Serie Única",
+          clubes: [
+            "Cohami",
+            "Marconi",
+            "Ciclón del Cerrito",
+            "La Tentación",
+            "Santa Ana",
+            "Juventud Unida",
+            "Niágara",
+            "Fabián Perea",
+            "Royal",
+            "Siete Estrellas",
+            "Carlitos Prado",
+          ],
+          categorias: [
+            {
+              id: "2020",
+              fechas: [
+                {
+              "num": 1,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Fecha Libre", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Cohami", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "Siete Estrellas", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 2,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Royal", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 3,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Royal", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Niágara", "gl": null, "gv": null },
+                { "local": "Siete Estrellas", "visitante": "Cohami", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Santa Ana", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 4,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Marconi", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "Siete Estrellas", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Royal", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 5,
+              "partidos": [
+                { "local": "La Tentación", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Cohami", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "Niágara", "visitante": "Siete Estrellas", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 6,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Fabián Perea", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "Fecha Libre", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Siete Estrellas", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 7,
+              "partidos": [
+                { "local": "Siete Estrellas", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "Niágara", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Royal", "gl": null, "gv": null },
+                { "local": "Cohami", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 8,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Cohami", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Marconi", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Siete Estrellas", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 9,
+              "partidos": [
+                { "local": "Juventud Unida", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Niágara", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Cohami", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Fabián Perea", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 10,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Niágara", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Siete Estrellas", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Juventud Unida", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 11,
+              "partidos": [
+                { "local": "Santa Ana", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "Royal", "gl": null, "gv": null },
+                { "local": "Niágara", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "La Tentación", "visitante": "Fecha Libre", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 12,
+              "partidos": [
+                { "local": "Fecha Libre", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Cohami", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "Marconi", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 13,
+              "partidos": [
+                { "local": "Ciclón del Cerrito", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Royal", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Fecha Libre", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 14,
+              "partidos": [
+                { "local": "Royal", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Niágara", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Marconi", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Fecha Libre", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 15,
+              "partidos": [
+                { "local": "Marconi", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Royal", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 16,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Fabián Perea", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Marconi", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 17,
+              "partidos": [
+                { "local": "Fabián Perea", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Siete Estrellas", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Royal", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 18,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Siete Estrellas", "gl": null, "gv": null },
+                { "local": "Royal", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Cohami", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Siete Estrellas", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 19,
+              "partidos": [
+                { "local": "Cohami", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Juventud Unida", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Siete Estrellas", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 20,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Niágara", "gl": null, "gv": null },
+                { "local": "Cohami", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "Niágara", "visitante": "Marconi", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 21,
+              "partidos": [
+                { "local": "Niágara", "visitante": "Carlitos Prado", "gl": null, "gv": null },
+                { "local": "Siete Estrellas", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Santa Ana", "visitante": "Fecha Libre", "gl": null, "gv": null },
+                { "local": "Ciclón del Cerrito", "visitante": "Juventud Unida", "gl": null, "gv": null },
+                { "local": "Marconi", "visitante": "Cohami", "gl": null, "gv": null }
+              ]
+            },
+            {
+              "num": 22,
+              "partidos": [
+                { "local": "Carlitos Prado", "visitante": "Santa Ana", "gl": null, "gv": null },
+                { "local": "Fecha Libre", "visitante": "La Tentación", "gl": null, "gv": null },
+                { "local": "Niágara", "visitante": "Ciclón del Cerrito", "gl": null, "gv": null },
+                { "local": "Fabián Perea", "visitante": "Marconi", "gl": null, "gv": null }
+              ]
+            }
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
      //Liga arm, asociación Regional de Mvdeo.
     {
       id: "arm",
@@ -424,7 +663,8 @@ const ZONA_8_DB = {
               
               ]
             },   
-          ]}
+          ]
+          }
           
         ],
 
@@ -8502,7 +8742,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2020
                   num: 19,
                   partidos: [
                     {
@@ -8544,8 +8784,8 @@ const ZONA_8_DB = {
                     {
                       local: "Enrique López",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                   ],
                 },
@@ -9611,14 +9851,14 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2019
                   num: 19,
                   partidos: [
                     {
                       local: "Rayo Rojo",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Est. del Sur",
@@ -9635,8 +9875,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Escalinata",
                       visitante: "Don Bosco",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 1,
                     },
                     {
                       local: "Carabelas",
@@ -10720,14 +10960,14 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2018
                   num: 19,
                   partidos: [
                     {
                       local: "Rayo Rojo",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Est. del Sur",
@@ -10744,8 +10984,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Escalinata",
                       visitante: "Don Bosco",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Carabelas",
@@ -10756,8 +10996,8 @@ const ZONA_8_DB = {
                     {
                       local: "Euskal Erria",
                       visitante: "Unión Vecinal",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Enrique López",
@@ -11829,7 +12069,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2017
                   num: 19,
                   partidos: [
                     {
@@ -11853,8 +12093,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Escalinata",
                       visitante: "Don Bosco",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "Carabelas",
@@ -11865,8 +12105,8 @@ const ZONA_8_DB = {
                     {
                       local: "Euskal Erria",
                       visitante: "Unión Vecinal",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 3,
                     },
                     {
                       local: "Enrique López",
@@ -12938,7 +13178,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2016
                   num: 19,
                   partidos: [
                     {
@@ -12980,8 +13220,8 @@ const ZONA_8_DB = {
                     {
                       local: "Enrique López",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                   ],
                 },
@@ -14024,8 +14264,8 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "Enrique López",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 3,
                     },
                     {
                       local: "Don Bosco",
@@ -14036,8 +14276,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Picada",
                       visitante: "Carabelas",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Maeso",
@@ -14047,7 +14287,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2015
                   num: 19,
                   partidos: [
                     {
@@ -14059,8 +14299,8 @@ const ZONA_8_DB = {
                     {
                       local: "Est. del Sur",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 6,
                     },
                     {
                       local: "Mirador",
@@ -14071,8 +14311,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Escalinata",
                       visitante: "Don Bosco",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Carabelas",
@@ -14083,8 +14323,8 @@ const ZONA_8_DB = {
                     {
                       local: "Euskal Erria",
                       visitante: "Unión Vecinal",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Enrique López",
@@ -15156,32 +15396,32 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2014
                   num: 19,
                   partidos: [
                     {
                       local: "Rayo Rojo",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Est. del Sur",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 3,
                     },
                     {
                       local: "Mirador",
                       visitante: "Urunday",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "La Escalinata",
                       visitante: "Don Bosco",
-                      gl: null,
-                      gv: null,
+                      gl: 6,
+                      gv: 3,
                     },
                     {
                       local: "Carabelas",
@@ -15192,8 +15432,8 @@ const ZONA_8_DB = {
                     {
                       local: "Euskal Erria",
                       visitante: "Unión Vecinal",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 3,
                     },
                     {
                       local: "Enrique López",
@@ -16057,8 +16297,8 @@ const ZONA_8_DB = {
                     {
                       local: "Carabelas",
                       visitante: "Enrique López",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "La Escalinata",
@@ -16253,8 +16493,8 @@ const ZONA_8_DB = {
                     {
                       local: "Don Bosco",
                       visitante: "Urunday",
-                      gl: 3,
-                      gv: 5,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "La Picada",
@@ -16270,7 +16510,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
-                {
+                {//2013
                   num: 19,
                   partidos: [
                     {
@@ -18706,8 +18946,8 @@ const ZONA_8_DB = {
                     {
                       local: "Aebu",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Nueva Palmira",
@@ -18753,8 +18993,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Uruguay Buceo",
@@ -19980,38 +20220,38 @@ const ZONA_8_DB = {
                     {
                       local: "Aebu",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Nueva Palmira",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Dep. Oriental",
                       visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 1,
                     },
                     {
                       local: "R. del Reducto",
                       visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 9,
                     },
                     {
                       local: "Nvo. Amanecer",
                       visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Dryco",
                       visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Intermezzo",
@@ -20027,8 +20267,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Uruguay Buceo",
@@ -21254,20 +21494,20 @@ const ZONA_8_DB = {
                     {
                       local: "Aebu",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Nueva Palmira",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Dep. Oriental",
                       visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "R. del Reducto",
@@ -21278,8 +21518,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nvo. Amanecer",
                       visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Dryco",
@@ -21301,8 +21541,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Uruguay Buceo",
@@ -22528,32 +22768,32 @@ const ZONA_8_DB = {
                     {
                       local: "Aebu",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Nueva Palmira",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Dep. Oriental",
                       visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "R. del Reducto",
                       visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Nvo. Amanecer",
                       visitante: "Uruguay Buceo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Dryco",
@@ -22575,8 +22815,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 7,
+                      gv: 3,
                     },
                     {
                       local: "Uruguay Buceo",
@@ -23809,20 +24049,20 @@ const ZONA_8_DB = {
                     {
                       local: "Nueva Palmira",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Dep. Oriental",
                       visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "R. del Reducto",
                       visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 6,
                     },
                     {
                       local: "Nvo. Amanecer",
@@ -23850,8 +24090,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Uruguay Buceo",
@@ -25083,8 +25323,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nueva Palmira",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Dep. Oriental",
@@ -26359,8 +26599,8 @@ const ZONA_8_DB = {
                     {
                       local: "Nueva Palmira",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Dep. Oriental",
@@ -31836,355 +32076,6 @@ const ZONA_8_DB = {
     },
  
    
-    //Uruguaya
-    {
-      id: "uruguaya",
-      nombre: "Liga Uruguaya",
-      puntosPG: 2,
-
-      series: [
-        {
-          id: "uruguaya-unica",
-          nombre: "Serie Única",
-          clubes: [
-            "Cohami",
-            "Marconi",
-            "Ciclón del Cerrito",
-            "La Tentación",
-            "Santa Ana",
-            "Juventud Unida",
-            "Niágara",
-            "Fabián Perea",
-            "Royal",
-            "Siete Estrellas",
-            "Carlitos Prado",
-          ],
-          categorias: [
-            {
-              id: "2020",
-              fechas: [
-                {
-                  num: 1,
-                  partidos: [
-                    {
-                      local: "Marconi",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ciclón del Cerrito",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Cohami",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fabian Perea",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 2,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Ciclón del Cerrito",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 3,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fabián Perea",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Niágara",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Siete Estrellas",
-                      visitante: "Cohami",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Marconi",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 4,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Marconi",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 5,
-                  partidos: [
-                    {
-                      local: "Cohami",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "La Tentación",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Niágara",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Fabian Perea",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 6,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Fabian Perea",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Fecha Libre",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Ciclón del Cerrito",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "Siete Estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 7,
-                  partidos: [
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Niágara",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Siete Estrellas",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "La Tentación",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Cohami",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 8,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Cohami",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Santa Ana",
-                      visitante: "Juventud Unida",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Marconi",
-                      visitante: "La Tentación",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 9,
-                  partidos: [
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Niágara",
-                      visitante: "Santa Ana",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 10,
-                  partidos: [
-                    {
-                      local: "Carlitos Prado",
-                      visitante: "Niagara",
-                      gl: null,
-                      gv: null,
-                    },
-                     {
-                      local: "La Tentación",
-                      visitante: "Siete estrellas",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 11,
-                  partidos: [
-                    {
-                      local: "Santa Ana",
-                      visitante: "Carlitos Prado",
-                      gl: null,
-                      gv: null,
-                    },
-                    {
-                      local: "Juventud Unida",
-                      visitante: "Royal",
-                      gl: null,
-                      gv: null,
-                    },
-                  ],
-                },
-                {
-                  num: 12,
-                  partidos: [],
-                },
-                {
-                  num: 13,
-                  partidos: [],
-                },
-                {
-                  num: 14,
-                  partidos: [],
-                },
-                {
-                  num: 15,
-                  partidos: [],
-                },
-                {
-                  num: 16,
-                  partidos: [],
-                },
-                {
-                  num: 17,
-                  partidos: [],
-                },
-                {
-                  num: 18,
-                  partidos: [],
-                },
-                {
-                  num: 19,
-                  partidos: [],
-                },
-                {
-                  num: 20,
-                  partidos: [],
-                },
-                {
-                  num: 21,
-                  partidos: [],
-                },
-
-                {
-                  num: 22,
-                  partidos: [],
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
 
     // Prado
     {
@@ -43939,8 +43830,8 @@ const ZONA_8_DB = {
                     {
                       local: "Urreta",
                       visitante: "Bochas",
-                      gl: 6,
-                      gv: 0,
+                      gl: null,
+                      gv: null,
                     },
                     {
                       local: "Deportivo Uruguayo",
@@ -45497,8 +45388,9 @@ const ZONA_8_DB = {
                     {
                       local: "Urreta",
                       visitante: "Bochas",
-                      gl: 1,
-                      gv: 2,
+                      gl: null,
+                      gv: null,
+
                     },
                     {
                       local: "Deportivo Uruguayo",
@@ -47043,20 +46935,20 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "San Francisco",
-                      gl: 0,
-                      gv: 8,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Yegros",
-                      gl: 2,
-                      gv: 0,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Urreta",
-                      visitante: "Bochas",
-                      gl: 1,
-                      gv: 2,
+                      visitan3te: "Bochas",
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Deportivo Uruguayo",
@@ -47067,7 +46959,7 @@ const ZONA_8_DB = {
                     {
                       local: "3 de Abril",
                       visitante: "Estrella del Norte",
-                      gl: 6,
+                      gl: 3,
                       gv: 0,
                     },
                     {
@@ -47079,13 +46971,13 @@ const ZONA_8_DB = {
                     {
                       local: "Libertad Washington",
                       visitante: "Pablan",
-                      gl: 2,
-                      gv: 2,
+                      gl: null,
+                      gv: null,
                     },
                     {
                       local: "Aviación Lezica",
                       visitante: "Covicenova",
-                      gl: 1,
+                      gl: 0,
                       gv: 3,
                     },
                   ],
@@ -48602,19 +48494,19 @@ const ZONA_8_DB = {
                       local: "Las Flores",
                       visitante: "San Francisco",
                       gl: 0,
-                      gv: 8,
+                      gv: 1,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Yegros",
-                      gl: 2,
+                      gl: 0,
                       gv: 0,
                     },
                     {
                       local: "Urreta",
                       visitante: "Bochas",
-                      gl: 1,
-                      gv: 2,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Deportivo Uruguayo",
@@ -48625,7 +48517,7 @@ const ZONA_8_DB = {
                     {
                       local: "3 de Abril",
                       visitante: "Estrella del Norte",
-                      gl: 6,
+                      gl: 3,
                       gv: 0,
                     },
                     {
@@ -48637,14 +48529,14 @@ const ZONA_8_DB = {
                     {
                       local: "Libertad Washington",
                       visitante: "Pablan",
-                      gl: 2,
-                      gv: 2,
+                      gl: 4,
+                      gv: 1,
                     },
                     {
                       local: "Aviación Lezica",
                       visitante: "Covicenova",
-                      gl: 1,
-                      gv: 3,
+                      gl: 0,
+                      gv: 2,
                     },
                   ],
                 },
