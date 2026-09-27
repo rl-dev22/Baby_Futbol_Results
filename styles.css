@@ -5,6 +5,27 @@
   box-sizing: border-box;
 }
 
+.header-principal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.logo-header {
+  width: 50px;          /* Ajusta el tamaño que prefieras */
+  height: 50px;
+  border-radius: 50%;   /* Lo recorta en círculo si el JPG tiene fondo cuadrado */
+  object-fit: cover;    /* Evita que la imagen se deforme */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-principal h1 {
+  margin: 0;
+  color: #1e3a8a;       /* El azul del título original */
+  font-size: 1.6rem;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f6f8;
