@@ -111,7 +111,7 @@ const ESCUDOS_CLUBES = {
   "Fénix": "escudos/FENIXCICLISTA.jpg",
   "Montevideo Belgrano": "escudos/montevideobelgrano.jpg",
   "Potencia": "escudos/potencia.jpg",
-  "Celtic Jrs": "escudos/celticjrs.jpg",
+  "Celtic Jrs.": "escudos/celticjrs.jpg",
   "Rocha": "escudos/csdrocha.jpg",
   "Tacuarembó Jrs.": "escudos/tacuarembojrs.jpg",
   "Flor de Maroñas": "escudos/flordemaroñas.jpg",
