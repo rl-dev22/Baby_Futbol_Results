@@ -9279,7 +9279,7 @@ const ZONA_8_DB = {
               {
                 num: 5,
                 partidos: [
-                  { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Olimpo Jrs", gl: 0, gv: 0 },
                   { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 1 },
                   { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 2 },
                   { local: "Universal", visitante: "Holanda", gl: 0, gv: 2 },
@@ -9289,21 +9289,21 @@ const ZONA_8_DB = {
               {
                 num: 6,
                 partidos: [
-                  { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-                  { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-                  { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-                  { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-                  { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+                  { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 8, gv: 2 },
+                  { local: "Zorzal", visitante: "Universal", gl: 2, gv: 0 },
+                  { local: "Holanda", visitante: "Cerromar", gl: 2, gv: 0 },
+                  { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 0, gv: 2 },
+                  { local: "Independiente Lezica", visitante: "Sauce", gl: 4, gv: 1 },
                 ],
               },
               {
                 num: 7,
                 partidos: [
-                  { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 1, gv: 0 },
                   { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-                  { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-                  { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-                  { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Holanda", gl: 3, gv: 0 },
+                  { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 2 },
+                  { local: "Universal", visitante: "Estrella Federal", gl: 0, gv: 2 },
                 ],
               },
               {
@@ -9421,187 +9421,187 @@ const ZONA_8_DB = {
             {
               id: "2020",
               fechas: [
-  {
-    num: 1,
-    partidos: [
-      { local: "Cerromar", visitante: "Olimpo Jrs", gl: 7, gv: 0 },
-      { local: "Universal", visitante: "Santa Catalina", gl: 0, gv: 3 },
-      { local: "Estrella Federal", visitante: "Sauce", gl: 2, gv: 0 },
-      { local: "Zorzal", visitante: "Independiente Lezica", gl: 1, gv: 1 },
-      { local: "Holanda", visitante: "Nuevo Juventud", gl: 0, gv: 5 },
-    ],
-  },
-  {
-    num: 2,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Zorzal", gl: 1, gv: 1 },
-      { local: "Independiente Lezica", visitante: "Estrella Federal", gl: 3, gv: 0 },
-      { local: "Sauce", visitante: "Universal", gl: 3, gv: 0 },
-      { local: "Santa Catalina", visitante: "Cerromar", gl: 6, gv: 1 },
-    ],
-  },
-  {
-    num: 3,
-    partidos: [
-      { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: 7, gv: 0 },
-      { local: "Cerromar", visitante: "Sauce", gl: 0, gv: 5 },
-      { local: "Universal", visitante: "Independiente Lezica", gl: 1, gv: 4 },
-      { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: 1, gv: 4 },
-      { local: "Zorzal", visitante: "Holanda", gl: 6, gv: 0 },
-    ],
-  },
-  {
-    num: 4,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Zorzal", gl: 1, gv: 8 },
-      { local: "Holanda", visitante: "Estrella Federal", gl: 1, gv: 0 },
-      { local: "Nuevo Juventud", visitante: "Universal", gl: 2, gv: 0 },
-      { local: "Independiente Lezica", visitante: "Cerromar", gl: 2, gv: 0 },
-      { local: "Sauce", visitante: "Santa Catalina", gl: 1, gv: 1 },
-    ],
-  },
-  {
-    num: 5,
-    partidos: [
-      { local: "Sauce", visitante: "Olimpo Jrs", gl: 6, gv: 0 },
-      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 4 },
-      { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 5 },
-      { local: "Universal", visitante: "Holanda", gl: null, gv: null },//0 a 5 pero suspendieron
-      { local: "Estrella Federal", visitante: "Zorzal", gl: 1, gv: 3 },
-    ],
-  },
-  {
-    num: 6,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 7,
-    partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 8,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 9,
-    partidos: [
-      { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
-      { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Universal", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 10,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
-      { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 11,
-    partidos: [
-      { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
-      { local: "Universal", visitante: "Sauce", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 12,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Zorzal", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 13,
-    partidos: [
-      { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
-      { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 14,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Holanda", visitante: "Universal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 15,
-    partidos: [
-      { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 16,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
-      { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 17,
-    partidos: [
-      { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null },
-    ],
-  },
-  {
-    num: 18,
-    partidos: [
-      { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Universal", visitante: "Cerromar", gl: null, gv: null },
-    ],
-  },
-]
+              {
+                num: 1,
+                partidos: [
+                  { local: "Cerromar", visitante: "Olimpo Jrs", gl: 7, gv: 0 },
+                  { local: "Universal", visitante: "Santa Catalina", gl: 0, gv: 3 },
+                  { local: "Estrella Federal", visitante: "Sauce", gl: 2, gv: 0 },
+                  { local: "Zorzal", visitante: "Independiente Lezica", gl: 1, gv: 1 },
+                  { local: "Holanda", visitante: "Nuevo Juventud", gl: 0, gv: 5 },
+                ],
+              },
+              {
+                num: 2,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Holanda", gl: null, gv: null },
+                  { local: "Nuevo Juventud", visitante: "Zorzal", gl: 1, gv: 1 },
+                  { local: "Independiente Lezica", visitante: "Estrella Federal", gl: 3, gv: 0 },
+                  { local: "Sauce", visitante: "Universal", gl: 3, gv: 0 },
+                  { local: "Santa Catalina", visitante: "Cerromar", gl: 6, gv: 1 },
+                ],
+              },
+              {
+                num: 3,
+                partidos: [
+                  { local: "Santa Catalina", visitante: "Olimpo Jrs", gl: 7, gv: 0 },
+                  { local: "Cerromar", visitante: "Sauce", gl: 0, gv: 5 },
+                  { local: "Universal", visitante: "Independiente Lezica", gl: 1, gv: 4 },
+                  { local: "Estrella Federal", visitante: "Nuevo Juventud", gl: 1, gv: 4 },
+                  { local: "Zorzal", visitante: "Holanda", gl: 6, gv: 0 },
+                ],
+              },
+              {
+                num: 4,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Zorzal", gl: 1, gv: 8 },
+                  { local: "Holanda", visitante: "Estrella Federal", gl: 1, gv: 0 },
+                  { local: "Nuevo Juventud", visitante: "Universal", gl: 2, gv: 0 },
+                  { local: "Independiente Lezica", visitante: "Cerromar", gl: 2, gv: 0 },
+                  { local: "Sauce", visitante: "Santa Catalina", gl: 1, gv: 1 },
+                ],
+              },
+              {
+                num: 5,
+                partidos: [
+                  { local: "Sauce", visitante: "Olimpo Jrs", gl: 6, gv: 0 },
+                  { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 4 },
+                  { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 5 },
+                  { local: "Universal", visitante: "Holanda", gl: null, gv: null },//0 a 5 pero suspendieron
+                  { local: "Estrella Federal", visitante: "Zorzal", gl: 1, gv: 3 },
+                ],
+              },
+              {
+                num: 6,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 0, gv: 2 },
+                  { local: "Zorzal", visitante: "Universal", gl: 7, gv: 0 },
+                  { local: "Holanda", visitante: "Cerromar", gl: 8, gv: 0 },
+                  { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 6, gv: 0 },
+                  { local: "Independiente Lezica", visitante: "Sauce", gl: 1, gv: 0 },
+                ],
+              },
+              {
+                num: 7,
+                partidos: [
+                  { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
+                  { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Holanda", gl: 7, gv: 0 },
+                  { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 5 },
+                  { local: "Universal", visitante: "Estrella Federal", gl: 1, gv: 0 },
+                ],
+              },
+              {
+                num: 8,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Universal", gl: null, gv: null },
+                  { local: "Estrella Federal", visitante: "Cerromar", gl: null, gv: null },
+                  { local: "Zorzal", visitante: "Santa Catalina", gl: null, gv: null },
+                  { local: "Holanda", visitante: "Sauce", gl: null, gv: null },
+                  { local: "Nuevo Juventud", visitante: "Independiente Lezica", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 9,
+                partidos: [
+                  { local: "Nuevo Juventud", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Independiente Lezica", visitante: "Holanda", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Zorzal", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Estrella Federal", gl: null, gv: null },
+                  { local: "Cerromar", visitante: "Universal", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 10,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
+                  { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
+                  { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 11,
+                partidos: [
+                  { local: "Holanda", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Zorzal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Estrella Federal", visitante: "Independiente Lezica", gl: null, gv: null },
+                  { local: "Universal", visitante: "Sauce", gl: null, gv: null },
+                  { local: "Cerromar", visitante: "Santa Catalina", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 12,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Santa Catalina", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Cerromar", gl: null, gv: null },
+                  { local: "Independiente Lezica", visitante: "Universal", gl: null, gv: null },
+                  { local: "Nuevo Juventud", visitante: "Estrella Federal", gl: null, gv: null },
+                  { local: "Holanda", visitante: "Zorzal", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 13,
+                partidos: [
+                  { local: "Zorzal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Estrella Federal", visitante: "Holanda", gl: null, gv: null },
+                  { local: "Universal", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Cerromar", visitante: "Independiente Lezica", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Sauce", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 14,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Sauce", gl: null, gv: null },
+                  { local: "Independiente Lezica", visitante: "Santa Catalina", gl: null, gv: null },
+                  { local: "Nuevo Juventud", visitante: "Cerromar", gl: null, gv: null },
+                  { local: "Holanda", visitante: "Universal", gl: null, gv: null },
+                  { local: "Zorzal", visitante: "Estrella Federal", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 15,
+                partidos: [
+                  { local: "Estrella Federal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Universal", visitante: "Zorzal", gl: null, gv: null },
+                  { local: "Cerromar", visitante: "Holanda", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Independiente Lezica", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 16,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Independiente Lezica", gl: null, gv: null },
+                  { local: "Nuevo Juventud", visitante: "Sauce", gl: null, gv: null },
+                  { local: "Holanda", visitante: "Santa Catalina", gl: null, gv: null },
+                  { local: "Zorzal", visitante: "Cerromar", gl: null, gv: null },
+                  { local: "Estrella Federal", visitante: "Universal", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 17,
+                partidos: [
+                  { local: "Universal", visitante: "Olimpo Jrs", gl: null, gv: null },
+                  { local: "Cerromar", visitante: "Estrella Federal", gl: null, gv: null },
+                  { local: "Santa Catalina", visitante: "Zorzal", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Holanda", gl: null, gv: null },
+                  { local: "Independiente Lezica", visitante: "Nuevo Juventud", gl: null, gv: null },
+                ],
+              },
+              {
+                num: 18,
+                partidos: [
+                  { local: "Olimpo Jrs", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Holanda", visitante: "Independiente Lezica", gl: null, gv: null },
+                  { local: "Zorzal", visitante: "Sauce", gl: null, gv: null },
+                  { local: "Estrella Federal", visitante: "Santa Catalina", gl: null, gv: null },
+                  { local: "Universal", visitante: "Cerromar", gl: null, gv: null },
+                ],
+              },
+            ]
               
             },
             {
@@ -9650,31 +9650,31 @@ const ZONA_8_DB = {
   {
     num: 5,
     partidos: [
-      { local: "Sauce", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
-      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Universal", visitante: "Holanda", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
+     { local: "Sauce", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
+    { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 1 },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+    { local: "Universal", visitante: "Holanda", gl: 1, gv: 1 },
+    { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
     ],
   },
   {
     num: 6,
     partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 0, gv: 2 },
+    { local: "Zorzal", visitante: "Universal", gl: 2, gv: 0 },
+    { local: "Holanda", visitante: "Cerromar", gl: 0, gv: 1 },
+    { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 4, gv: 2 },
+    { local: "Independiente Lezica", visitante: "Sauce", gl: 4, gv: 0 },
     ],
   },
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
+      { local: "Sauce", visitante: "Nuevo Juventud", gl: 1, gv: 9 },
+      { local: "Santa Catalina", visitante: "Holanda", gl: 2, gv: 2 },
+      { local: "Cerromar", visitante: "Zorzal", gl: 1, gv: 4 },
+      { local: "Universal", visitante: "Estrella Federal", gl: 3, gv: 1 },
     ],
   },
   {
@@ -9855,11 +9855,11 @@ const ZONA_8_DB = {
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 3, gv: 1 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 0, gv: 3 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 1, gv: 0 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 1, gv: 3 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 0, gv: 2 },
     ],
   },
   {
@@ -10040,11 +10040,11 @@ const ZONA_8_DB = {
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+     { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 1, gv: 1 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 1, gv: 3 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 4, gv: 0 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 1, gv: 0 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 1, gv: 0 },
     ],
   },
   {
@@ -10225,11 +10225,11 @@ const ZONA_8_DB = {
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 0, gv: 1 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 1, gv: 0 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 7, gv: 1 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 3 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 0, gv: 1 },
     ],
   },
   {
@@ -10390,31 +10390,31 @@ const ZONA_8_DB = {
   {
     num: 5,
     partidos: [
-      { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Universal", visitante: "Holanda", gl: 3, gv: 3 },
-      { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
+      { local: "Sauce", visitante: "Olimpo Jrs", gl: 3, gv: 2 },
+    { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 8 },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+    { local: "Universal", visitante: "Holanda", gl: 3, gv: 3 },
+    { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
     ],
   },
   {
     num: 6,
     partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 3, gv: 0 },
+    { local: "Zorzal", visitante: "Universal", gl: 8, gv: 0 },
+    { local: "Holanda", visitante: "Cerromar", gl: 1, gv: 9 },
+    { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 3, gv: 1 },
+    { local: "Independiente Lezica", visitante: "Sauce", gl: 3, gv: 0 },
     ],
   },
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 3, gv: 2 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 2, gv: 4 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 5, gv: 0 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 1, gv: 2 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 0, gv: 3 },
     ],
   },
   {
@@ -10546,7 +10546,7 @@ const ZONA_8_DB = {
     num: 2,
     partidos: [
       { local: "Olimpo Jrs", visitante: "Holanda", gl: 2, gv: 2 },
-      { local: "Nuevo Juventud", visitante: "Zorzal", gl: null, gv: null },
+      { local: "Nuevo Juventud", visitante: "Zorzal", gl: 9, gv: 1 },
       { local: "Independiente Lezica", visitante: "Estrella Federal", gl: 7, gv: 0 },
       { local: "Sauce", visitante: "Universal", gl: 2, gv: 1 },
       { local: "Santa Catalina", visitante: "Cerromar", gl: 4, gv: 0 },
@@ -10576,7 +10576,7 @@ const ZONA_8_DB = {
     num: 5,
     partidos: [
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
-      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 2, gv: 2 },
       { local: "Cerromar", visitante: "Nuevo Juventud", gl: 1, gv: 7 },
       { local: "Universal", visitante: "Holanda", gl: 4, gv: 4 },
       { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
@@ -10585,21 +10585,21 @@ const ZONA_8_DB = {
   {
     num: 6,
     partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 1, gv: 1 },
+    { local: "Zorzal", visitante: "Universal", gl: 1, gv: 3 },
+    { local: "Holanda", visitante: "Cerromar", gl: 0, gv: 5 },
+    { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 2, gv: 0 },
+    { local: "Independiente Lezica", visitante: "Sauce", gl: 7, gv: 0 },
     ],
   },
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 6, gv: 0 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 0, gv: 1 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 4, gv: 0 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 5, gv: 2 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 3, gv: 0 },
     ],
   },
   {
@@ -10761,7 +10761,7 @@ const ZONA_8_DB = {
     num: 5,
     partidos: [
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 1, gv: 2 },
-      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: null, gv: null },
+      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 1, gv: 8 },
       { local: "Cerromar", visitante: "Nuevo Juventud", gl: 1, gv: 8 },
       { local: "Universal", visitante: "Holanda", gl: 2, gv: 0 },
       { local: "Estrella Federal", visitante: "Zorzal", gl: 1, gv: 3 },
@@ -10770,21 +10770,21 @@ const ZONA_8_DB = {
   {
     num: 6,
     partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 3, gv: 1 },
+      { local: "Zorzal", visitante: "Universal", gl: 2, gv: 0 },
+      { local: "Holanda", visitante: "Cerromar", gl: 1, gv: 4 },
+      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 1, gv: 0 },
+      { local: "Independiente Lezica", visitante: "Sauce", gl: 7, gv: 0 },
     ],
   },
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+     { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 0, gv: 8 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 1, gv: 4 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 2, gv: 6 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 2, gv: 1 },
     ],
   },
   {
@@ -10945,31 +10945,31 @@ const ZONA_8_DB = {
   {
     num: 5,
     partidos: [
-      { local: "Sauce", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 2 },
-      { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Universal", visitante: "Holanda", gl: null, gv: null },
-      { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
+      { local: "Sauce", visitante: "Olimpo Jrs", gl: 0, gv: 1 },
+    { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 3 },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+    { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+    { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
     ],
   },
   {
     num: 6,
     partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 0, gv: 0 },
+    { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+    { local: "Holanda", visitante: "Cerromar", gl: 1, gv: 1 },
+    { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 2, gv: 0 },
+    { local: "Independiente Lezica", visitante: "Sauce", gl: 3, gv: 0 },
     ],
   },
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 3, gv: 1 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 1, gv: 2 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 4, gv: 0 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 2 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 3, gv: 0 },
     ],
   },
   {
@@ -11140,21 +11140,21 @@ const ZONA_8_DB = {
   {
     num: 6,
     partidos: [
-      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: null, gv: null },
-      { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
-      { local: "Holanda", visitante: "Cerromar", gl: null, gv: null },
-      { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: null, gv: null },
-      { local: "Independiente Lezica", visitante: "Sauce", gl: null, gv: null },
+      { local: "Olimpo Jrs", visitante: "Estrella Federal", gl: 3, gv: 1 },
+    { local: "Zorzal", visitante: "Universal", gl: null, gv: null },
+    { local: "Holanda", visitante: "Cerromar", gl: 2, gv: 0 },
+    { local: "Nuevo Juventud", visitante: "Santa Catalina", gl: 1, gv: 1 },
+    { local: "Independiente Lezica", visitante: "Sauce", gl: 2, gv: 0 },
     ],
   },
   {
     num: 7,
     partidos: [
-      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: null, gv: null },
-      { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
-      { local: "Santa Catalina", visitante: "Holanda", gl: null, gv: null },
-      { local: "Cerromar", visitante: "Zorzal", gl: null, gv: null },
-      { local: "Universal", visitante: "Estrella Federal", gl: null, gv: null },
+      { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 1, gv: 1 },
+    { local: "Sauce", visitante: "Nuevo Juventud", gl: 0, gv: 2 },
+    { local: "Santa Catalina", visitante: "Holanda", gl: 4, gv: 0 },
+    { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 2 },
+    { local: "Universal", visitante: "Estrella Federal", gl: 0, gv: 2 },
     ],
   },
   {
