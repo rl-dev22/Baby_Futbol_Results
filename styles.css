@@ -5,6 +5,38 @@
   box-sizing: border-box;
 }
 
+/* Contenedor principal de la cabecera */
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Alinea los títulos a la izquierda y el contenedor a la derecha */
+  align-items: center;            /* Centra verticalmente ambos lados */
+  padding: 10px 0;
+}
+
+/* Rectángulo contenedor de los escudos */
+.escudos-ligas-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;                      /* Espacio horizontal entre cada escudo */
+  background-color: #f8f9fa;      /* Fondo suave (opcional) */
+  border: 1px solid #e0e0e0;      /* Borde suave para definir el rectángulo */
+  padding: 10px 15px;
+  border-radius: 8px;             /* Bordes redondeados */
+}
+
+/* Tamaño de las imágenes de los escudos */
+.escudos-ligas-container img {
+  width: 45px;                    /* Ajusta el ancho según tu gusto */
+  height: 45px;                   /* Ajusta la altura */
+  object-fit: contain;            /* Mantiene la proporción de las imágenes */
+  transition: transform 0.2s ease;
+}
+
+/* Efecto hover opcional al pasar el mouse por encima de un escudo */
+.escudos-ligas-container img:hover {
+  transform: scale(1.1);
+}
+
 .header-principal {
   display: flex;
   align-items: center;
@@ -20,10 +52,19 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* Quita los márgenes del h1 para que no empuje el subtítulo hacia abajo */
 .header-principal h1 {
   margin: 0;
-  color: #1e3a8a;       /* El azul del título original */
-  font-size: 1.6rem;
+  color: #1e3a8a;       /* Mantiene el azul de tu diseño original */
+  font-size: 1.8rem;
+}
+
+/* Controla la separación y estilo del subtítulo */
+.header-titulos h2 {
+  margin: 5px 0 0 0;    /* Pequeño espacio superior respecto al h1 */
+  font-size: 1.25rem;
+  color: #333;          /* Color oscuro prolijo */
+  font-weight: bold;
 }
 
 body {

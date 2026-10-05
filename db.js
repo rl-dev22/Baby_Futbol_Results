@@ -8,6 +8,7 @@ const ZONA_8_DB = {
     {
       id: "palermo",
       nombre: "Liga Palermo",
+      escudo: "ruta/de/tu/imagen/palermo.png", // <--- Agrega la ruta aquí
       puntosPG: 2,
       series: [
 
