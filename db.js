@@ -8939,7 +8939,7 @@ const ZONA_8_DB = {
                     },
                     {
                       local: "J de Manga",
-                      visitante: "Fray Bentos",
+                      visitante: "Fray Bentos",//revisar
                       gl: null,
                       gv: null,
                     },
@@ -8949,7 +8949,12 @@ const ZONA_8_DB = {
                       gl: null,
                       gv: null,
                     },
-                 
+                    {
+                      local: "Ituzaingó",
+                      visitante: "Libertad",
+                      gl: null,
+                      gv: null,
+                    },
                   
                   ],
                 },
@@ -15598,8 +15603,8 @@ const ZONA_8_DB = {
                     {
                       local: "Enrique López",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 2,
                     },
                   ],
                 },
@@ -16707,8 +16712,8 @@ const ZONA_8_DB = {
                     {
                       local: "Enrique López",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 7,
+                      gv: 0,
                     },
                   ],
                 },
@@ -18907,8 +18912,8 @@ const ZONA_8_DB = {
                     {
                       local: "La Escalinata",
                       visitante: "Don Bosco",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Carabelas",
@@ -20034,8 +20039,8 @@ const ZONA_8_DB = {
                     {
                       local: "Enrique López",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                   ],
                 },
@@ -21143,8 +21148,8 @@ const ZONA_8_DB = {
                     {
                       local: "Enrique López",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                   ],
                 },
@@ -23431,14 +23436,14 @@ const ZONA_8_DB = {
                     {
                       local: "Stockolmo",
                       visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Exploradores",
                       visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Est. de la Unión",
@@ -23449,8 +23454,8 @@ const ZONA_8_DB = {
                     {
                       local: "Terremoto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Alas Rojas",
@@ -24634,8 +24639,8 @@ const ZONA_8_DB = {
                     {
                       local: "Est. de la Unión",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Terremoto",
@@ -24704,20 +24709,20 @@ const ZONA_8_DB = {
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "Stockolmo",
                       visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Exploradores",
                       visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Est. de la Unión",
@@ -24728,14 +24733,14 @@ const ZONA_8_DB = {
                     {
                       local: "Terremoto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Alas Rojas",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 8,
+                      gv: 0,
                     },
                   ],
                 },
@@ -25978,14 +25983,14 @@ const ZONA_8_DB = {
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 6,
                     },
                     {
                       local: "Stockolmo",
                       visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Exploradores",
@@ -26002,14 +26007,14 @@ const ZONA_8_DB = {
                     {
                       local: "Terremoto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 9,
+                      gv: 1,
                     },
                     {
                       local: "Alas Rojas",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                   ],
                 },
@@ -27229,8 +27234,8 @@ const ZONA_8_DB = {
                     {
                       local: "Dryco",
                       visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
+                      gl: 8,
+                      gv: 0,
                     },
                     {
                       local: "Intermezzo",
@@ -27252,20 +27257,20 @@ const ZONA_8_DB = {
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "Stockolmo",
                       visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Exploradores",
                       visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
+                      gl: 6,
+                      gv: 1,
                     },
                     {
                       local: "Est. de la Unión",
@@ -28503,8 +28508,8 @@ const ZONA_8_DB = {
                     {
                       local: "Dryco",
                       visitante: "Nuevo América",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 0,
                     },
                     {
                       local: "Intermezzo",
@@ -28526,20 +28531,20 @@ const ZONA_8_DB = {
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 3,
                     },
                     {
                       local: "Stockolmo",
                       visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Exploradores",
                       visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Est. de la Unión",
@@ -28550,8 +28555,8 @@ const ZONA_8_DB = {
                     {
                       local: "Terremoto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 6,
                     },
                     {
                       local: "Alas Rojas",
@@ -29801,14 +29806,14 @@ const ZONA_8_DB = {
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 3,
                     },
                     {
                       local: "Stockolmo",
                       visitante: "Nvo. Amanecer",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 1,
                     },
                     {
                       local: "Exploradores",
@@ -29831,8 +29836,8 @@ const ZONA_8_DB = {
                     {
                       local: "Alas Rojas",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 5,
                     },
                   ],
                 },
@@ -31069,14 +31074,14 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 6,
                     },
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Stockolmo",
@@ -31087,8 +31092,8 @@ const ZONA_8_DB = {
                     {
                       local: "Exploradores",
                       visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 2,
                     },
                     {
                       local: "Est. de la Unión",
@@ -31105,8 +31110,8 @@ const ZONA_8_DB = {
                     {
                       local: "Alas Rojas",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 6,
+                      gv: 1,
                     },
                   ],
                 },
@@ -32281,8 +32286,8 @@ const ZONA_8_DB = {
                     {
                       local: "Est. de la Unión",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Terremoto",
@@ -32345,14 +32350,14 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Uruguay Buceo",
                       visitante: "Dryco",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 2,
                     },
                     {
                       local: "Stockolmo",
@@ -32363,8 +32368,8 @@ const ZONA_8_DB = {
                     {
                       local: "Exploradores",
                       visitante: "R. del Reducto",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 1,
                     },
                     {
                       local: "Est. de la Unión",
@@ -33853,8 +33858,8 @@ const ZONA_8_DB = {
                     {
                       local: "Cerro Jrs",
                       visitante: "Los Magos",
-                      gl: 2,
-                      gv: 0,
+                      gl: 5,
+                      gv: 1,
                     },
                     { local: "Universal", visitante: "Pesca", gl: 2, gv: 0 },
                   ],
@@ -34660,8 +34665,8 @@ const ZONA_8_DB = {
                     {
                       local: "Los Magos",
                       visitante: "Los Bulevares",
-                      gl: 2,
-                      gv: 0,
+                      gl: null,
+                      gv: null,
                     },
                     { local: "Pesca", visitante: "Olimpo Jrs", gl: 0, gv: 2 },
                     {
@@ -37940,7 +37945,7 @@ const ZONA_8_DB = {
             //2015 ok
             {
               id: "2015",
-              sancionesApertura: {"Nuevo Juventud": 1},
+              sancionesApertura: {},
 
               fechas: [
                 {
@@ -42154,7 +42159,7 @@ const ZONA_8_DB = {
                 num: 7,
                 partidos: [
                   { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 1, gv: 0 },
-                  { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Nuevo Juventud", gl: 0, gv: 2 },
                   { local: "Santa Catalina", visitante: "Holanda", gl: 3, gv: 0 },
                   { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 2 },
                   { local: "Universal", visitante: "Estrella Federal", gl: 0, gv: 2 },
@@ -42339,7 +42344,7 @@ const ZONA_8_DB = {
                 num: 7,
                 partidos: [
                   { local: "Independiente Lezica", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
-                  { local: "Sauce", visitante: "Nuevo Juventud", gl: null, gv: null },
+                  { local: "Sauce", visitante: "Nuevo Juventud", gl: 2, gv: 1 },
                   { local: "Santa Catalina", visitante: "Holanda", gl: 7, gv: 0 },
                   { local: "Cerromar", visitante: "Zorzal", gl: 0, gv: 5 },
                   { local: "Universal", visitante: "Estrella Federal", gl: 1, gv: 0 },
@@ -42506,7 +42511,7 @@ const ZONA_8_DB = {
     partidos: [
      { local: "Sauce", visitante: "Olimpo Jrs", gl: 2, gv: 0 },
     { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 1 },
-    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 5 },
     { local: "Universal", visitante: "Holanda", gl: 1, gv: 1 },
     { local: "Estrella Federal", visitante: "Zorzal", gl: 0, gv: 8 },
     ],
@@ -42691,7 +42696,7 @@ const ZONA_8_DB = {
     partidos: [
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 4, gv: 1 },
       { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 2, gv: 2 },
-      { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+      { local: "Cerromar", visitante: "Nuevo Juventud", gl: 1, gv: 6 },
       { local: "Universal", visitante: "Holanda", gl: 1, gv: 6 },
       { local: "Estrella Federal", visitante: "Zorzal", gl: 1, gv: 2 },
     ],
@@ -42876,8 +42881,8 @@ const ZONA_8_DB = {
     partidos: [
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 1, gv: 0 },
     { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 4, gv: 0 },
-    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
-    { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 1 },
+    { local: "Universal", visitante: "Holanda", gl: 2, gv: 0 },
     { local: "Estrella Federal", visitante: "Zorzal", gl: 4, gv: 3 },
     ],
   },
@@ -43062,7 +43067,7 @@ const ZONA_8_DB = {
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 3, gv: 3 },
       { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 5, gv: 2 },
       { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 3 },
-      { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+      { local: "Universal", visitante: "Holanda", gl: 1, gv: 2 },
       { local: "Estrella Federal", visitante: "Zorzal", gl: 5, gv: 0 },
     ],
   },
@@ -43246,7 +43251,7 @@ const ZONA_8_DB = {
     partidos: [
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 3, gv: 2 },
     { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 8 },
-    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: 1, gv: 1 },
     { local: "Universal", visitante: "Holanda", gl: 3, gv: 3 },
     { local: "Estrella Federal", visitante: "Zorzal", gl: null, gv: null },
     ],
@@ -43801,8 +43806,8 @@ const ZONA_8_DB = {
     partidos: [
       { local: "Sauce", visitante: "Olimpo Jrs", gl: 0, gv: 1 },
     { local: "Santa Catalina", visitante: "Independiente Lezica", gl: 0, gv: 3 },
-    { local: "Cerromar", visitante: "Nuevo Juventud", gl: null, gv: null },
-    { local: "Universal", visitante: "Holanda", gl: null, gv: null },
+    { local: "Cerromar", visitante: "Nuevo Juventud", gl: 0, gv: 1 },
+    { local: "Universal", visitante: "Holanda", gl: 2, gv: 2 },
     { local: "Estrella Federal", visitante: "Zorzal", gl: 2, gv: 0 },
     ],
   },
