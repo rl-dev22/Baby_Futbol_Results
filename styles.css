@@ -398,10 +398,7 @@ li {
     padding: 8px 10px;
   }
 
-  /* Ajuste de la lista de clubes en dos columnas o una más limpia */
-  ul {
-    columns: 1; /* En móviles muy chicos una columna evita que se apretujen */
-  }
+
 
   /* Tabla de posiciones en móvil: permitimos scroll horizontal en vez de ocultar columnas abruptamente */
   .tabla-posiciones {
