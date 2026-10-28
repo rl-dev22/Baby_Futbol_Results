@@ -105,14 +105,25 @@ select {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+
+/* ==========================================
+   LISTA DE CLUBES (2 Columnas)
+   ========================================== */
 ul {
-  columns: 2;
+  columns: 2;                  /* Divide la lista en 2 columnas */
   -webkit-columns: 2;
   -moz-columns: 2;
+  column-gap: 20px;            /* Espacio de separación horizontal entre las dos columnas */
+  padding-left: 0;
+  list-style: none;
 }
 
 li {
-  padding: 4px 0;
+  padding: 6px 0;
+  break-inside: avoid;         /* Evita que un elemento se corte a la mitad entre una columna y otra */
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .contenedor-tabla {
@@ -321,10 +332,110 @@ li {
   object-fit: contain;
   flex-shrink: 0;
 }
-
+ 
 /* ==========================================
    RESPONSIVO PARA MÓVILES (< 600px)
    ========================================== */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 8px;
+    padding: 0 8px;
+  }
+
+  /* 1. Cabecera en columna para que no se desborde */
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .header-titulos {
+    text-align: center;
+  }
+
+  .header-principal {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .header-principal h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Contenedor de escudos centrado y adaptado */
+  .escudos-ligas-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 8px;
+  }
+
+  /* Solución para que los escudos NO se desenfoquen en móvil */
+  .escudos-ligas-container img {
+    width: 32px;
+    height: 32px;
+    image-rendering: -webkit-optimize-contrast; /* Mejora la nitidez */
+  }
+
+  .contenedor-tabla, .contenedor-clubes {
+    padding: 10px 5px;
+    overflow-x: auto; /* Permite desplazamiento horizontal suave si la tabla es grande */
+  }
+
+  /* Alineación completa para selectores */
+  .panel-filtros,
+  .grupo-selectores {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .panel-filtros select,
+  .selector-item select,
+  select {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  /* Ajuste de la lista de clubes en dos columnas o una más limpia */
+  ul {
+    columns: 1; /* En móviles muy chicos una columna evita que se apretujen */
+  }
+
+  /* Tabla de posiciones en móvil: permitimos scroll horizontal en vez de ocultar columnas abruptamente */
+  .tabla-posiciones {
+    font-size: 0.8rem;
+    min-width: 450px; /* Fuerza un ancho mínimo para que entren las columnas con scroll */
+  }
+
+  .tabla-posiciones th, 
+  .tabla-posiciones td {
+    padding: 6px 4px;
+  }
+
+  .tabla-posiciones .equipo-nombre {
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Opcional: Si prefieres seguir ocultando algunas columnas secundarias en pantallas muy estrechas, 
+     puedes descomentar esto, pero con el scroll horizontal de .contenedor-tabla ya no se cortarán de vista: */
+  /*
+  .tabla-posiciones th:nth-child(6), .tabla-posiciones td:nth-child(6),
+  .tabla-posiciones th:nth-child(7), .tabla-posiciones td:nth-child(7) {
+    display: none;
+  }
+  */
+
+  #contenedor-fechas {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
 @media screen and (max-width: 600px) {
   body {
     margin: 8px;
@@ -335,6 +446,7 @@ li {
   }
 
   /* Alineación completa para selectores de Liga, Serie y Categoría */
+  /*
   .panel-filtros,
   .grupo-selectores {
     flex-direction: column;
@@ -361,6 +473,7 @@ li {
   }
 
   /* Tabla de posiciones */
+  /*
   .tabla-posiciones {
     font-size: 0.78rem;
   }
@@ -383,6 +496,7 @@ li {
   }
 
   /* Fixture / Tarjetas */
+  /*
   #contenedor-fechas {
     grid-template-columns: 1fr;
   }
@@ -396,4 +510,4 @@ li {
     height: 16px;
     margin: 0 2px;
   }
-}
+} */
