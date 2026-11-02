@@ -560,6 +560,40 @@ function renderizarFechasGeneral(serie, contenedorId = "contenedor-fechas", torn
 }
 */
 /**
+ * Separa los partidos reales de los descansos ("libre") de una fecha.
+ * Un club libre se detecta de 3 formas (en este orden):
+ *  1) Campo explícito en la fecha:   { num: 3, libre: "Club", partidos: [...] }
+ *  2) Formato viejo: un partido contra "Fecha Libre" (se muestra como descanso)
+ *  3) Deducido: serie con cantidad IMPAR de clubes y fecha completa
+ *     -> el único club que no aparece en los partidos es el que descansa.
+ *     (Si la fecha está incompleta no se deduce nada, para no marcar a un club por error.)
+ */
+function obtenerPartidosYLibres(serie, fechaObj) {
+  const partidos = (fechaObj && fechaObj.partidos) || [];
+  const libres = [];
+  const reales = [];
+  const agregarLibre = (n) => { if (n && !libres.includes(n)) libres.push(n); };
+
+  if (fechaObj && fechaObj.libre) [].concat(fechaObj.libre).forEach(agregarLibre);
+
+  partidos.forEach((p) => {
+    if (p.local === "Fecha Libre") agregarLibre(p.visitante);
+    else if (p.visitante === "Fecha Libre") agregarLibre(p.local);
+    else reales.push(p);
+  });
+
+  const n = serie && serie.clubes ? serie.clubes.length : 0;
+  if (libres.length === 0 && n % 2 === 1 && reales.length === (n - 1) / 2) {
+    const juegan = new Set();
+    reales.forEach((p) => { juegan.add(p.local); juegan.add(p.visitante); });
+    const faltan = serie.clubes.filter((c) => !juegan.has(c));
+    if (faltan.length === 1) agregarLibre(faltan[0]);
+  }
+
+  return { reales, libres };
+}
+
+/**
  * Renderiza el fixture de partidos y calcula los goles según la categoría seleccionada (individual o general)
  */
 function renderizarFechas(serie, idCat, contenedorId = "contenedor-fechas", torneo = "anual") {
@@ -624,7 +658,9 @@ function renderizarFechas(serie, idCat, contenedorId = "contenedor-fechas", torn
       let golesFechaCat = 0;
       let partidosHTML = "";
 
-      fechaObj.partidos.forEach((p) => {
+      const { reales, libres } = obtenerPartidosYLibres(serie, fechaObj);
+
+      reales.forEach((p) => {
         const gl = p.gl !== null ? p.gl : "-";
         const gv = p.gv !== null ? p.gv : "-";
         if (p.gl !== null && p.gv !== null) {
@@ -651,12 +687,19 @@ function renderizarFechas(serie, idCat, contenedorId = "contenedor-fechas", torn
 
       const labelFecha = `Fecha ${numMostrar}${labelTorneoFijo} — ⚽ Goles: ${golesFechaCat} ▾`;
 
+      const libreHTML = libres.length
+        ? `<div class="libre-fecha">💤 Libre: ${libres
+            .map((c) => `<img src="${obtenerEscudo(c)}" alt="${c}" class="escudo-equipo" /> <strong>${c}</strong>`)
+            .join(" · ")}</div>`
+        : "";
+
       cardFecha.innerHTML = `
         <details>
           <summary>${labelFecha}</summary>
           <table class="tabla-partidos">
             <tbody>${partidosHTML}</tbody>
           </table>
+          ${libreHTML}
         </details>
       `;
     }
@@ -750,7 +793,15 @@ function actualizarVista() {
   if (tbodyPos) {
     const datosTabla = calcularTabla(serie, idCat, liga.puntosPG, torneoActual);
     renderizarTablaEnHTML(tbodyPos, datosTabla);
-
+    // 👇 NUEVO: Mostrar la fecha de última actualización de la liga seleccionada
+    const divFechaAct = document.getElementById("info-ultima-actualizacion");
+    if (divFechaAct) {
+      if (liga.ultimaActualizacion) {
+        divFechaAct.innerHTML = `<small>📅 Última actualización: ${liga.ultimaActualizacion}</small>`;
+      } else {
+        divFechaAct.innerHTML = ""; // Si alguna liga no tiene fecha, queda vacío
+      }
+    }
     if (idCat !== "general") {
       renderizarFechas(serie, idCat, "contenedor-fechas", torneoActual);
     } else {
