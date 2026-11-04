@@ -12,7 +12,7 @@ const ZONA_8_DB = {
       nombre: "Liga Palermo",
       escudo: "ruta/de/tu/imagen/palermo.png", // <--- Agrega la ruta aquí
       puntosPG: 2,
-      ultimaActualizacion: "1/11/2026",
+      ultimaActualizacion: "3/11/2026",
       series: [
         // ================= SERIE A =================
         {
@@ -934,6 +934,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 22 - 9
                 {
                   num: 22,
                   partidos: [
@@ -958,8 +959,8 @@ const ZONA_8_DB = {
                     {
                       local: "Carabelas",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 4,
                     },
                     {
                       local: "Urunday",
@@ -2050,20 +2051,20 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 2,
                     },
                     {
                       local: "Mirador",
                       visitante: "Est. del Sur",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Rayo Rojo",
                       visitante: "Maeso",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Carabelas",
@@ -2074,8 +2075,8 @@ const ZONA_8_DB = {
                     {
                       local: "Urunday",
                       visitante: "Euskal Erria",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 0,
                     },
                     {
                       local: "La Escalinata",
@@ -2086,8 +2087,8 @@ const ZONA_8_DB = {
                     {
                       local: "Don Bosco",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                   ],
                 },
@@ -3160,32 +3161,32 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 3,
                     },
                     {
                       local: "Mirador",
                       visitante: "Est. del Sur",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Rayo Rojo",
                       visitante: "Maeso",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Carabelas",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Urunday",
                       visitante: "Euskal Erria",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 2,
                     },
                     {
                       local: "La Escalinata",
@@ -3196,8 +3197,8 @@ const ZONA_8_DB = {
                     {
                       local: "Don Bosco",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 1,
                     },
                   ],
                 },
@@ -4270,32 +4271,32 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Mirador",
                       visitante: "Est. del Sur",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 0,
                     },
                     {
                       local: "Rayo Rojo",
                       visitante: "Maeso",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Carabelas",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 5,
                     },
                     {
                       local: "Urunday",
                       visitante: "Euskal Erria",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "La Escalinata",
@@ -4306,8 +4307,8 @@ const ZONA_8_DB = {
                     {
                       local: "Don Bosco",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                   ],
                 },
@@ -5380,32 +5381,32 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Mirador",
                       visitante: "Est. del Sur",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Rayo Rojo",
                       visitante: "Maeso",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Carabelas",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Urunday",
                       visitante: "Euskal Erria",
-                      gl: null,
-                      gv: null,
+                      gl: 8,
+                      gv: 0,
                     },
                     {
                       local: "La Escalinata",
@@ -6490,14 +6491,14 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "La Picada",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Mirador",
                       visitante: "Est. del Sur",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 2,
                     },
                     {
                       local: "Rayo Rojo",
@@ -6514,14 +6515,14 @@ const ZONA_8_DB = {
                     {
                       local: "Urunday",
                       visitante: "Euskal Erria",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 5,
                     },
                     {
                       local: "La Escalinata",
                       visitante: "Enrique López",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 0,
                     },
                     {
                       local: "Don Bosco",
@@ -8733,8 +8734,8 @@ const ZONA_8_DB = {
                     {
                       local: "Carabelas",
                       visitante: "La Rinconada",
-                      gl: null,
-                      gv: null,
+                      gl: 6,
+                      gv: 0,
                     },
                     {
                       local: "Urunday",
@@ -9895,8 +9896,8 @@ const ZONA_8_DB = {
                     {
                       local: "Stockolmo",
                       visitante: "Intermezzo",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Exploradores",
@@ -10032,14 +10033,14 @@ const ZONA_8_DB = {
                     {
                       local: "R. del Reducto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Nvo. Amanecer",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Dryco",
@@ -10068,8 +10069,8 @@ const ZONA_8_DB = {
                     {
                       local: "Uruguay Buceo",
                       visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                   ],
                 },
@@ -11247,8 +11248,8 @@ const ZONA_8_DB = {
                     {
                       local: "Sur2000",
                       visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Nuevo América",
@@ -11311,8 +11312,8 @@ const ZONA_8_DB = {
                     {
                       local: "R. del Reducto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 5,
                     },
                     {
                       local: "Nvo. Amanecer",
@@ -11323,20 +11324,20 @@ const ZONA_8_DB = {
                     {
                       local: "Dryco",
                       visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 8,
                     },
                     {
                       local: "Intermezzo",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Sur2000",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Nuevo América",
@@ -12585,8 +12586,8 @@ const ZONA_8_DB = {
                     {
                       local: "R. del Reducto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 1,
                     },
                     {
                       local: "Nvo. Amanecer",
@@ -12597,20 +12598,20 @@ const ZONA_8_DB = {
                     {
                       local: "Dryco",
                       visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "Intermezzo",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Sur2000",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Nuevo América",
@@ -13859,8 +13860,8 @@ const ZONA_8_DB = {
                     {
                       local: "R. del Reducto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Nvo. Amanecer",
@@ -13871,20 +13872,20 @@ const ZONA_8_DB = {
                     {
                       local: "Dryco",
                       visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
+                      gl: 7,
+                      gv: 3,
                     },
                     {
                       local: "Intermezzo",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 3,
                     },
                     {
                       local: "Sur2000",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Nuevo América",
@@ -15133,8 +15134,8 @@ const ZONA_8_DB = {
                     {
                       local: "R. del Reducto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Nvo. Amanecer",
@@ -15145,20 +15146,20 @@ const ZONA_8_DB = {
                     {
                       local: "Dryco",
                       visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Intermezzo",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 5,
                     },
                     {
                       local: "Sur2000",
                       visitante: "Est. de la Unión",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Nuevo América",
@@ -16408,26 +16409,26 @@ const ZONA_8_DB = {
                     {
                       local: "R. del Reducto",
                       visitante: "Nueva Palmira",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Nvo. Amanecer",
                       visitante: "Aebu",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Dryco",
                       visitante: "Alas Rojas",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 3,
                     },
                     {
                       local: "Intermezzo",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Sur2000",
@@ -16438,14 +16439,14 @@ const ZONA_8_DB = {
                     {
                       local: "Nuevo América",
                       visitante: "Exploradores",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Uruguay Buceo",
                       visitante: "Stockolmo",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                   ],
                 },
@@ -18976,8 +18977,8 @@ const ZONA_8_DB = {
                     {
                       local: "Intermezzo",
                       visitante: "Terremoto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Sur2000",
@@ -19429,20 +19430,20 @@ const ZONA_8_DB = {
                     {
                       local: "Unión Vecinal",
                       visitante: "Dep. Oriental",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 2,
                     },
                     {
                       local: "Urunday",
                       visitante: "Poco Sitio",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Alas Rojas",
                       visitante: "Mirador",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 0,
                     },
                   ],
                 },
@@ -20805,7 +20806,7 @@ const ZONA_8_DB = {
       id: "paso-molino",
       nombre: "Liga Paso Molino",
       puntosPG: 2,
-      ultimaActualizacion: "1/11/2026",
+      ultimaActualizacion: "3/11/2026",
       series: [
         //Fase Final - serie de oro
         {
@@ -20824,6 +20825,7 @@ const ZONA_8_DB = {
             "Cerromar",
           ],
           categorias: [
+            //2021
             {
               id: "2021",
               fechas: [
@@ -20922,7 +20924,7 @@ const ZONA_8_DB = {
                   num: 10,
                   partidos: [
                     { local: "Olimpo Jrs", visitante: "Cerromar", gl: 2, gv: 0 },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 2, gv: 0 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null },
@@ -21010,6 +21012,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2020
             {
               id: "2020",
               fechas: [
@@ -21103,10 +21106,11 @@ const ZONA_8_DB = {
                     { local: "Cerromar", visitante: "Universal", gl: 0, gv: 3 },
                   ],
                 },
+                //fecha 10 o 1 clausura
                 {
                   num: 10,
                   partidos: [
-                    { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
+                    { local: "Olimpo Jrs", visitante: "Cerromar", gl: 2, gv: 0 },
                     { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
@@ -21195,6 +21199,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2019
             {
               id: "2019",
               fechas: [
@@ -21292,7 +21297,7 @@ const ZONA_8_DB = {
                   num: 10,
                   partidos: [
                     { local: "Olimpo Jrs", visitante: "Cerromar", gl: 0, gv: 2 },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 1, gv: 0 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: 1, gv: 1 },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: 6, gv: 0 },
@@ -21380,6 +21385,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2018
             {
               id: "2018",
               fechas: [
@@ -21477,7 +21483,7 @@ const ZONA_8_DB = {
                   num: 10,
                   partidos: [
                     { local: "Olimpo Jrs", visitante: "Cerromar", gl: 0, gv: 0 },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 5, gv: 0 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: 1, gv: 0 },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: 2, gv: 0 },
@@ -21565,6 +21571,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2017
             {
               id: "2017",
               fechas: [
@@ -21750,6 +21757,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2016
             {
               id: "2016",
               fechas: [
@@ -21846,8 +21854,8 @@ const ZONA_8_DB = {
                 {
                   num: 10,
                   partidos: [
-                    { local: "Olimpo Jrs", visitante: "Cerromar", gl: 4, gv: 0 },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Olimpo Jrs", visitante: "Cerromar", gl: 5, gv: 0 },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 8, gv: 2 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: 1, gv: 1 },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: 3, gv: 0 },
@@ -21935,6 +21943,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2015
             {
               id: "2015",
               fechas: [
@@ -22120,6 +22129,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2014
             {
               id: "2014",
               fechas: [
@@ -22305,6 +22315,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //2013
             {
               id: "2013",
               fechas: [
@@ -22401,8 +22412,8 @@ const ZONA_8_DB = {
                 {
                   num: 10,
                   partidos: [
-                    { local: "Olimpo Jrs", visitante: "Cerromar", gl: null, gv: null },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Olimpo Jrs", visitante: "Cerromar", gl: 2, gv: 0 },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 2, gv: 3 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null },
@@ -22490,6 +22501,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //sub11
             {
               id: "sub-11",
               fechas: [
@@ -22587,7 +22599,7 @@ const ZONA_8_DB = {
                   num: 10,
                   partidos: [
                     { local: "Olimpo Jrs", visitante: "Cerromar", gl: 1, gv: 0 },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 1, gv: 6 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: null, gv: null },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: 3, gv: 0 },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: 3, gv: 0 },
@@ -22675,6 +22687,7 @@ const ZONA_8_DB = {
                 },
               ],
             },
+            //sub 13
             {
               id: "sub-13",
               fechas: [
@@ -22768,11 +22781,12 @@ const ZONA_8_DB = {
                     { local: "Cerromar", visitante: "Universal", gl: 0, gv: 2 },
                   ],
                 },
+                //fecha 10 o 1 de clausura
                 {
                   num: 10,
                   partidos: [
                     { local: "Olimpo Jrs", visitante: "Cerromar", gl: 2, gv: 0 },
-                    { local: "Santa Catalina", visitante: "Universal", gl: null, gv: null },
+                    { local: "Santa Catalina", visitante: "Universal", gl: 5, gv: 2 },
                     { local: "Sauce", visitante: "Estrella Federal", gl: 0, gv: 2 },
                     { local: "Independiente Lezica", visitante: "Zorzal", gl: null, gv: null },
                     { local: "Nuevo Juventud", visitante: "Holanda", gl: null, gv: null },
@@ -47852,7 +47866,7 @@ const ZONA_8_DB = {
     {
       id: "prado",
       nombre: "Liga Prado",
-      ultimaActualizacion: "30/10/2026",
+      ultimaActualizacion: "3/11/2026",
       puntosPG: 3,
       series: [
         {
@@ -47883,6 +47897,7 @@ const ZONA_8_DB = {
               sancionesApertura: {},
               sancionesClausura: {},
               fechas: [
+                //fecha 1
                 {
                   num: 1,
                   partidos: [
@@ -47936,6 +47951,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 2 
                 {
                   num: 2,
                   partidos: [
@@ -47989,6 +48005,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 3
                 {
                   num: 3,
                   partidos: [
@@ -48042,6 +48059,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 4
                 {
                   num: 4,
                   partidos: [
@@ -48095,6 +48113,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 5
                 {
                   num: 5,
                   partidos: [
@@ -48148,6 +48167,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 6
                 {
                   num: 6,
                   partidos: [
@@ -48201,6 +48221,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 7
                 {
                   num: 7,
                   partidos: [
@@ -48254,6 +48275,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 8
                 {
                   num: 8,
                   partidos: [
@@ -48307,6 +48329,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 9
                 {
                   num: 9,
                   partidos: [
@@ -48360,6 +48383,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 10
                 {
                   num: 10,
                   partidos: [
@@ -48413,6 +48437,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 11
                 {
                   num: 11,
                   partidos: [
@@ -48466,6 +48491,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 12
                 {
                   num: 12,
                   partidos: [
@@ -48519,6 +48545,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 13
                 {
                   num: 13,
                   partidos: [
@@ -48572,6 +48599,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 14
                 {
                   num: 14,
                   partidos: [
@@ -48625,6 +48653,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 15
                 {
                   num: 15,
                   partidos: [
@@ -48678,6 +48707,7 @@ const ZONA_8_DB = {
                     },
                   ],
                 },
+                //fecha 16
                 {
                   num: 16,
                   partidos: [
@@ -48962,14 +48992,14 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 0,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 6,
                     },
                     {
                       local: "Yegros",
@@ -48980,32 +49010,32 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 4,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 8,
+                      gv: 0,
                     },
                   ],
                 },
@@ -50520,14 +50550,14 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Yegros",
@@ -50538,32 +50568,32 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                   ],
                 },
@@ -52078,50 +52108,50 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 7,
+                      gv: 0,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Yegros",
                       visitante: "Ombú Jrs.",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 0,
                     },
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 1,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 2,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                   ],
                 },
@@ -53636,50 +53666,50 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 7,
                     },
                     {
                       local: "Yegros",
                       visitante: "Ombú Jrs.",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 4,
                     },
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 2,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 2,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 0,
                     },
                   ],
                 },
@@ -55194,50 +55224,50 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 3,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 5,
                     },
                     {
                       local: "Yegros",
                       visitante: "Ombú Jrs.",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 5,
                     },
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 3,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 7,
+                      gv: 0,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                   ],
                 },
@@ -56752,50 +56782,50 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 2,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                     {
                       local: "Yegros",
                       visitante: "Ombú Jrs.",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 3,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 4,
+                      gv: 1,
                     },
                   ],
                 },
@@ -58310,14 +58340,14 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 0,
                     },
                     {
                       local: "Yegros",
@@ -58328,32 +58358,32 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 8,
+                      gv: 0,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 1,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                   ],
                 },
@@ -59868,14 +59898,14 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 0,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 4,
                     },
                     {
                       local: "Yegros",
@@ -59886,32 +59916,32 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 0,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 4,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 6,
+                      gv: 1,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 5,
+                      gv: 2,
                     },
                   ],
                 },
@@ -61426,14 +61456,14 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 4,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 3,
+                      gv: 0,
                     },
                     {
                       local: "Yegros",
@@ -61444,14 +61474,14 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 4,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 0,
                     },
                     {
                       local: "Urreta",
@@ -61462,14 +61492,14 @@ const ZONA_8_DB = {
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 4,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                   ],
                 },
@@ -62984,8 +63014,8 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                     {
                       local: "Bochas",
@@ -63002,32 +63032,32 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 2,
+                      gv: 2,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 1,
                     },
                   ],
                 },
@@ -64542,14 +64572,14 @@ const ZONA_8_DB = {
                     {
                       local: "Las Flores",
                       visitante: "Malvín Alto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 2,
                     },
                     {
                       local: "Bochas",
                       visitante: "Estrella del Norte",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 3,
                     },
                     {
                       local: "Yegros",
@@ -64560,32 +64590,32 @@ const ZONA_8_DB = {
                     {
                       local: "San Francisco",
                       visitante: "Pablan",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "Isidro Fynn",
                       visitante: "Covicenova",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 1,
                     },
                     {
                       local: "Urreta",
                       visitante: "Aviación Lezica",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 5,
                     },
                     {
                       local: "Deportivo Uruguayo",
                       visitante: "Libertad Washington",
-                      gl: null,
-                      gv: null,
+                      gl: 1,
+                      gv: 0,
                     },
                     {
                       local: "3 de Abril",
                       visitante: "Cosmos Corinto",
-                      gl: null,
-                      gv: null,
+                      gl: 0,
+                      gv: 8,
                     },
                   ],
                 },

@@ -19,7 +19,7 @@ const ESCUDOS_CLUBES = {
 
   // --- YA DEFINIDOS ---
   "Urunday": "escudos/urunday_4.webp",
-  "La Rinconada": "escudos/rinconada.png",
+  "La Rinconada": "escudos/rinco_4.webp",
   "Stockolmo": "escudos/stockolmo.png",
   "Carabelas": "escudos/C-carabelas_4.webp",
   "Alas Rojas": "escudos/alas_4-1.webp",
